@@ -24,7 +24,6 @@
 					<Add option="-lgdi32" />
 					<Add option="-lopengl32" />
 					<Add option="-lglu32" />
-					<Add option="-luser32" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -45,6 +44,7 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Unit filename="GLHook.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
 		<Extensions>
