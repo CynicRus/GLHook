@@ -371,3 +371,8 @@ ptr_wglUseFontOutlinesW       optr_wglUseFontOutlinesW;
                                     /**         NAMING: End.       **/
 
                                     /**         IMPLEMENTATION: Start.         **/
+
+void GLHook_glTranslated(GLdouble x, GLdouble y, GLdouble z)
+{
+    (optr_glTranslated)(x, y, z);
+}
