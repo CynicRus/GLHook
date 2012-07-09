@@ -1,2 +1,3 @@
+LIBRARY "GLHook.dll" BASE=0x6f5c0000
 EXPORTS
     SomeFunction @1
