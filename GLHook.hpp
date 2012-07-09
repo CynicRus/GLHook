@@ -4,6 +4,11 @@
 #include <gl/gl.h>
 #include <gl/glu.h>
 
+/**
+  * @Author : Brandon T.
+  * @param  : Typdefs - GLHook Pointers.
+  **/
+
 
                                     /**         TYPEDEFS: Start.         **/
 
