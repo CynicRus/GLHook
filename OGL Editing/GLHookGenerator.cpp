@@ -6,17 +6,19 @@
 
 using namespace std;
 
+StringArray GLTypes = StringArray("GLint ", "GLuint ", "GLenum ", "GLfloat ", "GLclampf ",
+                                  "GLsizei ", "GLboolean ", "GLubyte ", "GLvoid ", "const ",
+                                  "GLbitfield ", "GLclampd ", "GLdouble ", "GLshort ", "GLbyte",
+                                  "GLushort ", "GLclampi ", "GLbitfield ", "void", "HDC ", "DWORD ",
+                                  "LPGLYPHMETRICSFLOAT ", "FLOAT ", "DOUBLE ", "UINT", "INT ", "float ",
+                                  "double ", "int ", "LPCSTR ", "LPSTR ", "LPTSTR ", "LPCTSTR ", "LPLAYERPLANEDESCRIPTOR ",
+                                  "LPPIXELFORMATDESCRIPTOR", "PIXELFORMATDESCRIPTOR ", "HGLRC ", "COLORREF ", "BOOL ", "*",
+                                  "**");
+
 void CreateGLFunctionsFromTypedefs()
 {
     StringArray FileContents;
-    StringArray GLTypes = StringArray("GLint ", "GLuint ", "GLenum ", "GLfloat ", "GLclampf ",
-                                      "GLsizei ", "GLboolean ", "GLubyte ", "GLvoid ", "const ",
-                                      "GLbitfield ", "GLclampd ", "GLdouble ", "GLshort ", "GLbyte",
-                                      "GLushort ", "GLclampi ", "GLbitfield ", "void", "HDC ", "DWORD ",
-                                      "LPGLYPHMETRICSFLOAT ", "FLOAT ", "DOUBLE ", "INT ", "float ", "double ",
-                                      "int ", "LPCSTR ", "LPSTR ", "LPTSTR ", "LPCTSTR ", "*", "**");
-
-    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLTypedefs.cpp", std::ios::in);
+    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLTypedefs.hpp", std::ios::in);
     if (File.is_open())
     {
         string Line;
@@ -57,7 +59,104 @@ void CreateGLFunctionsFromTypedefs()
             Final += Temp;
         }
     }
-    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLFunctions.cpp", Final);
+    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLFunctions.hpp", Final);
+}
+
+void CreateGLAddressesFromDefinitions()
+{
+    StringArray FileContents;
+    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLHook.def", std::ios::in);
+    if (File.is_open())
+    {
+        string Line;
+        while (getline(File, Line))
+            FileContents(Line);
+        File.close();
+    }
+
+    string Final = string();
+    for (size_t I = 0; I < FileContents.Size(); I++)
+    {
+        if ((FileContents[I][0] != ';' ) && (Pos("LIBRARY", FileContents[I], 0) == -1) && (Pos("DESCRIPTION", FileContents[I], 0) == -1) && (Pos("EXPORTS", FileContents[I], 0) == -1))
+        {
+            StringArray Split = SplitString(FileContents[I], "=    ");
+            for (size_t J = 0; J < Split.Size(); J++)
+            {
+                if (Split[J][0] != 'G' && Split[J][1] != 'L' && Split[J][2] != 'H')
+                {
+                    Final += "if ((optr_" + Split[J] + " = (ptr_" + Split[J] + ") GetProcAddress(OriginalGL, \"" + Split[J];
+                    Final += "\")) == NULL)\n{\n\treturn false;\n}\n\n";
+                }
+            }
+        }
+    }
+    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLProcAddresses.hpp", Final);
+}
+
+void CreateGLExternsFromTypedefs()
+{
+    StringArray FileContents;
+    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLTypedefs.hpp", std::ios::in);
+    if (File.is_open())
+    {
+        string Line;
+        while (getline(File, Line))
+            FileContents(Line);
+        File.close();
+    }
+
+    string Temp = string();
+    string Final = string();
+    for (size_t I = 0; I < FileContents.Size(); I++)
+    {
+        int Position = Pos("*ptr_", FileContents[I], 0) + 5;
+        if (FileContents[I][0] == 't' && FileContents[I][1] == 'y')
+        {
+            Temp = Copy(FileContents[I], Position + 1, Pos(") ", FileContents[I], Position) - Position);
+            Final += "extern ptr_" + Pad(Temp, 27, " ", false) + "optr_" + Temp + ";\n";
+        }
+        else
+        {
+            Final += FileContents[I] + "\n";
+            Final = Replace(Final, "TYPEDEFS", "NAMING", ReplacementFlags(false, false));
+        }
+    }
+    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLExterns.hpp", Final);
+}
+
+void CreateGLDefinitionsFromTypedefs()
+{
+    StringArray FileContents;
+    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLTypedefs.hpp", std::ios::in);
+    if (File.is_open())
+    {
+        string Line;
+        while (getline(File, Line))
+            FileContents(Line);
+        File.close();
+    }
+
+    string Temp = string();
+    string Final = string();
+
+    Final += ";     @Author : Brandon T.\n";
+    Final += ";\n";
+    Final += ";     @param  : GLHook Definition File.\n";
+    Final += ";     @param  : Info From MSDN Documentation.\n\n\n";
+    Final += "LIBRARY GLHook\n";
+    Final += "DESCRIPTION \"GLHook Definition File\"\n";
+    Final += "EXPORTS\n\n";
+
+    for (size_t I = 0; I < FileContents.Size(); I++)
+    {
+        int Position = Pos("*ptr_", FileContents[I], 0) + 5;
+        if (FileContents[I][0] == 't' && FileContents[I][1] == 'y')
+        {
+            Temp = Copy(FileContents[I], Position + 1, Pos(") ", FileContents[I], Position) - Position);
+            Final += Pad(Temp, 27, " ", false) + "=    GLHook_" + Temp + ";\n";
+        }
+    }
+    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLHook.def", Final);
 }
 
 int main(int argc, char* argv[])
@@ -65,6 +164,10 @@ int main(int argc, char* argv[])
     StreamFlags(std::cout);
 
     CreateGLFunctionsFromTypedefs();
+    CreateGLExternsFromTypedefs();
+    CreateGLDefinitionsFromTypedefs();
+    CreateGLAddressesFromDefinitions();
+    CreateGLDefinitionsFromTypedefs();
 
     cin.get();
     return 0;

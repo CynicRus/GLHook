@@ -1623,9 +1623,9 @@ GL_EXPORT void GLHook_glVertex4dv(const GLdouble *v)
 	(*optr_glVertex4dv) (v);
 }
 
-GL_EXPORT void GLHook_glVertex4f(GLfloat x, GLfloat y, GLfloat z,GLfloat w)
+GL_EXPORT void GLHook_glVertex4f(GLfloat x, GLfloat y, GLfloat z, GLfloat w)
 {
-	(*optr_glVertex4f) (x, y, z,w);
+	(*optr_glVertex4f) (x, y, z, w);
 }
 
 GL_EXPORT void GLHook_glVertex4fv(const GLfloat *v)
@@ -1663,39 +1663,39 @@ GL_EXPORT void GLHook_glViewport(GLint x, GLint y, GLsizei width, GLsizei height
 	(*optr_glViewport) (x, y, width, height);
 }
 
-GL_EXPORT void GLHook_wglChoosePixelFormat(void)
+GL_EXPORT int GLHook_wglChoosePixelFormat(HDC hdc, const PIXELFORMATDESCRIPTOR *ppfd)
 {
-	(*optr_wglChoosePixelFormat) ();
+	return (*optr_wglChoosePixelFormat) (hdc, ppfd);
 }
 
-GL_EXPORT void GLHook_wglCopyContext(void)
+GL_EXPORT HGLRC GLHook_wglCreateContext(HDC hdc)
 {
-	(*optr_wglCopyContext) ();
+	return (*optr_wglCreateContext) (hdc);
 }
 
-GL_EXPORT void GLHook_wglCreateContext(void)
+GL_EXPORT HGLRC GLHook_wglCreateLayerContext(HDC hdc, int iLayerPlane)
 {
-	(*optr_wglCreateContext) ();
+	return (*optr_wglCreateLayerContext) (hdc, iLayerPlane);
 }
 
-GL_EXPORT void GLHook_wglCreateLayerContext(void)
+GL_EXPORT BOOL GLHook_wglCopyContext(HGLRC hglrcSrc, HGLRC hglrcDst, UINT mask)
 {
-	(*optr_wglCreateLayerContext) ();
+	return (*optr_wglCopyContext) (hglrcSrc, hglrcDst,  mask);
 }
 
-GL_EXPORT void GLHook_wglDeleteContext(void)
+GL_EXPORT BOOL GLHook_wglDeleteContext(HGLRC hglrc)
 {
-	(*optr_wglDeleteContext) ();
+	return (*optr_wglDeleteContext) (hglrc);
 }
 
-GL_EXPORT void GLHook_wglDescribeLayerPlane(void)
+GL_EXPORT BOOL GLHook_wglDescribeLayerPlane(HDC hdc, int iPixelFormat, int iLayerPlane, UINT nBytes, LPLAYERPLANEDESCRIPTOR plpd)
 {
-	(*optr_wglDescribeLayerPlane) ();
+	return (*optr_wglDescribeLayerPlane) (hdc, iPixelFormat, iLayerPlane,  nBytes, plpd);
 }
 
-GL_EXPORT void GLHook_wglDescribePixelFormat(void)
+GL_EXPORT int GLHook_wglDescribePixelFormat(HDC hdc, int iPixelFormat, UINT nBytes, LPPIXELFORMATDESCRIPTOR ppfd)
 {
-	(*optr_wglDescribePixelFormat) ();
+	return (*optr_wglDescribePixelFormat) (hdc, iPixelFormat,  nBytes,  ppfd);
 }
 
 GL_EXPORT HGLRC GLHook_wglGetCurrentContext(void)
@@ -1708,19 +1708,19 @@ GL_EXPORT HDC GLHook_wglGetCurrentDC(void)
 	return (*optr_wglGetCurrentDC) ();
 }
 
-GL_EXPORT void GLHook_wglGetDefaultProcAddress(void)
+GL_EXPORT PROC GLHook_wglGetDefaultProcAddress(LPCSTR lpszProc)
 {
-	(*optr_wglGetDefaultProcAddress) ();
+	return (*optr_wglGetDefaultProcAddress) (lpszProc);
 }
 
-GL_EXPORT void GLHook_wglGetLayerPaletteEntries(void)
+GL_EXPORT int GLHook_wglGetLayerPaletteEntries(HDC hdc, int iLayerPlane, int iStart, int cEntries, COLORREF *pcr)
 {
-	(*optr_wglGetLayerPaletteEntries) ();
+	return (*optr_wglGetLayerPaletteEntries) (hdc, iLayerPlane, iStart, cEntries, pcr);
 }
 
-GL_EXPORT void GLHook_wglGetPixelFormat(void)
+GL_EXPORT int GLHook_wglGetPixelFormat(HDC hdc)
 {
-	(*optr_wglGetPixelFormat) ();
+	return (*optr_wglGetPixelFormat) (hdc);
 }
 
 GL_EXPORT PROC GLHook_wglGetProcAddress(LPCSTR lpszProc)
@@ -1728,39 +1728,44 @@ GL_EXPORT PROC GLHook_wglGetProcAddress(LPCSTR lpszProc)
 	return (*optr_wglGetProcAddress) (lpszProc);
 }
 
-GL_EXPORT void GLHook_wglMakeCurrent(void)
+GL_EXPORT BOOL GLHook_wglMakeCurrent(HDC hdc, HGLRC hglrc)
 {
-	(*optr_wglMakeCurrent) ();
+	return (*optr_wglMakeCurrent) (hdc, hglrc);
 }
 
-GL_EXPORT void GLHook_wglRealizeLayerPalette(void)
+GL_EXPORT BOOL GLHook_wglRealizeLayerPalette(HDC hdc, int iLayerPlane, BOOL bRealize)
 {
-	(*optr_wglRealizeLayerPalette) ();
+	return (*optr_wglRealizeLayerPalette) (hdc, iLayerPlane, bRealize);
 }
 
-GL_EXPORT void GLHook_wglSetLayerPaletteEntries(void)
+GL_EXPORT int GLHook_wglSetLayerPaletteEntries(HDC hdc, int iLayerPlane, int iStart, int cEntries, const COLORREF *pcr)
 {
-	(*optr_wglSetLayerPaletteEntries) ();
+	return (*optr_wglSetLayerPaletteEntries) (hdc, iLayerPlane, iStart, cEntries, pcr);
 }
 
-GL_EXPORT void GLHook_wglSetPixelFormat(void)
+GL_EXPORT BOOL GLHook_wglSetPixelFormat(HDC hdc, int iPixelFormat, const PIXELFORMATDESCRIPTOR *ppfd)
 {
-	(*optr_wglSetPixelFormat) ();
+	return (*optr_wglSetPixelFormat) (hdc, iPixelFormat, ppfd);
 }
 
-GL_EXPORT void GLHook_wglShareLists(void)
+GL_EXPORT BOOL GLHook_wglShareLists(HGLRC hglrc1, HGLRC hglrc2)
 {
-	(*optr_wglShareLists) ();
+	return (*optr_wglShareLists) (hglrc1, hglrc2);
 }
 
-GL_EXPORT void GLHook_wglSwapBuffers(HDC hdc)
+GL_EXPORT BOOL GLHook_wglSwapBuffers(HDC hdc)
 {
-	(*optr_wglSwapBuffers) (hdc);
+	return (*optr_wglSwapBuffers) (hdc);
 }
 
-GL_EXPORT void GLHook_wglSwapLayerBuffers(void)
+GL_EXPORT BOOL GLHook_wglSwapLayerBuffers(HDC hdc, UINT fuPlanes)
 {
-	(*optr_wglSwapLayerBuffers) ();
+	return (*optr_wglSwapLayerBuffers) (hdc,  fuPlanes);
+}
+
+GL_EXPORT BOOL GLHook_wglUseFontBitmapsW(HDC hdc, DWORD first, DWORD count, DWORD listBase)
+{
+	return (*optr_wglUseFontBitmapsW) (hdc, first, count, listBase);
 }
 
 GL_EXPORT BOOL GLHook_wglUseFontBitmapsA(HDC hdc, DWORD first, DWORD count, DWORD listBase)
@@ -1768,18 +1773,13 @@ GL_EXPORT BOOL GLHook_wglUseFontBitmapsA(HDC hdc, DWORD first, DWORD count, DWOR
 	return (*optr_wglUseFontBitmapsA) (hdc, first, count, listBase);
 }
 
-GL_EXPORT void GLHook_wglUseFontBitmapsW(HDC hdc, DWORD first, DWORD count, DWORD listBase)
+GL_EXPORT BOOL GLHook_wglUseFontOutlinesW(HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf)
 {
-	(*optr_wglUseFontBitmapsW) (hdc, first, count, listBase);
+	return (*optr_wglUseFontOutlinesW) (hdc, first, count, listBase, deviation, extrusion, format, lpgmf);
 }
 
 GL_EXPORT BOOL GLHook_wglUseFontOutlinesA(HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf)
 {
 	return (*optr_wglUseFontOutlinesA) (hdc, first, count, listBase, deviation, extrusion, format, lpgmf);
-}
-
-GL_EXPORT void GLHook_wglUseFontOutlinesW(HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf)
-{
-	(*optr_wglUseFontOutlinesW) (hdc, first, count, listBase, deviation, extrusion, format, lpgmf);
 }
 

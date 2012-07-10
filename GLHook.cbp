@@ -35,13 +35,18 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
+					<Add option="-O2" />
 					<Add option="-Wall" />
 					<Add option="-DBUILD_DLL" />
-					<Add option="-O2" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="user32" />
+					<Add option="-static" />
+					<Add option="-luser32" />
+					<Add option="-lgdi32" />
+					<Add option="-lopengl32" />
+					<Add option="-lglu32" />
+					<Add library="C:\Users\Brandon\Desktop\GLHook\GLHook.def" />
 				</Linker>
 			</Target>
 		</Build>

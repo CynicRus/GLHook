@@ -1,18 +1,28 @@
 #include "main.h"
 #include "GLHook.hpp"
 
-BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+void DLL_EXPORT SomeFunction(const LPCSTR sometext)
+{
+    MessageBox(NULL, "Attached", sometext, 0);
+}
+
+GL_EXPORT BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
     switch (fdwReason)
     {
         case DLL_PROCESS_ATTACH:
-                DisableThreadLibraryCalls(OriginalGL);
-                return Initialize();
-            break;
+        {
+            DisableThreadLibraryCalls(OriginalGL);
+            SomeFunction("DLL Loaded.");
+            return Initialize();
+        }
+        break;
 
         case DLL_PROCESS_DETACH:
-            // detach from process
-            break;
+        {
+            return DeInitialize();
+        }
+        break;
 /*
         case DLL_THREAD_ATTACH:
             // attach to thread
