@@ -1,4 +1,11 @@
+;     @Author : Brandon T.
+;
+;     @param  : GLHook Definition File.
+;     @param  : Info From MSDN Documentation.
+
+
 LIBRARY GLHook
+DESCRIPTION "GLHook Definition File"
 EXPORTS
 
 glAccum                   =    GLHook_glAccum @1

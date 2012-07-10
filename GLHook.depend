@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1341872309 source:c:\users\brandon\desktop\glhook\main.cpp
+1341875473 source:c:\users\brandon\desktop\glhook\main.cpp
 	"main.h"
 	"GLHook.hpp"
 
-1198436942 c:\users\brandon\desktop\glhook\main.h
+1341875478 c:\users\brandon\desktop\glhook\main.h
 	<windows.h>
 
-1341872448 c:\users\brandon\desktop\glhook\glhook.hpp
+1341890306 c:\users\brandon\desktop\glhook\glhook.hpp
 	<gl/gl.h>
 	<gl/glu.h>
 	<windows.h>
 
-1341874834 source:c:\users\brandon\desktop\glhook\glhook.cpp
+1341890184 source:c:\users\brandon\desktop\glhook\glhook.cpp
 	"GLHook.hpp"
 

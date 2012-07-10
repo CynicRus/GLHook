@@ -1,4 +1,5 @@
 LIBRARY "GLHook.dll" BASE=0x6f5c0000
+DESCRIPTION "GLHook Definition File"
 EXPORTS
     glAccum = GLHook_glAccum @1
     glAlphaFunc = GLHook_glAlphaFunc @2

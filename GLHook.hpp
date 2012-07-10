@@ -82,7 +82,7 @@ typedef void (WINAPI *ptr_glCopyPixels) (GLint x, GLint y, GLsizei width, GLsize
 typedef void (WINAPI *ptr_glCopyTexImage1D) (GLenum target, GLint level, GLenum internalFormat, GLint x, GLint y, GLsizei width, GLint border);
 typedef void (WINAPI *ptr_glCopyTexImage2D) (GLenum target, GLint level, GLenum internalFormat, GLint x, GLint y, GLsizei width, GLsizei height, GLint border);
 typedef void (WINAPI *ptr_glCopyTexSubImage1D) (GLenum target, GLint level, GLint xoffset, GLint x, GLint y, GLsizei width);
-typedef void (WINAPI *ptr_glCopyTexSubImage2D) (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint x, GLint y, GLsizei width, GLsizei, GLsizei height);
+typedef void (WINAPI *ptr_glCopyTexSubImage2D) (GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint x, GLint y, GLsizei width, GLsizei height);
 typedef void (WINAPI *ptr_glCullFace) (GLenum mode);
 typedef void (WINAPI *ptr_glDeleteLists) (GLuint list, GLsizei range);
 typedef void (WINAPI *ptr_glDeleteTextures) (GLsizei n, const GLuint *textures);
@@ -367,7 +367,7 @@ typedef void (WINAPI *ptr_glRasterPos4f) (GLfloat x, GLfloat y, GLfloat z, GLflo
 typedef void (WINAPI *ptr_glRasterPos4fv) (const GLfloat *v);
 typedef void (WINAPI *ptr_glRasterPos4i) (GLint x, GLint y, GLint z, GLint w);
 typedef void (WINAPI *ptr_glRasterPos4iv) (const GLint *v);
-typedef void (WINAPI *ptr_glRasterPos4s) (GLshort x, GLshort y, GLshort z, GLshort);
+typedef void (WINAPI *ptr_glRasterPos4s) (GLshort x, GLshort y, GLshort z, GLshort w);
 typedef void (WINAPI *ptr_glRasterPos4sv) (const GLshort *v);
 
 
@@ -500,23 +500,23 @@ typedef void (WINAPI *ptr_wglCreateLayerContext) (void);
 typedef void (WINAPI *ptr_wglDeleteContext) (void);
 typedef void (WINAPI *ptr_wglDescribeLayerPlane) (void);
 typedef void (WINAPI *ptr_wglDescribePixelFormat) (void);
-typedef void (WINAPI *ptr_wglGetCurrentContext) (void);
+typedef HGLRC (WINAPI *ptr_wglGetCurrentContext) (void);
 typedef HDC (WINAPI *ptr_wglGetCurrentDC) (void);
 typedef void (WINAPI *ptr_wglGetDefaultProcAddress) (void);
 typedef void (WINAPI *ptr_wglGetLayerPaletteEntries) (void);
 typedef void (WINAPI *ptr_wglGetPixelFormat) (void);
-typedef PROC (WINAPI *ptr_wglGetProcAddress) (LPCSTR);
+typedef PROC (WINAPI *ptr_wglGetProcAddress) (LPCSTR lpszProc);
 typedef void (WINAPI *ptr_wglMakeCurrent) (void);
 typedef void (WINAPI *ptr_wglRealizeLayerPalette) (void);
 typedef void (WINAPI *ptr_wglSetLayerPaletteEntries) (void);
 typedef void (WINAPI *ptr_wglSetPixelFormat) (void);
 typedef void (WINAPI *ptr_wglShareLists) (void);
-typedef void (WINAPI *ptr_wglSwapBuffers) (HDC hDC);
+typedef void (WINAPI *ptr_wglSwapBuffers) (HDC hdc);
 typedef void (WINAPI *ptr_wglSwapLayerBuffers) (void);
-typedef void (WINAPI *ptr_wglUseFontBitmapsA) (HDC, DWORD, DWORD, DWORD);
-typedef void (WINAPI *ptr_wglUseFontBitmapsW) (void);
-typedef void (WINAPI *ptr_wglUseFontOutlinesA) (HDC, DWORD, DWORD, DWORD, FLOAT, FLOAT, int, LPGLYPHMETRICSFLOAT);
-typedef void (WINAPI *ptr_wglUseFontOutlinesW) (void);
+typedef BOOL (WINAPI *ptr_wglUseFontBitmapsA) (HDC hdc, DWORD first, DWORD count, DWORD listBase);
+typedef void (WINAPI *ptr_wglUseFontBitmapsW) (HDC hdc, DWORD first, DWORD count, DWORD listBase);
+typedef BOOL (WINAPI *ptr_wglUseFontOutlinesA) (HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf);
+typedef void (WINAPI *ptr_wglUseFontOutlinesW) (HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf);
 
                                     /**         TYPEDEFS: End.       **/
 
