@@ -1,0 +1,716 @@
+EXPORTS
+    _Z12GLHook_glEndv @1
+    _Z13GLHook_glFogfjf @2
+    _Z13GLHook_glFogiji @3
+    _Z13GLHook_glHintjj @4
+    _Z14GLHook_glAccumjf @5
+    _Z14GLHook_glBeginj @6
+    _Z14GLHook_glClearj @7
+    _Z14GLHook_glFlushv @8
+    _Z14GLHook_glFogfvjPKf @9
+    _Z14GLHook_glFogivjPKi @10
+    _Z14GLHook_glMap1djddiiPKd @11
+    _Z14GLHook_glMap1fjffiiPKf @12
+    _Z14GLHook_glMap2djddiiddiiPKd @13
+    _Z14GLHook_glMap2fjffiiffiiPKf @14
+    _Z14GLHook_glOrthodddddd @15
+    _Z14GLHook_glRectddddd @16
+    _Z14GLHook_glRectfffff @17
+    _Z14GLHook_glRectiiiii @18
+    _Z14GLHook_glRectsssss @19
+    _Z15GLHook_glBitmapiiffffPKh @20
+    _Z15GLHook_glEnablej @21
+    _Z15GLHook_glFinishv @22
+    _Z15GLHook_glIndexdd @23
+    _Z15GLHook_glIndexff @24
+    _Z15GLHook_glIndexii @25
+    _Z15GLHook_glIndexss @26
+    _Z15GLHook_glIsListj @27
+    _Z15GLHook_glLightfjjf @28
+    _Z15GLHook_glLightijji @29
+    _Z15GLHook_glRectdvPKdS0_ @30
+    _Z15GLHook_glRectfvPKfS0_ @31
+    _Z15GLHook_glRectivPKiS0_ @32
+    _Z15GLHook_glRectsvPKsS0_ @33
+    _Z15GLHook_glScaledddd @34
+    _Z15GLHook_glScaleffff @35
+    _Z16GLHook_GetStringj @36
+    _Z16GLHook_glColor3baaa @37
+    _Z16GLHook_glColor3dddd @38
+    _Z16GLHook_glColor3ffff @39
+    _Z16GLHook_glColor3iiii @40
+    _Z16GLHook_glColor3ssss @41
+    _Z16GLHook_glColor4baaaa @42
+    _Z16GLHook_glColor4ddddd @43
+    _Z16GLHook_glColor4fffff @44
+    _Z16GLHook_glColor4iiiii @45
+    _Z16GLHook_glColor4sssss @46
+    _Z16GLHook_glDisablej @47
+    _Z16GLHook_glEndListv @48
+    _Z16GLHook_glFrustumdddddd @49
+    _Z16GLHook_glIndexdvPKd @50
+    _Z16GLHook_glIndexfvPKf @51
+    _Z16GLHook_glIndexivPKi @52
+    _Z16GLHook_glIndexsvPKs @53
+    _Z16GLHook_glLightfvjjPKf @54
+    _Z16GLHook_glLightivjjPKi @55
+    _Z16GLHook_glLogicOpj @56
+    _Z16GLHook_glNewListjj @57
+    _Z16GLHook_glPopNamev @58
+    _Z16GLHook_glRotateddddd @59
+    _Z16GLHook_glRotatefffff @60
+    _Z16GLHook_glScissoriiii @61
+    _Z16GLHook_glTexEnvfjjf @62
+    _Z16GLHook_glTexEnvijji @63
+    _Z16GLHook_glTexGendjjd @64
+    _Z16GLHook_glTexGenfjjf @65
+    _Z16GLHook_glTexGenijji @66
+    _Z17GLHook_glCallListj @67
+    _Z17GLHook_glColor3bvPKa @68
+    _Z17GLHook_glColor3dvPKd @69
+    _Z17GLHook_glColor3fvPKf @70
+    _Z17GLHook_glColor3ivPKi @71
+    _Z17GLHook_glColor3svPKs @72
+    _Z17GLHook_glColor3ubhhh @73
+    _Z17GLHook_glColor3uijjj @74
+    _Z17GLHook_glColor3usttt @75
+    _Z17GLHook_glColor4bvPKa @76
+    _Z17GLHook_glColor4dvPKd @77
+    _Z17GLHook_glColor4fvPKf @78
+    _Z17GLHook_glColor4ivPKi @79
+    _Z17GLHook_glColor4svPKs @80
+    _Z17GLHook_glColor4ubhhhh @81
+    _Z17GLHook_glColor4uijjjj @82
+    _Z17GLHook_glColor4ustttt @83
+    _Z17GLHook_glCullFacej @84
+    _Z17GLHook_glEdgeFlagh @85
+    _Z17GLHook_glGenListsi @86
+    _Z17GLHook_glGetErrorv @87
+    _Z17GLHook_glGetMapdvjjPd @88
+    _Z17GLHook_glGetMapfvjjPf @89
+    _Z17GLHook_glGetMapivjjPi @90
+    _Z17GLHook_glListBasej @91
+    _Z17GLHook_glLoadNamej @92
+    _Z17GLHook_glNormal3baaa @93
+    _Z17GLHook_glNormal3dddd @94
+    _Z17GLHook_glNormal3ffff @95
+    _Z17GLHook_glNormal3iiii @96
+    _Z17GLHook_glNormal3ssss @97
+    _Z17GLHook_glPushNamej @98
+    _Z17GLHook_glTexEnvfvjjPKf @99
+    _Z17GLHook_glTexEnvivjjPKi @100
+    _Z17GLHook_glTexGendvjjPKd @101
+    _Z17GLHook_glTexGenfvjjPKf @102
+    _Z17GLHook_glTexGenivjjPKi @103
+    _Z17GLHook_glVertex2ddd @104
+    _Z17GLHook_glVertex2fff @105
+    _Z17GLHook_glVertex2iii @106
+    _Z17GLHook_glVertex2sss @107
+    _Z17GLHook_glVertex3dddd @108
+    _Z17GLHook_glVertex3ffff @109
+    _Z17GLHook_glVertex3iiii @110
+    _Z17GLHook_glVertex3ssss @111
+    _Z17GLHook_glVertex4ddddd @112
+    _Z17GLHook_glVertex4fffff @113
+    _Z17GLHook_glVertex4iiiii @114
+    _Z17GLHook_glVertex4sssss @115
+    _Z17GLHook_glViewportiiii @116
+    _Z18GLHook_glAlphaFuncjf @117
+    _Z18GLHook_glBlendFuncjj @118
+    _Z18GLHook_glCallListsijPKv @119
+    _Z18GLHook_glClipPlanejPKd @120
+    _Z18GLHook_glColor3ubvPKh @121
+    _Z18GLHook_glColor3uivPKj @122
+    _Z18GLHook_glColor3usvPKt @123
+    _Z18GLHook_glColor4ubvPKh @124
+    _Z18GLHook_glColor4uivPKj @125
+    _Z18GLHook_glColor4usvPKt @126
+    _Z18GLHook_glColorMaskhhhh @127
+    _Z18GLHook_glDepthFuncj @128
+    _Z18GLHook_glDepthMaskh @129
+    _Z18GLHook_glEdgeFlagvPKh @130
+    _Z18GLHook_glEvalMesh1jii @131
+    _Z18GLHook_glEvalMesh2jiiii @132
+    _Z18GLHook_glFrontFacej @133
+    _Z18GLHook_glGetFloatvjPh @134
+    _Z18GLHook_glIndexMaskj @135
+    _Z18GLHook_glInitNamesv @136
+    _Z18GLHook_glIsEnabledj @137
+    _Z18GLHook_glIsTexturej @138
+    _Z18GLHook_glLineWidthf @139
+    _Z18GLHook_glMapGrid1didd @140
+    _Z18GLHook_glMapGrid1fiff @141
+    _Z18GLHook_glMapGrid2diddidd @142
+    _Z18GLHook_glMapGrid2fiffiff @143
+    _Z18GLHook_glMaterialfjjf @144
+    _Z18GLHook_glMaterialijji @145
+    _Z18GLHook_glNormal3bvPKa @146
+    _Z18GLHook_glNormal3dvPKd @147
+    _Z18GLHook_glNormal3fvPKf @148
+    _Z18GLHook_glNormal3ivPKi @149
+    _Z18GLHook_glNormal3svPKs @150
+    _Z18GLHook_glPixelZoomff @151
+    _Z18GLHook_glPointSizef @152
+    _Z18GLHook_glPopAttribv @153
+    _Z18GLHook_glPopMatrixv @154
+    _Z18GLHook_glStencilOpjjj @155
+    _Z18GLHook_glVertex2dvPKd @156
+    _Z18GLHook_glVertex2fvPKf @157
+    _Z18GLHook_glVertex2ivPKi @158
+    _Z18GLHook_glVertex2svPKs @159
+    _Z18GLHook_glVertex3dvPKd @160
+    _Z18GLHook_glVertex3fvPKf @161
+    _Z18GLHook_glVertex3ivPKi @162
+    _Z18GLHook_glVertex3svPKs @163
+    _Z18GLHook_glVertex4dvPKd @164
+    _Z18GLHook_glVertex4fvPKf @165
+    _Z18GLHook_glVertex4ivPKi @166
+    _Z18GLHook_glVertex4svPKs @167
+    _Z19GLHook_glClearAccumffff @168
+    _Z19GLHook_glClearColorffff @169
+    _Z19GLHook_glClearDepthd @170
+    _Z19GLHook_glClearIndexf @171
+    _Z19GLHook_glCopyPixelsiiiij @172
+    _Z19GLHook_glDepthRangedd @173
+    _Z19GLHook_glDrawArraysjii @174
+    _Z19GLHook_glDrawBufferj @175
+    _Z19GLHook_glDrawPixelsiijjPKv @176
+    _Z19GLHook_glEvalPoint1i @177
+    _Z19GLHook_glEvalPoint2ii @178
+    _Z19GLHook_glGetDoublevjPh @179
+    _Z19GLHook_glGetLightfvjjPf @180
+    _Z19GLHook_glGetLightivjjPi @181
+    _Z19GLHook_glMaterialfvjjPKf @182
+    _Z19GLHook_glMaterialivjjPKi @183
+    _Z19GLHook_glMatrixModej @184
+    _Z19GLHook_glPixelMapfvjiPKf @185
+    _Z19GLHook_glPushAttribj @186
+    _Z19GLHook_glPushMatrixv @187
+    _Z19GLHook_glReadBufferj @188
+    _Z19GLHook_glReadPixelsiiiijjPv @189
+    _Z19GLHook_glRenderModej @190
+    _Z19GLHook_glShadeModelj @191
+    _Z19GLHook_glTexCoord1dd @192
+    _Z19GLHook_glTexCoord1ff @193
+    _Z19GLHook_glTexCoord1ii @194
+    _Z19GLHook_glTexCoord1ss @195
+    _Z19GLHook_glTexCoord2ddd @196
+    _Z19GLHook_glTexCoord2iii @197
+    _Z19GLHook_glTexCoord2sss @198
+    _Z19GLHook_glTexCoord3dddd @199
+    _Z19GLHook_glTexCoord3ffff @200
+    _Z19GLHook_glTexCoord3iiii @201
+    _Z19GLHook_glTexCoord3ssss @202
+    _Z19GLHook_glTexCoord4ddddd @203
+    _Z19GLHook_glTexCoord4fffff @204
+    _Z19GLHook_glTexCoord4iiiii @205
+    _Z19GLHook_glTexCoord4sssss @206
+    _Z19GLHook_glTexImage1DjiiiiijPKv @207
+    _Z19GLHook_glTexImage2DjiiiiiijPKv @208
+    _Z19GLHook_glTranslatedddd @209
+    _Z19GLHook_glTranslateffff @210
+    _Z20GLHook_glBindTexturejj @211
+    _Z20GLHook_glDeleteListsji @212
+    _Z20GLHook_glEvalCoord1dd @213
+    _Z20GLHook_glEvalCoord1ff @214
+    _Z20GLHook_glEvalCoord2ddd @215
+    _Z20GLHook_glEvalCoord2fff @216
+    _Z20GLHook_glGenTexturesiPj @217
+    _Z20GLHook_glGetBooleanvjPh @218
+    _Z20GLHook_glGetIntegervjPh @219
+    _Z20GLHook_glGetPointervjPPv @220
+    _Z20GLHook_glGetTexEnvfvjjPf @221
+    _Z20GLHook_glGetTexEnvivjjPi @222
+    _Z20GLHook_glGetTexGendvjjPd @223
+    _Z20GLHook_glGetTexGenfvjjPf @224
+    _Z20GLHook_glGetTexGenivjjPi @225
+    _Z20GLHook_glGetTexImagejijjPv @226
+    _Z20GLHook_glLightModelfjPf @227
+    _Z20GLHook_glLightModeliji @228
+    _Z20GLHook_glLineStippleit @229
+    _Z20GLHook_glLoadMatrixdPKd @230
+    _Z20GLHook_glLoadMatrixfPKf @231
+    _Z20GLHook_glMultMatrixdPKd @232
+    _Z20GLHook_glMultMatrixfPKd @233
+    _Z20GLHook_glPassThroughf @234
+    _Z20GLHook_glPixelMapuivjiPKj @235
+    _Z20GLHook_glPixelMapusvjiPKt @236
+    _Z20GLHook_glPixelStorefjf @237
+    _Z20GLHook_glPixelStoreiji @238
+    _Z20GLHook_glPolygonModejj @239
+    _Z20GLHook_glRasterPos2ddd @240
+    _Z20GLHook_glRasterPos2fff @241
+    _Z20GLHook_glRasterPos2iii @242
+    _Z20GLHook_glRasterPos2sss @243
+    _Z20GLHook_glRasterPos3dddd @244
+    _Z20GLHook_glRasterPos3ffff @245
+    _Z20GLHook_glRasterPos3iiii @246
+    _Z20GLHook_glRasterPos3ssss @247
+    _Z20GLHook_glRasterPos4ddddd @248
+    _Z20GLHook_glRasterPos4fffff @249
+    _Z20GLHook_glRasterPos4iiiii @250
+    _Z20GLHook_glRasterPos4sssss @251
+    _Z20GLHook_glStencilFuncjij @252
+    _Z20GLHook_glStencilMaskj @253
+    _Z20GLHook_glTexCoord1dvPKd @254
+    _Z20GLHook_glTexCoord1fvPKf @255
+    _Z20GLHook_glTexCoord1ivPKi @256
+    _Z20GLHook_glTexCoord1svPKs @257
+    _Z20GLHook_glTexCoord2dvPKd @258
+    _Z20GLHook_glTexCoord2fvPKf @259
+    _Z20GLHook_glTexCoord2ivPKi @260
+    _Z20GLHook_glTexCoord2svPKs @261
+    _Z20GLHook_glTexCoord3dvPKd @262
+    _Z20GLHook_glTexCoord3fvPKf @263
+    _Z20GLHook_glTexCoord3ivPKi @264
+    _Z20GLHook_glTexCoord3svPKs @265
+    _Z20GLHook_glTexCoord4dvPKd @266
+    _Z20GLHook_glTexCoord4fvPKf @267
+    _Z20GLHook_glTexCoord4ivPKi @268
+    _Z20GLHook_glTexCoord4svPKs @269
+    _Z20GLHook_wglShareListsv @270
+    _Z21GLHook_glArrayElementi @271
+    _Z21GLHook_glClearStencili @272
+    _Z21GLHook_glColorPointerijiPKv @273
+    _Z21GLHook_glDrawElementsjijPKv @274
+    _Z21GLHook_glEvalCoord1dvPKd @275
+    _Z21GLHook_glEvalCoord1fvPKf @276
+    _Z21GLHook_glEvalCoord2dvPKd @277
+    _Z21GLHook_glEvalCoord2fvPKf @278
+    _Z21GLHook_glGetClipPlanejPd @279
+    _Z21GLHook_glIndexPointerjiPKv @280
+    _Z21GLHook_glLightModelfvjPKf @281
+    _Z21GLHook_glLightModelivjPKi @282
+    _Z21GLHook_glLoadIdentityv @283
+    _Z21GLHook_glRasterPos2dvPKd @284
+    _Z21GLHook_glRasterPos2fvPKf @285
+    _Z21GLHook_glRasterPos2ivPKi @286
+    _Z21GLHook_glRasterPos2svPKs @287
+    _Z21GLHook_glRasterPos3dvPKd @288
+    _Z21GLHook_glRasterPos3fvPKf @289
+    _Z21GLHook_glRasterPos3ivPKi @290
+    _Z21GLHook_glRasterPos3svPKs @291
+    _Z21GLHook_glRasterPos4dvPKd @292
+    _Z21GLHook_glRasterPos4fvPKf @293
+    _Z21GLHook_glRasterPos4ivPKi @294
+    _Z21GLHook_glRasterPos4svPKs @295
+    _Z21GLHook_glSelectBufferiPj @296
+    _Z21GLHook_wglCopyContextv @297
+    _Z21GLHook_wglMakeCurrentv @298
+    _Z21GLHook_wglSwapBuffersP5HDC__ @299
+    _Z22GLHook_glColorMaterialjj @300
+    _Z22GLHook_glGetMaterialfvjjPf @301
+    _Z22GLHook_glGetMaterialivjjPi @302
+    _Z22GLHook_glGetPixelMapfvjPf @303
+    _Z22GLHook_glNormalPointerjiPKv @304
+    _Z22GLHook_glPolygonOffsetff @305
+    _Z22GLHook_glTexParameterfjjf @306
+    _Z22GLHook_glTexParameterijji @307
+    _Z22GLHook_glTexSubImage1DjiiijjPKv @308
+    _Z22GLHook_glTexSubImage2DjiiiiijjPKv @309
+    _Z22GLHook_glVertexPointerijiPKv @310
+    _Z22GLHook_wglGetCurrentDCv @311
+    _Z23GLHook_glCopyTexImage1Djijiiii @312
+    _Z23GLHook_glCopyTexImage2Djijiiiii @313
+    _Z23GLHook_glDeleteTexturesiPKj @314
+    _Z23GLHook_glFeedbackBufferijPf @315
+    _Z23GLHook_glGetPixelMapuivjPj @316
+    _Z23GLHook_glGetPixelMapusvjPt @317
+    _Z23GLHook_glPixelTransferfjf @318
+    _Z23GLHook_glPixelTransferiji @319
+    _Z23GLHook_glPolygonStipplePKh @320
+    _Z23GLHook_glTexParameterfvjjPKf @321
+    _Z23GLHook_glTexParameterivjjPKi @322
+    _Z23GLHook_wglCreateContextv @323
+    _Z23GLHook_wglDeleteContextv @324
+    _Z24GLHook_glEdgeFlagPointeriPKv @325
+    _Z24GLHook_glPopClientAttribv @326
+    _Z24GLHook_glTexCoordPointerijiPKv @327
+    _Z24GLHook_wglGetPixelFormatv @328
+    _Z24GLHook_wglGetProcAddressPKc @329
+    _Z24GLHook_wglSetPixelFormatv @330
+    _Z25GLHook_glPushClientAttribj @331
+    _Z25GLHook_wglUseFontBitmapsAP5HDC__mmm @332
+    _Z25GLHook_wglUseFontBitmapsWP5HDC__mmm @333
+    _Z26GLHook_glCopyTexSubImage1Djiiiii @334
+    _Z26GLHook_glCopyTexSubImage2Djiiiiiii @335
+    _Z26GLHook_glEnableClientStatej @336
+    _Z26GLHook_glGetPolygonStipplePh @337
+    _Z26GLHook_glGetTexParameterfvjjPf @338
+    _Z26GLHook_glGetTexParameterivjjPi @339
+    _Z26GLHook_glInterleavedArraysjiPKv @340
+    _Z26GLHook_wglSwapLayerBuffersv @341
+    _Z26GLHook_wglUseFontOutlinesAP5HDC__mmmffiP18_GLYPHMETRICSFLOAT @342
+    _Z26GLHook_wglUseFontOutlinesWP5HDC__mmmffiP18_GLYPHMETRICSFLOAT @343
+    _Z27GLHook_glDisableClientStatej @344
+    _Z27GLHook_glPrioritizeTexturesiPKjPKf @345
+    _Z27GLHook_wglChoosePixelFormatv @346
+    _Z27GLHook_wglGetCurrentContextv @347
+    _Z28GLHook_glAreTexturesResidentiPKjPh @348
+    _Z28GLHook_wglCreateLayerContextv @349
+    _Z28GLHook_wglDescribeLayerPlanev @350
+    _Z29GLHook_wglDescribePixelFormatv @351
+    _Z29GLHook_wglRealizeLayerPalettev @352
+    _Z31GLHook_glGetTexLevelParameterfvjijPf @353
+    _Z31GLHook_glGetTexLevelParameterivjijPi @354
+    _Z31GLHook_wglGetDefaultProcAddressv @355
+    _Z32GLHook_wglGetLayerPaletteEntriesv @356
+    _Z32GLHook_wglSetLayerPaletteEntriesv @357
+    _Z7DllMainP11HINSTANCE__mPv@12 @358
+    optr_glAccum @359 DATA
+    optr_glAlphaFunc @360 DATA
+    optr_glAreTexturesResident @361 DATA
+    optr_glArrayElement @362 DATA
+    optr_glBegin @363 DATA
+    optr_glBindTexture @364 DATA
+    optr_glBitmap @365 DATA
+    optr_glBlendFunc @366 DATA
+    optr_glCallList @367 DATA
+    optr_glCallLists @368 DATA
+    optr_glClear @369 DATA
+    optr_glClearAccum @370 DATA
+    optr_glClearColor @371 DATA
+    optr_glClearDepth @372 DATA
+    optr_glClearIndex @373 DATA
+    optr_glClearStencil @374 DATA
+    optr_glClipPlane @375 DATA
+    optr_glColor3b @376 DATA
+    optr_glColor3bv @377 DATA
+    optr_glColor3d @378 DATA
+    optr_glColor3dv @379 DATA
+    optr_glColor3f @380 DATA
+    optr_glColor3fv @381 DATA
+    optr_glColor3i @382 DATA
+    optr_glColor3iv @383 DATA
+    optr_glColor3s @384 DATA
+    optr_glColor3sv @385 DATA
+    optr_glColor3ub @386 DATA
+    optr_glColor3ubv @387 DATA
+    optr_glColor3ui @388 DATA
+    optr_glColor3uiv @389 DATA
+    optr_glColor3us @390 DATA
+    optr_glColor3usv @391 DATA
+    optr_glColor4b @392 DATA
+    optr_glColor4bv @393 DATA
+    optr_glColor4d @394 DATA
+    optr_glColor4dv @395 DATA
+    optr_glColor4f @396 DATA
+    optr_glColor4fv @397 DATA
+    optr_glColor4i @398 DATA
+    optr_glColor4iv @399 DATA
+    optr_glColor4s @400 DATA
+    optr_glColor4sv @401 DATA
+    optr_glColor4ub @402 DATA
+    optr_glColor4ubv @403 DATA
+    optr_glColor4ui @404 DATA
+    optr_glColor4uiv @405 DATA
+    optr_glColor4us @406 DATA
+    optr_glColor4usv @407 DATA
+    optr_glColorMask @408 DATA
+    optr_glColorMaterial @409 DATA
+    optr_glColorPointer @410 DATA
+    optr_glCopyPixels @411 DATA
+    optr_glCopyTexImage1D @412 DATA
+    optr_glCopyTexImage2D @413 DATA
+    optr_glCopyTexSubImage1D @414 DATA
+    optr_glCopyTexSubImage2D @415 DATA
+    optr_glCullFace @416 DATA
+    optr_glDeleteLists @417 DATA
+    optr_glDeleteTextures @418 DATA
+    optr_glDepthFunc @419 DATA
+    optr_glDepthMask @420 DATA
+    optr_glDepthRange @421 DATA
+    optr_glDisable @422 DATA
+    optr_glDisableClientState @423 DATA
+    optr_glDrawArrays @424 DATA
+    optr_glDrawBuffer @425 DATA
+    optr_glDrawElements @426 DATA
+    optr_glDrawPixels @427 DATA
+    optr_glEdgeFlag @428 DATA
+    optr_glEdgeFlagPointer @429 DATA
+    optr_glEdgeFlagv @430 DATA
+    optr_glEnable @431 DATA
+    optr_glEnableClientState @432 DATA
+    optr_glEnd @433 DATA
+    optr_glEndList @434 DATA
+    optr_glEvalCoord1d @435 DATA
+    optr_glEvalCoord1dv @436 DATA
+    optr_glEvalCoord1f @437 DATA
+    optr_glEvalCoord1fv @438 DATA
+    optr_glEvalCoord2d @439 DATA
+    optr_glEvalCoord2dv @440 DATA
+    optr_glEvalCoord2f @441 DATA
+    optr_glEvalCoord2fv @442 DATA
+    optr_glEvalMesh1 @443 DATA
+    optr_glEvalMesh2 @444 DATA
+    optr_glEvalPoint1 @445 DATA
+    optr_glEvalPoint2 @446 DATA
+    optr_glFeedbackBuffer @447 DATA
+    optr_glFinish @448 DATA
+    optr_glFlush @449 DATA
+    optr_glFogf @450 DATA
+    optr_glFogfv @451 DATA
+    optr_glFogi @452 DATA
+    optr_glFogiv @453 DATA
+    optr_glFrontFace @454 DATA
+    optr_glFrustum @455 DATA
+    optr_glGenLists @456 DATA
+    optr_glGenTextures @457 DATA
+    optr_glGetBooleanv @458 DATA
+    optr_glGetClipPlane @459 DATA
+    optr_glGetDoublev @460 DATA
+    optr_glGetError @461 DATA
+    optr_glGetFloatv @462 DATA
+    optr_glGetIntegerv @463 DATA
+    optr_glGetLightfv @464 DATA
+    optr_glGetLightiv @465 DATA
+    optr_glGetMapdv @466 DATA
+    optr_glGetMapfv @467 DATA
+    optr_glGetMapiv @468 DATA
+    optr_glGetMaterialfv @469 DATA
+    optr_glGetMaterialiv @470 DATA
+    optr_glGetPixelMapfv @471 DATA
+    optr_glGetPixelMapuiv @472 DATA
+    optr_glGetPixelMapusv @473 DATA
+    optr_glGetPointerv @474 DATA
+    optr_glGetPolygonStipple @475 DATA
+    optr_glGetString @476 DATA
+    optr_glGetTexEnvfv @477 DATA
+    optr_glGetTexEnviv @478 DATA
+    optr_glGetTexGendv @479 DATA
+    optr_glGetTexGenfv @480 DATA
+    optr_glGetTexGeniv @481 DATA
+    optr_glGetTexImage @482 DATA
+    optr_glGetTexLevelParameterfv @483 DATA
+    optr_glGetTexLevelParameteriv @484 DATA
+    optr_glGetTexParameterfv @485 DATA
+    optr_glGetTexParameteriv @486 DATA
+    optr_glHint @487 DATA
+    optr_glIndexMask @488 DATA
+    optr_glIndexPointer @489 DATA
+    optr_glIndexd @490 DATA
+    optr_glIndexdv @491 DATA
+    optr_glIndexf @492 DATA
+    optr_glIndexfv @493 DATA
+    optr_glIndexi @494 DATA
+    optr_glIndexiv @495 DATA
+    optr_glIndexs @496 DATA
+    optr_glIndexsv @497 DATA
+    optr_glInitNames @498 DATA
+    optr_glInterleavedArrays @499 DATA
+    optr_glIsEnabled @500 DATA
+    optr_glIsList @501 DATA
+    optr_glIsTexture @502 DATA
+    optr_glLightModelf @503 DATA
+    optr_glLightModelfv @504 DATA
+    optr_glLightModeli @505 DATA
+    optr_glLightModeliv @506 DATA
+    optr_glLightf @507 DATA
+    optr_glLightfv @508 DATA
+    optr_glLighti @509 DATA
+    optr_glLightiv @510 DATA
+    optr_glLineStipple @511 DATA
+    optr_glLineWidth @512 DATA
+    optr_glListBase @513 DATA
+    optr_glLoadIdentity @514 DATA
+    optr_glLoadMatrixd @515 DATA
+    optr_glLoadMatrixf @516 DATA
+    optr_glLoadName @517 DATA
+    optr_glLogicOp @518 DATA
+    optr_glMap1d @519 DATA
+    optr_glMap1f @520 DATA
+    optr_glMap2d @521 DATA
+    optr_glMap2f @522 DATA
+    optr_glMapGrid1d @523 DATA
+    optr_glMapGrid1f @524 DATA
+    optr_glMapGrid2d @525 DATA
+    optr_glMapGrid2f @526 DATA
+    optr_glMaterialf @527 DATA
+    optr_glMaterialfv @528 DATA
+    optr_glMateriali @529 DATA
+    optr_glMaterialiv @530 DATA
+    optr_glMatrixMode @531 DATA
+    optr_glMultMatrixd @532 DATA
+    optr_glMultMatrixf @533 DATA
+    optr_glNewList @534 DATA
+    optr_glNormal3b @535 DATA
+    optr_glNormal3bv @536 DATA
+    optr_glNormal3d @537 DATA
+    optr_glNormal3dv @538 DATA
+    optr_glNormal3f @539 DATA
+    optr_glNormal3fv @540 DATA
+    optr_glNormal3i @541 DATA
+    optr_glNormal3iv @542 DATA
+    optr_glNormal3s @543 DATA
+    optr_glNormal3sv @544 DATA
+    optr_glNormalPointer @545 DATA
+    optr_glOrtho @546 DATA
+    optr_glPassThrough @547 DATA
+    optr_glPixelMapfv @548 DATA
+    optr_glPixelMapuiv @549 DATA
+    optr_glPixelMapusv @550 DATA
+    optr_glPixelStoref @551 DATA
+    optr_glPixelStorei @552 DATA
+    optr_glPixelTransferf @553 DATA
+    optr_glPixelTransferi @554 DATA
+    optr_glPixelZoom @555 DATA
+    optr_glPointSize @556 DATA
+    optr_glPolygonMode @557 DATA
+    optr_glPolygonOffset @558 DATA
+    optr_glPolygonStipple @559 DATA
+    optr_glPopAttrib @560 DATA
+    optr_glPopClientAttrib @561 DATA
+    optr_glPopMatrix @562 DATA
+    optr_glPopName @563 DATA
+    optr_glPrioritizeTextures @564 DATA
+    optr_glPushAttrib @565 DATA
+    optr_glPushClientAttrib @566 DATA
+    optr_glPushMatrix @567 DATA
+    optr_glPushName @568 DATA
+    optr_glRasterPos2d @569 DATA
+    optr_glRasterPos2dv @570 DATA
+    optr_glRasterPos2f @571 DATA
+    optr_glRasterPos2fv @572 DATA
+    optr_glRasterPos2i @573 DATA
+    optr_glRasterPos2iv @574 DATA
+    optr_glRasterPos2s @575 DATA
+    optr_glRasterPos2sv @576 DATA
+    optr_glRasterPos3d @577 DATA
+    optr_glRasterPos3dv @578 DATA
+    optr_glRasterPos3f @579 DATA
+    optr_glRasterPos3fv @580 DATA
+    optr_glRasterPos3i @581 DATA
+    optr_glRasterPos3iv @582 DATA
+    optr_glRasterPos3s @583 DATA
+    optr_glRasterPos3sv @584 DATA
+    optr_glRasterPos4d @585 DATA
+    optr_glRasterPos4dv @586 DATA
+    optr_glRasterPos4f @587 DATA
+    optr_glRasterPos4fv @588 DATA
+    optr_glRasterPos4i @589 DATA
+    optr_glRasterPos4iv @590 DATA
+    optr_glRasterPos4s @591 DATA
+    optr_glRasterPos4sv @592 DATA
+    optr_glReadBuffer @593 DATA
+    optr_glReadPixels @594 DATA
+    optr_glRectd @595 DATA
+    optr_glRectdv @596 DATA
+    optr_glRectf @597 DATA
+    optr_glRectfv @598 DATA
+    optr_glRecti @599 DATA
+    optr_glRectiv @600 DATA
+    optr_glRects @601 DATA
+    optr_glRectsv @602 DATA
+    optr_glRenderMode @603 DATA
+    optr_glRotated @604 DATA
+    optr_glRotatef @605 DATA
+    optr_glScaled @606 DATA
+    optr_glScalef @607 DATA
+    optr_glScissor @608 DATA
+    optr_glSelectBuffer @609 DATA
+    optr_glShadeModel @610 DATA
+    optr_glStencilFunc @611 DATA
+    optr_glStencilMask @612 DATA
+    optr_glStencilOp @613 DATA
+    optr_glTexCoord1d @614 DATA
+    optr_glTexCoord1dv @615 DATA
+    optr_glTexCoord1f @616 DATA
+    optr_glTexCoord1fv @617 DATA
+    optr_glTexCoord1i @618 DATA
+    optr_glTexCoord1iv @619 DATA
+    optr_glTexCoord1s @620 DATA
+    optr_glTexCoord1sv @621 DATA
+    optr_glTexCoord2d @622 DATA
+    optr_glTexCoord2dv @623 DATA
+    optr_glTexCoord2fv @624 DATA
+    optr_glTexCoord2i @625 DATA
+    optr_glTexCoord2iv @626 DATA
+    optr_glTexCoord2s @627 DATA
+    optr_glTexCoord2sv @628 DATA
+    optr_glTexCoord3d @629 DATA
+    optr_glTexCoord3dv @630 DATA
+    optr_glTexCoord3f @631 DATA
+    optr_glTexCoord3fv @632 DATA
+    optr_glTexCoord3i @633 DATA
+    optr_glTexCoord3iv @634 DATA
+    optr_glTexCoord3s @635 DATA
+    optr_glTexCoord3sv @636 DATA
+    optr_glTexCoord4d @637 DATA
+    optr_glTexCoord4dv @638 DATA
+    optr_glTexCoord4f @639 DATA
+    optr_glTexCoord4fv @640 DATA
+    optr_glTexCoord4i @641 DATA
+    optr_glTexCoord4iv @642 DATA
+    optr_glTexCoord4s @643 DATA
+    optr_glTexCoord4sv @644 DATA
+    optr_glTexCoordPointer @645 DATA
+    optr_glTexEnvf @646 DATA
+    optr_glTexEnvfv @647 DATA
+    optr_glTexEnvi @648 DATA
+    optr_glTexEnviv @649 DATA
+    optr_glTexGend @650 DATA
+    optr_glTexGendv @651 DATA
+    optr_glTexGenf @652 DATA
+    optr_glTexGenfv @653 DATA
+    optr_glTexGeni @654 DATA
+    optr_glTexGeniv @655 DATA
+    optr_glTexImage1D @656 DATA
+    optr_glTexImage2D @657 DATA
+    optr_glTexParameterf @658 DATA
+    optr_glTexParameterfv @659 DATA
+    optr_glTexParameteri @660 DATA
+    optr_glTexParameteriv @661 DATA
+    optr_glTexSubImage1D @662 DATA
+    optr_glTexSubImage2D @663 DATA
+    optr_glTranslated @664 DATA
+    optr_glTranslatef @665 DATA
+    optr_glVertex2d @666 DATA
+    optr_glVertex2dv @667 DATA
+    optr_glVertex2f @668 DATA
+    optr_glVertex2fv @669 DATA
+    optr_glVertex2i @670 DATA
+    optr_glVertex2iv @671 DATA
+    optr_glVertex2s @672 DATA
+    optr_glVertex2sv @673 DATA
+    optr_glVertex3d @674 DATA
+    optr_glVertex3dv @675 DATA
+    optr_glVertex3f @676 DATA
+    optr_glVertex3fv @677 DATA
+    optr_glVertex3i @678 DATA
+    optr_glVertex3iv @679 DATA
+    optr_glVertex3s @680 DATA
+    optr_glVertex3sv @681 DATA
+    optr_glVertex4d @682 DATA
+    optr_glVertex4dv @683 DATA
+    optr_glVertex4f @684 DATA
+    optr_glVertex4fv @685 DATA
+    optr_glVertex4i @686 DATA
+    optr_glVertex4iv @687 DATA
+    optr_glVertex4s @688 DATA
+    optr_glVertex4sv @689 DATA
+    optr_glVertexPointer @690 DATA
+    optr_glViewport @691 DATA
+    optr_wglChoosePixelFormat @692 DATA
+    optr_wglCopyContext @693 DATA
+    optr_wglCreateContext @694 DATA
+    optr_wglCreateLayerContext @695 DATA
+    optr_wglDeleteContext @696 DATA
+    optr_wglDescribeLayerPlane @697 DATA
+    optr_wglDescribePixelFormat @698 DATA
+    optr_wglGetCurrentContext @699 DATA
+    optr_wglGetCurrentDC @700 DATA
+    optr_wglGetDefaultProcAddress @701 DATA
+    optr_wglGetLayerPaletteEntries @702 DATA
+    optr_wglGetPixelFormat @703 DATA
+    optr_wglGetProcAddress @704 DATA
+    optr_wglMakeCurrent @705 DATA
+    optr_wglRealizeLayerPalette @706 DATA
+    optr_wglSetLayerPaletteEntries @707 DATA
+    optr_wglSetPixelFormat @708 DATA
+    optr_wglShareLists @709 DATA
+    optr_wglSwapBuffers @710 DATA
+    optr_wglSwapLayerBuffers @711 DATA
+    optr_wglUseFontBitmapsA @712 DATA
+    optr_wglUseFontBitmapsW @713 DATA
+    optr_wglUseFontOutlinesA @714 DATA
+    optr_wglUseFontOutlinesW @715 DATA
