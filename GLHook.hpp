@@ -13,6 +13,14 @@
 #include <gl/glu.h>
 #include <windows.h>
 
+#ifdef BUILD_DLL
+    #define DLL_EXPORT __declspec(dllexport)
+#else
+    #define DLL_EXPORT __declspec(dllimport)
+#endif
+
+#define GL_EXPORT extern "C" DLL_EXPORT
+
 
                                     /**         TYPEDEFS: Start.         **/
 
