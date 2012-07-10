@@ -8,6 +8,13 @@
   *     @param  : Info From MSDN Documentation.
   **/
 
+                                    /**         VARIABLES: Start.        **/
+
+HMODULE OriginalGL = 0;
+
+                                    /**         VARIABLES: End.        **/
+
+
                                     /**         NAMING: Start.       **/
 
 ptr_glAccum                   optr_glAccum;
@@ -2155,4 +2162,29 @@ GL_EXPORT BOOL GLHook_wglUseFontOutlinesA(HDC hdc, DWORD first, DWORD count, DWO
 GL_EXPORT void GLHook_wglUseFontOutlinesW(HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf)
 {
 	(*optr_wglUseFontOutlinesW) (hdc, first, count, listBase, deviation, extrusion, format, lpgmf);
+}
+
+GL_EXPORT bool Initialize(void)
+{
+    if (!OriginalGL)
+    {
+        std::vector<char> Root(MAX_PATH);
+        GetSystemDirectory(&Root[0], MAX_PATH);
+        std::string OpenGL32Dll = "opengl32.dll";
+        Root.insert(Root.end(), OpenGL32Dll.begin(), OpenGL32Dll.end());
+        OriginalGL = LoadLibraryA(&Root[0]);
+        if (!OriginalGL) return false;
+
+        //TODO: Create GetAddressProc Generator.
+    }
+    return true;
+}
+
+GL_EXPORT bool DeInitialize(void)
+{
+    if (FreeLibrary(OriginalGL))
+    {
+        OriginalGL = NULL;
+    }
+    return false;
 }

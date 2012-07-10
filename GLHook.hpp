@@ -12,6 +12,8 @@
 #include <gl/gl.h>
 #include <gl/glu.h>
 #include <windows.h>
+#include <iostream>
+#include <vector>
 
 #ifdef BUILD_DLL
     #define DLL_EXPORT __declspec(dllexport)
@@ -21,6 +23,14 @@
 
 #define GL_EXPORT extern "C" DLL_EXPORT
 
+
+                                    /**         VARIABLES: Start.        **/
+
+extern HMODULE OriginalGL;
+GL_EXPORT bool Initialize(void);
+GL_EXPORT bool DeInitialize(void);
+
+                                    /**         VARIABLES: End.        **/
 
                                     /**         TYPEDEFS: Start.         **/
 
