@@ -61,663 +61,670 @@ EXPORTS
     GLHook_glCopyTexSubImage1D@24 @58
     GLHook_glCopyTexSubImage2D@32 @59
     GLHook_glCullFace@4 @60
-    GLHook_glDeleteLists@8 @61
-    GLHook_glDeleteTextures@8 @62
-    GLHook_glDepthFunc@4 @63
-    GLHook_glDepthMask@4 @64
-    GLHook_glDepthRange@16 @65
-    GLHook_glDisable@4 @66
-    GLHook_glDisableClientState@4 @67
-    GLHook_glDrawArrays@12 @68
-    GLHook_glDrawBuffer@4 @69
-    GLHook_glDrawElements@16 @70
-    GLHook_glDrawPixels@20 @71
-    GLHook_glEdgeFlag@4 @72
-    GLHook_glEdgeFlagPointer@8 @73
-    GLHook_glEdgeFlagv@4 @74
-    GLHook_glEnable@4 @75
-    GLHook_glEnableClientState@4 @76
-    GLHook_glEnd@0 @77
-    GLHook_glEndList@0 @78
-    GLHook_glEvalCoord1d@8 @79
-    GLHook_glEvalCoord1dv@4 @80
-    GLHook_glEvalCoord1f@4 @81
-    GLHook_glEvalCoord1fv@4 @82
-    GLHook_glEvalCoord2d@16 @83
-    GLHook_glEvalCoord2dv@4 @84
-    GLHook_glEvalCoord2f@8 @85
-    GLHook_glEvalCoord2fv@4 @86
-    GLHook_glEvalMesh1@12 @87
-    GLHook_glEvalMesh2@20 @88
-    GLHook_glEvalPoint1@4 @89
-    GLHook_glEvalPoint2@8 @90
-    GLHook_glFeedbackBuffer@12 @91
-    GLHook_glFinish@0 @92
-    GLHook_glFlush@0 @93
-    GLHook_glFogf@8 @94
-    GLHook_glFogfv@8 @95
-    GLHook_glFogi@8 @96
-    GLHook_glFogiv@8 @97
-    GLHook_glFrontFace@4 @98
-    GLHook_glFrustum@48 @99
-    GLHook_glGenLists@4 @100
-    GLHook_glGenTextures@8 @101
-    GLHook_glGetBooleanv@8 @102
-    GLHook_glGetClipPlane@8 @103
-    GLHook_glGetDoublev@8 @104
-    GLHook_glGetError@0 @105
-    GLHook_glGetFloatv@8 @106
-    GLHook_glGetIntegerv@8 @107
-    GLHook_glGetLightfv@12 @108
-    GLHook_glGetLightiv@12 @109
-    GLHook_glGetMapdv@12 @110
-    GLHook_glGetMapfv@12 @111
-    GLHook_glGetMapiv@12 @112
-    GLHook_glGetMaterialfv@12 @113
-    GLHook_glGetMaterialiv@12 @114
-    GLHook_glGetPixelMapfv@8 @115
-    GLHook_glGetPixelMapuiv@8 @116
-    GLHook_glGetPixelMapusv@8 @117
-    GLHook_glGetPointerv@8 @118
-    GLHook_glGetPolygonStipple@4 @119
-    GLHook_glGetString@4 @120
-    GLHook_glGetTexEnvfv@12 @121
-    GLHook_glGetTexEnviv@12 @122
-    GLHook_glGetTexGendv@12 @123
-    GLHook_glGetTexGenfv@12 @124
-    GLHook_glGetTexGeniv@12 @125
-    GLHook_glGetTexImage@20 @126
-    GLHook_glGetTexLevelParameterfv@16 @127
-    GLHook_glGetTexLevelParameteriv@16 @128
-    GLHook_glGetTexParameterfv@12 @129
-    GLHook_glGetTexParameteriv@12 @130
-    GLHook_glHint@8 @131
-    GLHook_glIndexMask@4 @132
-    GLHook_glIndexPointer@12 @133
-    GLHook_glIndexd@8 @134
-    GLHook_glIndexdv@4 @135
-    GLHook_glIndexf@4 @136
-    GLHook_glIndexfv@4 @137
-    GLHook_glIndexi@4 @138
-    GLHook_glIndexiv@4 @139
-    GLHook_glIndexs@4 @140
-    GLHook_glIndexsv@4 @141
-    GLHook_glInitNames@0 @142
-    GLHook_glInterleavedArrays@12 @143
-    GLHook_glIsEnabled@4 @144
-    GLHook_glIsList@4 @145
-    GLHook_glIsTexture@4 @146
-    GLHook_glLightModelf@8 @147
-    GLHook_glLightModelfv@8 @148
-    GLHook_glLightModeli@8 @149
-    GLHook_glLightModeliv@8 @150
-    GLHook_glLightf@12 @151
-    GLHook_glLightfv@12 @152
-    GLHook_glLighti@12 @153
-    GLHook_glLightiv@12 @154
-    GLHook_glLineStipple@8 @155
-    GLHook_glLineWidth@4 @156
-    GLHook_glListBase@4 @157
-    GLHook_glLoadIdentity@0 @158
-    GLHook_glLoadMatrixd@4 @159
-    GLHook_glLoadMatrixf@4 @160
-    GLHook_glLoadName@4 @161
-    GLHook_glLogicOp@4 @162
-    GLHook_glMap1d@32 @163
-    GLHook_glMap1f@24 @164
-    GLHook_glMap2d@56 @165
-    GLHook_glMap2f@40 @166
-    GLHook_glMapGrid1d@20 @167
-    GLHook_glMapGrid1f@12 @168
-    GLHook_glMapGrid2d@40 @169
-    GLHook_glMapGrid2f@24 @170
-    GLHook_glMaterialf@12 @171
-    GLHook_glMaterialfv@12 @172
-    GLHook_glMateriali@12 @173
-    GLHook_glMaterialiv@12 @174
-    GLHook_glMatrixMode@4 @175
-    GLHook_glMultMatrixd@4 @176
-    GLHook_glMultMatrixf@4 @177
-    GLHook_glNewList@8 @178
-    GLHook_glNormal3b@12 @179
-    GLHook_glNormal3bv@4 @180
-    GLHook_glNormal3d@24 @181
-    GLHook_glNormal3dv@4 @182
-    GLHook_glNormal3f@12 @183
-    GLHook_glNormal3fv@4 @184
-    GLHook_glNormal3i@12 @185
-    GLHook_glNormal3iv@4 @186
-    GLHook_glNormal3s@12 @187
-    GLHook_glNormal3sv@4 @188
-    GLHook_glNormalPointer@12 @189
-    GLHook_glOrtho@48 @190
-    GLHook_glPassThrough@4 @191
-    GLHook_glPixelMapfv@12 @192
-    GLHook_glPixelMapuiv@12 @193
-    GLHook_glPixelMapusv@12 @194
-    GLHook_glPixelStoref@8 @195
-    GLHook_glPixelStorei@8 @196
-    GLHook_glPixelTransferf@8 @197
-    GLHook_glPixelTransferi@8 @198
-    GLHook_glPixelZoom@8 @199
-    GLHook_glPointSize@4 @200
-    GLHook_glPolygonMode@8 @201
-    GLHook_glPolygonOffset@8 @202
-    GLHook_glPolygonStipple@4 @203
-    GLHook_glPopAttrib@0 @204
-    GLHook_glPopClientAttrib@0 @205
-    GLHook_glPopMatrix@0 @206
-    GLHook_glPopName@0 @207
-    GLHook_glPrioritizeTextures@12 @208
-    GLHook_glPushAttrib@4 @209
-    GLHook_glPushClientAttrib@4 @210
-    GLHook_glPushMatrix@0 @211
-    GLHook_glPushName@4 @212
-    GLHook_glRasterPos2d@16 @213
-    GLHook_glRasterPos2dv@4 @214
-    GLHook_glRasterPos2f@8 @215
-    GLHook_glRasterPos2fv@4 @216
-    GLHook_glRasterPos2i@8 @217
-    GLHook_glRasterPos2iv@4 @218
-    GLHook_glRasterPos2s@8 @219
-    GLHook_glRasterPos2sv@4 @220
-    GLHook_glRasterPos3d@24 @221
-    GLHook_glRasterPos3dv@4 @222
-    GLHook_glRasterPos3f@12 @223
-    GLHook_glRasterPos3fv@4 @224
-    GLHook_glRasterPos3i@12 @225
-    GLHook_glRasterPos3iv@4 @226
-    GLHook_glRasterPos3s@12 @227
-    GLHook_glRasterPos3sv@4 @228
-    GLHook_glRasterPos4d@32 @229
-    GLHook_glRasterPos4dv@4 @230
-    GLHook_glRasterPos4f@16 @231
-    GLHook_glRasterPos4fv@4 @232
-    GLHook_glRasterPos4i@16 @233
-    GLHook_glRasterPos4iv@4 @234
-    GLHook_glRasterPos4s@16 @235
-    GLHook_glRasterPos4sv@4 @236
-    GLHook_glReadBuffer@4 @237
-    GLHook_glReadPixels@28 @238
-    GLHook_glRectd@32 @239
-    GLHook_glRectdv@8 @240
-    GLHook_glRectf@16 @241
-    GLHook_glRectfv@8 @242
-    GLHook_glRecti@16 @243
-    GLHook_glRectiv@8 @244
-    GLHook_glRects@16 @245
-    GLHook_glRectsv@8 @246
-    GLHook_glRenderMode@4 @247
-    GLHook_glRotated@32 @248
-    GLHook_glRotatef@16 @249
-    GLHook_glScaled@24 @250
-    GLHook_glScalef@12 @251
-    GLHook_glScissor@16 @252
-    GLHook_glSelectBuffer@8 @253
-    GLHook_glShadeModel@4 @254
-    GLHook_glStencilFunc@12 @255
-    GLHook_glStencilMask@4 @256
-    GLHook_glStencilOp@12 @257
-    GLHook_glTexCoord1d@8 @258
-    GLHook_glTexCoord1dv@4 @259
-    GLHook_glTexCoord1f@4 @260
-    GLHook_glTexCoord1fv@4 @261
-    GLHook_glTexCoord1i@4 @262
-    GLHook_glTexCoord1iv@4 @263
-    GLHook_glTexCoord1s@4 @264
-    GLHook_glTexCoord1sv@4 @265
-    GLHook_glTexCoord2d@16 @266
-    GLHook_glTexCoord2dv@4 @267
-    GLHook_glTexCoord2f@8 @268
-    GLHook_glTexCoord2fv@4 @269
-    GLHook_glTexCoord2i@8 @270
-    GLHook_glTexCoord2iv@4 @271
-    GLHook_glTexCoord2s@8 @272
-    GLHook_glTexCoord2sv@4 @273
-    GLHook_glTexCoord3d@24 @274
-    GLHook_glTexCoord3dv@4 @275
-    GLHook_glTexCoord3f@12 @276
-    GLHook_glTexCoord3fv@4 @277
-    GLHook_glTexCoord3i@12 @278
-    GLHook_glTexCoord3iv@4 @279
-    GLHook_glTexCoord3s@12 @280
-    GLHook_glTexCoord3sv@4 @281
-    GLHook_glTexCoord4d@32 @282
-    GLHook_glTexCoord4dv@4 @283
-    GLHook_glTexCoord4f@16 @284
-    GLHook_glTexCoord4fv@4 @285
-    GLHook_glTexCoord4i@16 @286
-    GLHook_glTexCoord4iv@4 @287
-    GLHook_glTexCoord4s@16 @288
-    GLHook_glTexCoord4sv@4 @289
-    GLHook_glTexCoordPointer@16 @290
-    GLHook_glTexEnvf@12 @291
-    GLHook_glTexEnvfv@12 @292
-    GLHook_glTexEnvi@12 @293
-    GLHook_glTexEnviv@12 @294
-    GLHook_glTexGend@16 @295
-    GLHook_glTexGendv@12 @296
-    GLHook_glTexGenf@12 @297
-    GLHook_glTexGenfv@12 @298
-    GLHook_glTexGeni@12 @299
-    GLHook_glTexGeniv@12 @300
-    GLHook_glTexImage1D@32 @301
-    GLHook_glTexImage2D@36 @302
-    GLHook_glTexParameterf@12 @303
-    GLHook_glTexParameterfv@12 @304
-    GLHook_glTexParameteri@12 @305
-    GLHook_glTexParameteriv@12 @306
-    GLHook_glTexSubImage1D@28 @307
-    GLHook_glTexSubImage2D@36 @308
-    GLHook_glTranslated@24 @309
-    GLHook_glTranslatef@12 @310
-    GLHook_glVertex2d@16 @311
-    GLHook_glVertex2dv@4 @312
-    GLHook_glVertex2f@8 @313
-    GLHook_glVertex2fv@4 @314
-    GLHook_glVertex2i@8 @315
-    GLHook_glVertex2iv@4 @316
-    GLHook_glVertex2s@8 @317
-    GLHook_glVertex2sv@4 @318
-    GLHook_glVertex3d@24 @319
-    GLHook_glVertex3dv@4 @320
-    GLHook_glVertex3f@12 @321
-    GLHook_glVertex3fv@4 @322
-    GLHook_glVertex3i@12 @323
-    GLHook_glVertex3iv@4 @324
-    GLHook_glVertex3s@12 @325
-    GLHook_glVertex3sv@4 @326
-    GLHook_glVertex4d@32 @327
-    GLHook_glVertex4dv@4 @328
-    GLHook_glVertex4f@16 @329
-    GLHook_glVertex4fv@4 @330
-    GLHook_glVertex4i@16 @331
-    GLHook_glVertex4iv@4 @332
-    GLHook_glVertex4s@16 @333
-    GLHook_glVertex4sv@4 @334
-    GLHook_glVertexPointer@16 @335
-    GLHook_glViewport@16 @336
-    GLHook_wglChoosePixelFormat@8 @337
-    GLHook_wglCopyContext@12 @338
-    GLHook_wglCreateContext@4 @339
-    GLHook_wglCreateLayerContext@8 @340
-    GLHook_wglDeleteContext@4 @341
-    GLHook_wglDescribeLayerPlane@20 @342
-    GLHook_wglDescribePixelFormat@16 @343
-    GLHook_wglGetCurrentContext@0 @344
-    GLHook_wglGetCurrentDC@0 @345
-    GLHook_wglGetDefaultProcAddress@4 @346
-    GLHook_wglGetLayerPaletteEntries@20 @347
-    GLHook_wglGetPixelFormat@4 @348
-    GLHook_wglGetProcAddress@4 @349
-    GLHook_wglMakeCurrent@8 @350
-    GLHook_wglRealizeLayerPalette@12 @351
-    GLHook_wglSetLayerPaletteEntries@20 @352
-    GLHook_wglSetPixelFormat@12 @353
-    GLHook_wglShareLists@8 @354
-    GLHook_wglSwapBuffers@4 @355
-    GLHook_wglSwapLayerBuffers@8 @356
-    GLHook_wglUseFontBitmapsA@16 @357
-    GLHook_wglUseFontBitmapsW@16 @358
-    GLHook_wglUseFontOutlinesA@32 @359
-    GLHook_wglUseFontOutlinesW@32 @360
-    Initialize@0 @361
-    SomeFunction @362
-    glAccum = GLHook_glAccum @363
-    glAlphaFunc = GLHook_glAlphaFunc @364
-    glAreTexturesResident = GLHook_glAreTexturesResident @365
-    glArrayElement = GLHook_glArrayElement @366
-    glBegin = GLHook_glBegin @367
-    glBindTexture = GLHook_glBindTexture @368
-    glBitmap = GLHook_glBitmap @369
-    glBlendFunc = GLHook_glBlendFunc @370
-    glCallList = GLHook_glCallList @371
-    glCallLists = GLHook_glCallLists @372
-    glClear = GLHook_glClear @373
-    glClearAccum = GLHook_glClearAccum @374
-    glClearColor = GLHook_glClearColor @375
-    glClearDepth = GLHook_glClearDepth @376
-    glClearIndex = GLHook_glClearIndex @377
-    glClearStencil = GLHook_glClearStencil @378
-    glClipPlane = GLHook_glClipPlane @379
-    glColor3b = GLHook_glColor3b @380
-    glColor3bv = GLHook_glColor3bv @381
-    glColor3d = GLHook_glColor3d @382
-    glColor3dv = GLHook_glColor3dv @383
-    glColor3f = GLHook_glColor3f @384
-    glColor3fv = GLHook_glColor3fv @385
-    glColor3i = GLHook_glColor3i @386
-    glColor3iv = GLHook_glColor3iv @387
-    glColor3s = GLHook_glColor3s @388
-    glColor3sv = GLHook_glColor3sv @389
-    glColor3ub = GLHook_glColor3ub @390
-    glColor3ubv = GLHook_glColor3ubv @391
-    glColor3ui = GLHook_glColor3ui @392
-    glColor3uiv = GLHook_glColor3uiv @393
-    glColor3us = GLHook_glColor3us @394
-    glColor3usv = GLHook_glColor3usv @395
-    glColor4b = GLHook_glColor4b @396
-    glColor4bv = GLHook_glColor4bv @397
-    glColor4d = GLHook_glColor4d @398
-    glColor4dv = GLHook_glColor4dv @399
-    glColor4f = GLHook_glColor4f @400
-    glColor4fv = GLHook_glColor4fv @401
-    glColor4i = GLHook_glColor4i @402
-    glColor4iv = GLHook_glColor4iv @403
-    glColor4s = GLHook_glColor4s @404
-    glColor4sv = GLHook_glColor4sv @405
-    glColor4ub = GLHook_glColor4ub @406
-    glColor4ubv = GLHook_glColor4ubv @407
-    glColor4ui = GLHook_glColor4ui @408
-    glColor4uiv = GLHook_glColor4uiv @409
-    glColor4us = GLHook_glColor4us @410
-    glColor4usv = GLHook_glColor4usv @411
-    glColorMask = GLHook_glColorMask @412
-    glColorMaterial = GLHook_glColorMaterial @413
-    glColorPointer = GLHook_glColorPointer @414
-    glCopyPixels = GLHook_glCopyPixels @415
-    glCopyTexImage1D = GLHook_glCopyTexImage1D @416
-    glCopyTexImage2D = GLHook_glCopyTexImage2D @417
-    glCopyTexSubImage1D = GLHook_glCopyTexSubImage1D @418
-    glCopyTexSubImage2D = GLHook_glCopyTexSubImage2D @419
-    glCullFace = GLHook_glCullFace @420
-    glDeleteLists = GLHook_glDeleteLists @421
-    glDeleteTextures = GLHook_glDeleteTextures @422
-    glDepthFunc = GLHook_glDepthFunc @423
-    glDepthMask = GLHook_glDepthMask @424
-    glDepthRange = GLHook_glDepthRange @425
-    glDisable = GLHook_glDisable @426
-    glDisableClientState = GLHook_glDisableClientState @427
-    glDrawArrays = GLHook_glDrawArrays @428
-    glDrawBuffer = GLHook_glDrawBuffer @429
-    glDrawElements = GLHook_glDrawElements @430
-    glDrawPixels = GLHook_glDrawPixels @431
-    glEdgeFlag = GLHook_glEdgeFlag @432
-    glEdgeFlagPointer = GLHook_glEdgeFlagPointer @433
-    glEdgeFlagv = GLHook_glEdgeFlagv @434
-    glEnable = GLHook_glEnable @435
-    glEnableClientState = GLHook_glEnableClientState @436
-    glEnd = GLHook_glEnd @437
-    glEndList = GLHook_glEndList @438
-    glEvalCoord1d = GLHook_glEvalCoord1d @439
-    glEvalCoord1dv = GLHook_glEvalCoord1dv @440
-    glEvalCoord1f = GLHook_glEvalCoord1f @441
-    glEvalCoord1fv = GLHook_glEvalCoord1fv @442
-    glEvalCoord2d = GLHook_glEvalCoord2d @443
-    glEvalCoord2dv = GLHook_glEvalCoord2dv @444
-    glEvalCoord2f = GLHook_glEvalCoord2f @445
-    glEvalCoord2fv = GLHook_glEvalCoord2fv @446
-    glEvalMesh1 = GLHook_glEvalMesh1 @447
-    glEvalMesh2 = GLHook_glEvalMesh2 @448
-    glEvalPoint1 = GLHook_glEvalPoint1 @449
-    glEvalPoint2 = GLHook_glEvalPoint2 @450
-    glFeedbackBuffer = GLHook_glFeedbackBuffer @451
-    glFinish = GLHook_glFinish @452
-    glFlush = GLHook_glFlush @453
-    glFogf = GLHook_glFogf @454
-    glFogfv = GLHook_glFogfv @455
-    glFogi = GLHook_glFogi @456
-    glFogiv = GLHook_glFogiv @457
-    glFrontFace = GLHook_glFrontFace @458
-    glFrustum = GLHook_glFrustum @459
-    glGenLists = GLHook_glGenLists @460
-    glGenTextures = GLHook_glGenTextures @461
-    glGetBooleanv = GLHook_glGetBooleanv @462
-    glGetClipPlane = GLHook_glGetClipPlane @463
-    glGetDoublev = GLHook_glGetDoublev @464
-    glGetError = GLHook_glGetError @465
-    glGetFloatv = GLHook_glGetFloatv @466
-    glGetIntegerv = GLHook_glGetIntegerv @467
-    glGetLightfv = GLHook_glGetLightfv @468
-    glGetLightiv = GLHook_glGetLightiv @469
-    glGetMapdv = GLHook_glGetMapdv @470
-    glGetMapfv = GLHook_glGetMapfv @471
-    glGetMapiv = GLHook_glGetMapiv @472
-    glGetMaterialfv = GLHook_glGetMaterialfv @473
-    glGetMaterialiv = GLHook_glGetMaterialiv @474
-    glGetPixelMapfv = GLHook_glGetPixelMapfv @475
-    glGetPixelMapuiv = GLHook_glGetPixelMapuiv @476
-    glGetPixelMapusv = GLHook_glGetPixelMapusv @477
-    glGetPointerv = GLHook_glGetPointerv @478
-    glGetPolygonStipple = GLHook_glGetPolygonStipple @479
-    glGetString = GLHook_glGetString @480
-    glGetTexEnvfv = GLHook_glGetTexEnvfv @481
-    glGetTexEnviv = GLHook_glGetTexEnviv @482
-    glGetTexGendv = GLHook_glGetTexGendv @483
-    glGetTexGenfv = GLHook_glGetTexGenfv @484
-    glGetTexGeniv = GLHook_glGetTexGeniv @485
-    glGetTexImage = GLHook_glGetTexImage @486
-    glGetTexLevelParameterfv = GLHook_glGetTexLevelParameterfv @487
-    glGetTexLevelParameteriv = GLHook_glGetTexLevelParameteriv @488
-    glGetTexParameterfv = GLHook_glGetTexParameterfv @489
-    glGetTexParameteriv = GLHook_glGetTexParameteriv @490
-    glHint = GLHook_glHint @491
-    glIndexMask = GLHook_glIndexMask @492
-    glIndexPointer = GLHook_glIndexPointer @493
-    glIndexd = GLHook_glIndexd @494
-    glIndexdv = GLHook_glIndexdv @495
-    glIndexf = GLHook_glIndexf @496
-    glIndexfv = GLHook_glIndexfv @497
-    glIndexi = GLHook_glIndexi @498
-    glIndexiv = GLHook_glIndexiv @499
-    glIndexs = GLHook_glIndexs @500
-    glIndexsv = GLHook_glIndexsv @501
-    glInitNames = GLHook_glInitNames @502
-    glInterleavedArrays = GLHook_glInterleavedArrays @503
-    glIsEnabled = GLHook_glIsEnabled @504
-    glIsList = GLHook_glIsList @505
-    glIsTexture = GLHook_glIsTexture @506
-    glLightModelf = GLHook_glLightModelf @507
-    glLightModelfv = GLHook_glLightModelfv @508
-    glLightModeli = GLHook_glLightModeli @509
-    glLightModeliv = GLHook_glLightModeliv @510
-    glLightf = GLHook_glLightf @511
-    glLightfv = GLHook_glLightfv @512
-    glLighti = GLHook_glLighti @513
-    glLightiv = GLHook_glLightiv @514
-    glLineStipple = GLHook_glLineStipple @515
-    glLineWidth = GLHook_glLineWidth @516
-    glListBase = GLHook_glListBase @517
-    glLoadIdentity = GLHook_glLoadIdentity @518
-    glLoadMatrixd = GLHook_glLoadMatrixd @519
-    glLoadMatrixf = GLHook_glLoadMatrixf @520
-    glLoadName = GLHook_glLoadName @521
-    glLogicOp = GLHook_glLogicOp @522
-    glMap1d = GLHook_glMap1d @523
-    glMap1f = GLHook_glMap1f @524
-    glMap2d = GLHook_glMap2d @525
-    glMap2f = GLHook_glMap2f @526
-    glMapGrid1d = GLHook_glMapGrid1d @527
-    glMapGrid1f = GLHook_glMapGrid1f @528
-    glMapGrid2d = GLHook_glMapGrid2d @529
-    glMapGrid2f = GLHook_glMapGrid2f @530
-    glMaterialf = GLHook_glMaterialf @531
-    glMaterialfv = GLHook_glMaterialfv @532
-    glMateriali = GLHook_glMateriali @533
-    glMaterialiv = GLHook_glMaterialiv @534
-    glMatrixMode = GLHook_glMatrixMode @535
-    glMultMatrixd = GLHook_glMultMatrixd @536
-    glMultMatrixf = GLHook_glMultMatrixf @537
-    glNewList = GLHook_glNewList @538
-    glNormal3b = GLHook_glNormal3b @539
-    glNormal3bv = GLHook_glNormal3bv @540
-    glNormal3d = GLHook_glNormal3d @541
-    glNormal3dv = GLHook_glNormal3dv @542
-    glNormal3f = GLHook_glNormal3f @543
-    glNormal3fv = GLHook_glNormal3fv @544
-    glNormal3i = GLHook_glNormal3i @545
-    glNormal3iv = GLHook_glNormal3iv @546
-    glNormal3s = GLHook_glNormal3s @547
-    glNormal3sv = GLHook_glNormal3sv @548
-    glNormalPointer = GLHook_glNormalPointer @549
-    glOrtho = GLHook_glOrtho @550
-    glPassThrough = GLHook_glPassThrough @551
-    glPixelMapfv = GLHook_glPixelMapfv @552
-    glPixelMapuiv = GLHook_glPixelMapuiv @553
-    glPixelMapusv = GLHook_glPixelMapusv @554
-    glPixelStoref = GLHook_glPixelStoref @555
-    glPixelStorei = GLHook_glPixelStorei @556
-    glPixelTransferf = GLHook_glPixelTransferf @557
-    glPixelTransferi = GLHook_glPixelTransferi @558
-    glPixelZoom = GLHook_glPixelZoom @559
-    glPointSize = GLHook_glPointSize @560
-    glPolygonMode = GLHook_glPolygonMode @561
-    glPolygonOffset = GLHook_glPolygonOffset @562
-    glPolygonStipple = GLHook_glPolygonStipple @563
-    glPopAttrib = GLHook_glPopAttrib @564
-    glPopClientAttrib = GLHook_glPopClientAttrib @565
-    glPopMatrix = GLHook_glPopMatrix @566
-    glPopName = GLHook_glPopName @567
-    glPrioritizeTextures = GLHook_glPrioritizeTextures @568
-    glPushAttrib = GLHook_glPushAttrib @569
-    glPushClientAttrib = GLHook_glPushClientAttrib @570
-    glPushMatrix = GLHook_glPushMatrix @571
-    glPushName = GLHook_glPushName @572
-    glRasterPos2d = GLHook_glRasterPos2d @573
-    glRasterPos2dv = GLHook_glRasterPos2dv @574
-    glRasterPos2f = GLHook_glRasterPos2f @575
-    glRasterPos2fv = GLHook_glRasterPos2fv @576
-    glRasterPos2i = GLHook_glRasterPos2i @577
-    glRasterPos2iv = GLHook_glRasterPos2iv @578
-    glRasterPos2s = GLHook_glRasterPos2s @579
-    glRasterPos2sv = GLHook_glRasterPos2sv @580
-    glRasterPos3d = GLHook_glRasterPos3d @581
-    glRasterPos3dv = GLHook_glRasterPos3dv @582
-    glRasterPos3f = GLHook_glRasterPos3f @583
-    glRasterPos3fv = GLHook_glRasterPos3fv @584
-    glRasterPos3i = GLHook_glRasterPos3i @585
-    glRasterPos3iv = GLHook_glRasterPos3iv @586
-    glRasterPos3s = GLHook_glRasterPos3s @587
-    glRasterPos3sv = GLHook_glRasterPos3sv @588
-    glRasterPos4d = GLHook_glRasterPos4d @589
-    glRasterPos4dv = GLHook_glRasterPos4dv @590
-    glRasterPos4f = GLHook_glRasterPos4f @591
-    glRasterPos4fv = GLHook_glRasterPos4fv @592
-    glRasterPos4i = GLHook_glRasterPos4i @593
-    glRasterPos4iv = GLHook_glRasterPos4iv @594
-    glRasterPos4s = GLHook_glRasterPos4s @595
-    glRasterPos4sv = GLHook_glRasterPos4sv @596
-    glReadBuffer = GLHook_glReadBuffer @597
-    glReadPixels = GLHook_glReadPixels @598
-    glRectd = GLHook_glRectd @599
-    glRectdv = GLHook_glRectdv @600
-    glRectf = GLHook_glRectf @601
-    glRectfv = GLHook_glRectfv @602
-    glRecti = GLHook_glRecti @603
-    glRectiv = GLHook_glRectiv @604
-    glRects = GLHook_glRects @605
-    glRectsv = GLHook_glRectsv @606
-    glRenderMode = GLHook_glRenderMode @607
-    glRotated = GLHook_glRotated @608
-    glRotatef = GLHook_glRotatef @609
-    glScaled = GLHook_glScaled @610
-    glScalef = GLHook_glScalef @611
-    glScissor = GLHook_glScissor @612
-    glSelectBuffer = GLHook_glSelectBuffer @613
-    glShadeModel = GLHook_glShadeModel @614
-    glStencilFunc = GLHook_glStencilFunc @615
-    glStencilMask = GLHook_glStencilMask @616
-    glStencilOp = GLHook_glStencilOp @617
-    glTexCoord1d = GLHook_glTexCoord1d @618
-    glTexCoord1dv = GLHook_glTexCoord1dv @619
-    glTexCoord1f = GLHook_glTexCoord1f @620
-    glTexCoord1fv = GLHook_glTexCoord1fv @621
-    glTexCoord1i = GLHook_glTexCoord1i @622
-    glTexCoord1iv = GLHook_glTexCoord1iv @623
-    glTexCoord1s = GLHook_glTexCoord1s @624
-    glTexCoord1sv = GLHook_glTexCoord1sv @625
-    glTexCoord2d = GLHook_glTexCoord2d @626
-    glTexCoord2dv = GLHook_glTexCoord2dv @627
-    glTexCoord2f = GLHook_glTexCoord2f @628
-    glTexCoord2fv = GLHook_glTexCoord2fv @629
-    glTexCoord2i = GLHook_glTexCoord2i @630
-    glTexCoord2iv = GLHook_glTexCoord2iv @631
-    glTexCoord2s = GLHook_glTexCoord2s @632
-    glTexCoord2sv = GLHook_glTexCoord2sv @633
-    glTexCoord3d = GLHook_glTexCoord3d @634
-    glTexCoord3dv = GLHook_glTexCoord3dv @635
-    glTexCoord3f = GLHook_glTexCoord3f @636
-    glTexCoord3fv = GLHook_glTexCoord3fv @637
-    glTexCoord3i = GLHook_glTexCoord3i @638
-    glTexCoord3iv = GLHook_glTexCoord3iv @639
-    glTexCoord3s = GLHook_glTexCoord3s @640
-    glTexCoord3sv = GLHook_glTexCoord3sv @641
-    glTexCoord4d = GLHook_glTexCoord4d @642
-    glTexCoord4dv = GLHook_glTexCoord4dv @643
-    glTexCoord4f = GLHook_glTexCoord4f @644
-    glTexCoord4fv = GLHook_glTexCoord4fv @645
-    glTexCoord4i = GLHook_glTexCoord4i @646
-    glTexCoord4iv = GLHook_glTexCoord4iv @647
-    glTexCoord4s = GLHook_glTexCoord4s @648
-    glTexCoord4sv = GLHook_glTexCoord4sv @649
-    glTexCoordPointer = GLHook_glTexCoordPointer @650
-    glTexEnvf = GLHook_glTexEnvf @651
-    glTexEnvfv = GLHook_glTexEnvfv @652
-    glTexEnvi = GLHook_glTexEnvi @653
-    glTexEnviv = GLHook_glTexEnviv @654
-    glTexGend = GLHook_glTexGend @655
-    glTexGendv = GLHook_glTexGendv @656
-    glTexGenf = GLHook_glTexGenf @657
-    glTexGenfv = GLHook_glTexGenfv @658
-    glTexGeni = GLHook_glTexGeni @659
-    glTexGeniv = GLHook_glTexGeniv @660
-    glTexImage1D = GLHook_glTexImage1D @661
-    glTexImage2D = GLHook_glTexImage2D @662
-    glTexParameterf = GLHook_glTexParameterf @663
-    glTexParameterfv = GLHook_glTexParameterfv @664
-    glTexParameteri = GLHook_glTexParameteri @665
-    glTexParameteriv = GLHook_glTexParameteriv @666
-    glTexSubImage1D = GLHook_glTexSubImage1D @667
-    glTexSubImage2D = GLHook_glTexSubImage2D @668
-    glTranslated = GLHook_glTranslated @669
-    glTranslatef = GLHook_glTranslatef @670
-    glVertex2d = GLHook_glVertex2d @671
-    glVertex2dv = GLHook_glVertex2dv @672
-    glVertex2f = GLHook_glVertex2f @673
-    glVertex2fv = GLHook_glVertex2fv @674
-    glVertex2i = GLHook_glVertex2i @675
-    glVertex2iv = GLHook_glVertex2iv @676
-    glVertex2s = GLHook_glVertex2s @677
-    glVertex2sv = GLHook_glVertex2sv @678
-    glVertex3d = GLHook_glVertex3d @679
-    glVertex3dv = GLHook_glVertex3dv @680
-    glVertex3f = GLHook_glVertex3f @681
-    glVertex3fv = GLHook_glVertex3fv @682
-    glVertex3i = GLHook_glVertex3i @683
-    glVertex3iv = GLHook_glVertex3iv @684
-    glVertex3s = GLHook_glVertex3s @685
-    glVertex3sv = GLHook_glVertex3sv @686
-    glVertex4d = GLHook_glVertex4d @687
-    glVertex4dv = GLHook_glVertex4dv @688
-    glVertex4f = GLHook_glVertex4f @689
-    glVertex4fv = GLHook_glVertex4fv @690
-    glVertex4i = GLHook_glVertex4i @691
-    glVertex4iv = GLHook_glVertex4iv @692
-    glVertex4s = GLHook_glVertex4s @693
-    glVertex4sv = GLHook_glVertex4sv @694
-    glVertexPointer = GLHook_glVertexPointer @695
-    glViewport = GLHook_glViewport @696
-    wglChoosePixelFormat = GLHook_wglChoosePixelFormat @697
-    wglCopyContext = GLHook_wglCopyContext @698
-    wglCreateContext = GLHook_wglCreateContext @699
-    wglCreateLayerContext = GLHook_wglCreateLayerContext @700
-    wglDeleteContext = GLHook_wglDeleteContext @701
-    wglDescribeLayerPlane = GLHook_wglDescribeLayerPlane @702
-    wglDescribePixelFormat = GLHook_wglDescribePixelFormat @703
-    wglGetCurrentContext = GLHook_wglGetCurrentContext @704
-    wglGetCurrentDC = GLHook_wglGetCurrentDC @705
-    wglGetDefaultProcAddress = GLHook_wglGetDefaultProcAddress @706
-    wglGetLayerPaletteEntries = GLHook_wglGetLayerPaletteEntries @707
-    wglGetPixelFormat = GLHook_wglGetPixelFormat @708
-    wglGetProcAddress = GLHook_wglGetProcAddress @709
-    wglMakeCurrent = GLHook_wglMakeCurrent @710
-    wglRealizeLayerPalette = GLHook_wglRealizeLayerPalette @711
-    wglSetLayerPaletteEntries = GLHook_wglSetLayerPaletteEntries @712
-    wglSetPixelFormat = GLHook_wglSetPixelFormat @713
-    wglShareLists = GLHook_wglShareLists @714
-    wglSwapBuffers = GLHook_wglSwapBuffers @715
-    wglSwapLayerBuffers = GLHook_wglSwapLayerBuffers @716
-    wglUseFontBitmapsA = GLHook_wglUseFontBitmapsA @717
-    wglUseFontBitmapsW = GLHook_wglUseFontBitmapsW @718
-    wglUseFontOutlinesA = GLHook_wglUseFontOutlinesA @719
-    wglUseFontOutlinesW = GLHook_wglUseFontOutlinesW @720
+    GLHook_glDebugEntry@8 @61
+    GLHook_glDeleteLists@8 @62
+    GLHook_glDeleteTextures@8 @63
+    GLHook_glDepthFunc@4 @64
+    GLHook_glDepthMask@4 @65
+    GLHook_glDepthRange@16 @66
+    GLHook_glDisable@4 @67
+    GLHook_glDisableClientState@4 @68
+    GLHook_glDrawArrays@12 @69
+    GLHook_glDrawBuffer@4 @70
+    GLHook_glDrawElements@16 @71
+    GLHook_glDrawPixels@20 @72
+    GLHook_glEdgeFlag@4 @73
+    GLHook_glEdgeFlagPointer@8 @74
+    GLHook_glEdgeFlagv@4 @75
+    GLHook_glEnable@4 @76
+    GLHook_glEnableClientState@4 @77
+    GLHook_glEnd@0 @78
+    GLHook_glEndList@0 @79
+    GLHook_glEvalCoord1d@8 @80
+    GLHook_glEvalCoord1dv@4 @81
+    GLHook_glEvalCoord1f@4 @82
+    GLHook_glEvalCoord1fv@4 @83
+    GLHook_glEvalCoord2d@16 @84
+    GLHook_glEvalCoord2dv@4 @85
+    GLHook_glEvalCoord2f@8 @86
+    GLHook_glEvalCoord2fv@4 @87
+    GLHook_glEvalMesh1@12 @88
+    GLHook_glEvalMesh2@20 @89
+    GLHook_glEvalPoint1@4 @90
+    GLHook_glEvalPoint2@8 @91
+    GLHook_glFeedbackBuffer@12 @92
+    GLHook_glFinish@0 @93
+    GLHook_glFlush@0 @94
+    GLHook_glFogf@8 @95
+    GLHook_glFogfv@8 @96
+    GLHook_glFogi@8 @97
+    GLHook_glFogiv@8 @98
+    GLHook_glFrontFace@4 @99
+    GLHook_glFrustum@48 @100
+    GLHook_glGenLists@4 @101
+    GLHook_glGenTextures@8 @102
+    GLHook_glGetBooleanv@8 @103
+    GLHook_glGetClipPlane@8 @104
+    GLHook_glGetDoublev@8 @105
+    GLHook_glGetError@0 @106
+    GLHook_glGetFloatv@8 @107
+    GLHook_glGetIntegerv@8 @108
+    GLHook_glGetLightfv@12 @109
+    GLHook_glGetLightiv@12 @110
+    GLHook_glGetMapdv@12 @111
+    GLHook_glGetMapfv@12 @112
+    GLHook_glGetMapiv@12 @113
+    GLHook_glGetMaterialfv@12 @114
+    GLHook_glGetMaterialiv@12 @115
+    GLHook_glGetPixelMapfv@8 @116
+    GLHook_glGetPixelMapuiv@8 @117
+    GLHook_glGetPixelMapusv@8 @118
+    GLHook_glGetPointerv@8 @119
+    GLHook_glGetPolygonStipple@4 @120
+    GLHook_glGetString@4 @121
+    GLHook_glGetTexEnvfv@12 @122
+    GLHook_glGetTexEnviv@12 @123
+    GLHook_glGetTexGendv@12 @124
+    GLHook_glGetTexGenfv@12 @125
+    GLHook_glGetTexGeniv@12 @126
+    GLHook_glGetTexImage@20 @127
+    GLHook_glGetTexLevelParameterfv@16 @128
+    GLHook_glGetTexLevelParameteriv@16 @129
+    GLHook_glGetTexParameterfv@12 @130
+    GLHook_glGetTexParameteriv@12 @131
+    GLHook_glHint@8 @132
+    GLHook_glIndexMask@4 @133
+    GLHook_glIndexPointer@12 @134
+    GLHook_glIndexd@8 @135
+    GLHook_glIndexdv@4 @136
+    GLHook_glIndexf@4 @137
+    GLHook_glIndexfv@4 @138
+    GLHook_glIndexi@4 @139
+    GLHook_glIndexiv@4 @140
+    GLHook_glIndexs@4 @141
+    GLHook_glIndexsv@4 @142
+    GLHook_glIndexub@4 @143
+    GLHook_glIndexubv@4 @144
+    GLHook_glInitNames@0 @145
+    GLHook_glInterleavedArrays@12 @146
+    GLHook_glIsEnabled@4 @147
+    GLHook_glIsList@4 @148
+    GLHook_glIsTexture@4 @149
+    GLHook_glLightModelf@8 @150
+    GLHook_glLightModelfv@8 @151
+    GLHook_glLightModeli@8 @152
+    GLHook_glLightModeliv@8 @153
+    GLHook_glLightf@12 @154
+    GLHook_glLightfv@12 @155
+    GLHook_glLighti@12 @156
+    GLHook_glLightiv@12 @157
+    GLHook_glLineStipple@8 @158
+    GLHook_glLineWidth@4 @159
+    GLHook_glListBase@4 @160
+    GLHook_glLoadIdentity@0 @161
+    GLHook_glLoadMatrixd@4 @162
+    GLHook_glLoadMatrixf@4 @163
+    GLHook_glLoadName@4 @164
+    GLHook_glLogicOp@4 @165
+    GLHook_glMap1d@32 @166
+    GLHook_glMap1f@24 @167
+    GLHook_glMap2d@56 @168
+    GLHook_glMap2f@40 @169
+    GLHook_glMapGrid1d@20 @170
+    GLHook_glMapGrid1f@12 @171
+    GLHook_glMapGrid2d@40 @172
+    GLHook_glMapGrid2f@24 @173
+    GLHook_glMaterialf@12 @174
+    GLHook_glMaterialfv@12 @175
+    GLHook_glMateriali@12 @176
+    GLHook_glMaterialiv@12 @177
+    GLHook_glMatrixMode@4 @178
+    GLHook_glMultMatrixd@4 @179
+    GLHook_glMultMatrixf@4 @180
+    GLHook_glNewList@8 @181
+    GLHook_glNormal3b@12 @182
+    GLHook_glNormal3bv@4 @183
+    GLHook_glNormal3d@24 @184
+    GLHook_glNormal3dv@4 @185
+    GLHook_glNormal3f@12 @186
+    GLHook_glNormal3fv@4 @187
+    GLHook_glNormal3i@12 @188
+    GLHook_glNormal3iv@4 @189
+    GLHook_glNormal3s@12 @190
+    GLHook_glNormal3sv@4 @191
+    GLHook_glNormalPointer@12 @192
+    GLHook_glOrtho@48 @193
+    GLHook_glPassThrough@4 @194
+    GLHook_glPixelMapfv@12 @195
+    GLHook_glPixelMapuiv@12 @196
+    GLHook_glPixelMapusv@12 @197
+    GLHook_glPixelStoref@8 @198
+    GLHook_glPixelStorei@8 @199
+    GLHook_glPixelTransferf@8 @200
+    GLHook_glPixelTransferi@8 @201
+    GLHook_glPixelZoom@8 @202
+    GLHook_glPointSize@4 @203
+    GLHook_glPolygonMode@8 @204
+    GLHook_glPolygonOffset@8 @205
+    GLHook_glPolygonStipple@4 @206
+    GLHook_glPopAttrib@0 @207
+    GLHook_glPopClientAttrib@0 @208
+    GLHook_glPopMatrix@0 @209
+    GLHook_glPopName@0 @210
+    GLHook_glPrioritizeTextures@12 @211
+    GLHook_glPushAttrib@4 @212
+    GLHook_glPushClientAttrib@4 @213
+    GLHook_glPushMatrix@0 @214
+    GLHook_glPushName@4 @215
+    GLHook_glRasterPos2d@16 @216
+    GLHook_glRasterPos2dv@4 @217
+    GLHook_glRasterPos2f@8 @218
+    GLHook_glRasterPos2fv@4 @219
+    GLHook_glRasterPos2i@8 @220
+    GLHook_glRasterPos2iv@4 @221
+    GLHook_glRasterPos2s@8 @222
+    GLHook_glRasterPos2sv@4 @223
+    GLHook_glRasterPos3d@24 @224
+    GLHook_glRasterPos3dv@4 @225
+    GLHook_glRasterPos3f@12 @226
+    GLHook_glRasterPos3fv@4 @227
+    GLHook_glRasterPos3i@12 @228
+    GLHook_glRasterPos3iv@4 @229
+    GLHook_glRasterPos3s@12 @230
+    GLHook_glRasterPos3sv@4 @231
+    GLHook_glRasterPos4d@32 @232
+    GLHook_glRasterPos4dv@4 @233
+    GLHook_glRasterPos4f@16 @234
+    GLHook_glRasterPos4fv@4 @235
+    GLHook_glRasterPos4i@16 @236
+    GLHook_glRasterPos4iv@4 @237
+    GLHook_glRasterPos4s@16 @238
+    GLHook_glRasterPos4sv@4 @239
+    GLHook_glReadBuffer@4 @240
+    GLHook_glReadPixels@28 @241
+    GLHook_glRectd@32 @242
+    GLHook_glRectdv@8 @243
+    GLHook_glRectf@16 @244
+    GLHook_glRectfv@8 @245
+    GLHook_glRecti@16 @246
+    GLHook_glRectiv@8 @247
+    GLHook_glRects@16 @248
+    GLHook_glRectsv@8 @249
+    GLHook_glRenderMode@4 @250
+    GLHook_glRotated@32 @251
+    GLHook_glRotatef@16 @252
+    GLHook_glScaled@24 @253
+    GLHook_glScalef@12 @254
+    GLHook_glScissor@16 @255
+    GLHook_glSelectBuffer@8 @256
+    GLHook_glShadeModel@4 @257
+    GLHook_glStencilFunc@12 @258
+    GLHook_glStencilMask@4 @259
+    GLHook_glStencilOp@12 @260
+    GLHook_glTexCoord1d@8 @261
+    GLHook_glTexCoord1dv@4 @262
+    GLHook_glTexCoord1f@4 @263
+    GLHook_glTexCoord1fv@4 @264
+    GLHook_glTexCoord1i@4 @265
+    GLHook_glTexCoord1iv@4 @266
+    GLHook_glTexCoord1s@4 @267
+    GLHook_glTexCoord1sv@4 @268
+    GLHook_glTexCoord2d@16 @269
+    GLHook_glTexCoord2dv@4 @270
+    GLHook_glTexCoord2f@8 @271
+    GLHook_glTexCoord2fv@4 @272
+    GLHook_glTexCoord2i@8 @273
+    GLHook_glTexCoord2iv@4 @274
+    GLHook_glTexCoord2s@8 @275
+    GLHook_glTexCoord2sv@4 @276
+    GLHook_glTexCoord3d@24 @277
+    GLHook_glTexCoord3dv@4 @278
+    GLHook_glTexCoord3f@12 @279
+    GLHook_glTexCoord3fv@4 @280
+    GLHook_glTexCoord3i@12 @281
+    GLHook_glTexCoord3iv@4 @282
+    GLHook_glTexCoord3s@12 @283
+    GLHook_glTexCoord3sv@4 @284
+    GLHook_glTexCoord4d@32 @285
+    GLHook_glTexCoord4dv@4 @286
+    GLHook_glTexCoord4f@16 @287
+    GLHook_glTexCoord4fv@4 @288
+    GLHook_glTexCoord4i@16 @289
+    GLHook_glTexCoord4iv@4 @290
+    GLHook_glTexCoord4s@16 @291
+    GLHook_glTexCoord4sv@4 @292
+    GLHook_glTexCoordPointer@16 @293
+    GLHook_glTexEnvf@12 @294
+    GLHook_glTexEnvfv@12 @295
+    GLHook_glTexEnvi@12 @296
+    GLHook_glTexEnviv@12 @297
+    GLHook_glTexGend@16 @298
+    GLHook_glTexGendv@12 @299
+    GLHook_glTexGenf@12 @300
+    GLHook_glTexGenfv@12 @301
+    GLHook_glTexGeni@12 @302
+    GLHook_glTexGeniv@12 @303
+    GLHook_glTexImage1D@32 @304
+    GLHook_glTexImage2D@36 @305
+    GLHook_glTexParameterf@12 @306
+    GLHook_glTexParameterfv@12 @307
+    GLHook_glTexParameteri@12 @308
+    GLHook_glTexParameteriv@12 @309
+    GLHook_glTexSubImage1D@28 @310
+    GLHook_glTexSubImage2D@36 @311
+    GLHook_glTranslated@24 @312
+    GLHook_glTranslatef@12 @313
+    GLHook_glVertex2d@16 @314
+    GLHook_glVertex2dv@4 @315
+    GLHook_glVertex2f@8 @316
+    GLHook_glVertex2fv@4 @317
+    GLHook_glVertex2i@8 @318
+    GLHook_glVertex2iv@4 @319
+    GLHook_glVertex2s@8 @320
+    GLHook_glVertex2sv@4 @321
+    GLHook_glVertex3d@24 @322
+    GLHook_glVertex3dv@4 @323
+    GLHook_glVertex3f@12 @324
+    GLHook_glVertex3fv@4 @325
+    GLHook_glVertex3i@12 @326
+    GLHook_glVertex3iv@4 @327
+    GLHook_glVertex3s@12 @328
+    GLHook_glVertex3sv@4 @329
+    GLHook_glVertex4d@32 @330
+    GLHook_glVertex4dv@4 @331
+    GLHook_glVertex4f@16 @332
+    GLHook_glVertex4fv@4 @333
+    GLHook_glVertex4i@16 @334
+    GLHook_glVertex4iv@4 @335
+    GLHook_glVertex4s@16 @336
+    GLHook_glVertex4sv@4 @337
+    GLHook_glVertexPointer@16 @338
+    GLHook_glViewport@16 @339
+    GLHook_wglChoosePixelFormat@8 @340
+    GLHook_wglCopyContext@12 @341
+    GLHook_wglCreateContext@4 @342
+    GLHook_wglCreateLayerContext@8 @343
+    GLHook_wglDeleteContext@4 @344
+    GLHook_wglDescribeLayerPlane@20 @345
+    GLHook_wglDescribePixelFormat@16 @346
+    GLHook_wglGetCurrentContext@0 @347
+    GLHook_wglGetCurrentDC@0 @348
+    GLHook_wglGetDefaultProcAddress@4 @349
+    GLHook_wglGetLayerPaletteEntries@20 @350
+    GLHook_wglGetPixelFormat@4 @351
+    GLHook_wglGetProcAddress@4 @352
+    GLHook_wglMakeCurrent@8 @353
+    GLHook_wglRealizeLayerPalette@12 @354
+    GLHook_wglSetLayerPaletteEntries@20 @355
+    GLHook_wglSetPixelFormat@12 @356
+    GLHook_wglShareLists@8 @357
+    GLHook_wglSwapBuffers@4 @358
+    GLHook_wglSwapLayerBuffers@8 @359
+    GLHook_wglSwapMultipleBuffers@8 @360
+    GLHook_wglUseFontBitmapsA@16 @361
+    GLHook_wglUseFontBitmapsW@16 @362
+    GLHook_wglUseFontOutlinesA@32 @363
+    GLHook_wglUseFontOutlinesW@32 @364
+    Initialize@0 @365
+    glAccum = GLHook_glAccum @366
+    glAlphaFunc = GLHook_glAlphaFunc @367
+    glAreTexturesResident = GLHook_glAreTexturesResident @368
+    glArrayElement = GLHook_glArrayElement @369
+    glBegin = GLHook_glBegin @370
+    glBindTexture = GLHook_glBindTexture @371
+    glBitmap = GLHook_glBitmap @372
+    glBlendFunc = GLHook_glBlendFunc @373
+    glCallList = GLHook_glCallList @374
+    glCallLists = GLHook_glCallLists @375
+    glClear = GLHook_glClear @376
+    glClearAccum = GLHook_glClearAccum @377
+    glClearColor = GLHook_glClearColor @378
+    glClearDepth = GLHook_glClearDepth @379
+    glClearIndex = GLHook_glClearIndex @380
+    glClearStencil = GLHook_glClearStencil @381
+    glClipPlane = GLHook_glClipPlane @382
+    glColor3b = GLHook_glColor3b @383
+    glColor3bv = GLHook_glColor3bv @384
+    glColor3d = GLHook_glColor3d @385
+    glColor3dv = GLHook_glColor3dv @386
+    glColor3f = GLHook_glColor3f @387
+    glColor3fv = GLHook_glColor3fv @388
+    glColor3i = GLHook_glColor3i @389
+    glColor3iv = GLHook_glColor3iv @390
+    glColor3s = GLHook_glColor3s @391
+    glColor3sv = GLHook_glColor3sv @392
+    glColor3ub = GLHook_glColor3ub @393
+    glColor3ubv = GLHook_glColor3ubv @394
+    glColor3ui = GLHook_glColor3ui @395
+    glColor3uiv = GLHook_glColor3uiv @396
+    glColor3us = GLHook_glColor3us @397
+    glColor3usv = GLHook_glColor3usv @398
+    glColor4b = GLHook_glColor4b @399
+    glColor4bv = GLHook_glColor4bv @400
+    glColor4d = GLHook_glColor4d @401
+    glColor4dv = GLHook_glColor4dv @402
+    glColor4f = GLHook_glColor4f @403
+    glColor4fv = GLHook_glColor4fv @404
+    glColor4i = GLHook_glColor4i @405
+    glColor4iv = GLHook_glColor4iv @406
+    glColor4s = GLHook_glColor4s @407
+    glColor4sv = GLHook_glColor4sv @408
+    glColor4ub = GLHook_glColor4ub @409
+    glColor4ubv = GLHook_glColor4ubv @410
+    glColor4ui = GLHook_glColor4ui @411
+    glColor4uiv = GLHook_glColor4uiv @412
+    glColor4us = GLHook_glColor4us @413
+    glColor4usv = GLHook_glColor4usv @414
+    glColorMask = GLHook_glColorMask @415
+    glColorMaterial = GLHook_glColorMaterial @416
+    glColorPointer = GLHook_glColorPointer @417
+    glCopyPixels = GLHook_glCopyPixels @418
+    glCopyTexImage1D = GLHook_glCopyTexImage1D @419
+    glCopyTexImage2D = GLHook_glCopyTexImage2D @420
+    glCopyTexSubImage1D = GLHook_glCopyTexSubImage1D @421
+    glCopyTexSubImage2D = GLHook_glCopyTexSubImage2D @422
+    glCullFace = GLHook_glCullFace @423
+    glDebugEntry = GLHook_glDebugEntry @424
+    glDeleteLists = GLHook_glDeleteLists @425
+    glDeleteTextures = GLHook_glDeleteTextures @426
+    glDepthFunc = GLHook_glDepthFunc @427
+    glDepthMask = GLHook_glDepthMask @428
+    glDepthRange = GLHook_glDepthRange @429
+    glDisable = GLHook_glDisable @430
+    glDisableClientState = GLHook_glDisableClientState @431
+    glDrawArrays = GLHook_glDrawArrays @432
+    glDrawBuffer = GLHook_glDrawBuffer @433
+    glDrawElements = GLHook_glDrawElements @434
+    glDrawPixels = GLHook_glDrawPixels @435
+    glEdgeFlag = GLHook_glEdgeFlag @436
+    glEdgeFlagPointer = GLHook_glEdgeFlagPointer @437
+    glEdgeFlagv = GLHook_glEdgeFlagv @438
+    glEnable = GLHook_glEnable @439
+    glEnableClientState = GLHook_glEnableClientState @440
+    glEnd = GLHook_glEnd @441
+    glEndList = GLHook_glEndList @442
+    glEvalCoord1d = GLHook_glEvalCoord1d @443
+    glEvalCoord1dv = GLHook_glEvalCoord1dv @444
+    glEvalCoord1f = GLHook_glEvalCoord1f @445
+    glEvalCoord1fv = GLHook_glEvalCoord1fv @446
+    glEvalCoord2d = GLHook_glEvalCoord2d @447
+    glEvalCoord2dv = GLHook_glEvalCoord2dv @448
+    glEvalCoord2f = GLHook_glEvalCoord2f @449
+    glEvalCoord2fv = GLHook_glEvalCoord2fv @450
+    glEvalMesh1 = GLHook_glEvalMesh1 @451
+    glEvalMesh2 = GLHook_glEvalMesh2 @452
+    glEvalPoint1 = GLHook_glEvalPoint1 @453
+    glEvalPoint2 = GLHook_glEvalPoint2 @454
+    glFeedbackBuffer = GLHook_glFeedbackBuffer @455
+    glFinish = GLHook_glFinish @456
+    glFlush = GLHook_glFlush @457
+    glFogf = GLHook_glFogf @458
+    glFogfv = GLHook_glFogfv @459
+    glFogi = GLHook_glFogi @460
+    glFogiv = GLHook_glFogiv @461
+    glFrontFace = GLHook_glFrontFace @462
+    glFrustum = GLHook_glFrustum @463
+    glGenLists = GLHook_glGenLists @464
+    glGenTextures = GLHook_glGenTextures @465
+    glGetBooleanv = GLHook_glGetBooleanv @466
+    glGetClipPlane = GLHook_glGetClipPlane @467
+    glGetDoublev = GLHook_glGetDoublev @468
+    glGetError = GLHook_glGetError @469
+    glGetFloatv = GLHook_glGetFloatv @470
+    glGetIntegerv = GLHook_glGetIntegerv @471
+    glGetLightfv = GLHook_glGetLightfv @472
+    glGetLightiv = GLHook_glGetLightiv @473
+    glGetMapdv = GLHook_glGetMapdv @474
+    glGetMapfv = GLHook_glGetMapfv @475
+    glGetMapiv = GLHook_glGetMapiv @476
+    glGetMaterialfv = GLHook_glGetMaterialfv @477
+    glGetMaterialiv = GLHook_glGetMaterialiv @478
+    glGetPixelMapfv = GLHook_glGetPixelMapfv @479
+    glGetPixelMapuiv = GLHook_glGetPixelMapuiv @480
+    glGetPixelMapusv = GLHook_glGetPixelMapusv @481
+    glGetPointerv = GLHook_glGetPointerv @482
+    glGetPolygonStipple = GLHook_glGetPolygonStipple @483
+    glGetString = GLHook_glGetString @484
+    glGetTexEnvfv = GLHook_glGetTexEnvfv @485
+    glGetTexEnviv = GLHook_glGetTexEnviv @486
+    glGetTexGendv = GLHook_glGetTexGendv @487
+    glGetTexGenfv = GLHook_glGetTexGenfv @488
+    glGetTexGeniv = GLHook_glGetTexGeniv @489
+    glGetTexImage = GLHook_glGetTexImage @490
+    glGetTexLevelParameterfv = GLHook_glGetTexLevelParameterfv @491
+    glGetTexLevelParameteriv = GLHook_glGetTexLevelParameteriv @492
+    glGetTexParameterfv = GLHook_glGetTexParameterfv @493
+    glGetTexParameteriv = GLHook_glGetTexParameteriv @494
+    glHint = GLHook_glHint @495
+    glIndexMask = GLHook_glIndexMask @496
+    glIndexPointer = GLHook_glIndexPointer @497
+    glIndexd = GLHook_glIndexd @498
+    glIndexdv = GLHook_glIndexdv @499
+    glIndexf = GLHook_glIndexf @500
+    glIndexfv = GLHook_glIndexfv @501
+    glIndexi = GLHook_glIndexi @502
+    glIndexiv = GLHook_glIndexiv @503
+    glIndexs = GLHook_glIndexs @504
+    glIndexsv = GLHook_glIndexsv @505
+    glIndexub = GLHook_glIndexub @506
+    glIndexubv = GLHook_glIndexubv @507
+    glInitNames = GLHook_glInitNames @508
+    glInterleavedArrays = GLHook_glInterleavedArrays @509
+    glIsEnabled = GLHook_glIsEnabled @510
+    glIsList = GLHook_glIsList @511
+    glIsTexture = GLHook_glIsTexture @512
+    glLightModelf = GLHook_glLightModelf @513
+    glLightModelfv = GLHook_glLightModelfv @514
+    glLightModeli = GLHook_glLightModeli @515
+    glLightModeliv = GLHook_glLightModeliv @516
+    glLightf = GLHook_glLightf @517
+    glLightfv = GLHook_glLightfv @518
+    glLighti = GLHook_glLighti @519
+    glLightiv = GLHook_glLightiv @520
+    glLineStipple = GLHook_glLineStipple @521
+    glLineWidth = GLHook_glLineWidth @522
+    glListBase = GLHook_glListBase @523
+    glLoadIdentity = GLHook_glLoadIdentity @524
+    glLoadMatrixd = GLHook_glLoadMatrixd @525
+    glLoadMatrixf = GLHook_glLoadMatrixf @526
+    glLoadName = GLHook_glLoadName @527
+    glLogicOp = GLHook_glLogicOp @528
+    glMap1d = GLHook_glMap1d @529
+    glMap1f = GLHook_glMap1f @530
+    glMap2d = GLHook_glMap2d @531
+    glMap2f = GLHook_glMap2f @532
+    glMapGrid1d = GLHook_glMapGrid1d @533
+    glMapGrid1f = GLHook_glMapGrid1f @534
+    glMapGrid2d = GLHook_glMapGrid2d @535
+    glMapGrid2f = GLHook_glMapGrid2f @536
+    glMaterialf = GLHook_glMaterialf @537
+    glMaterialfv = GLHook_glMaterialfv @538
+    glMateriali = GLHook_glMateriali @539
+    glMaterialiv = GLHook_glMaterialiv @540
+    glMatrixMode = GLHook_glMatrixMode @541
+    glMultMatrixd = GLHook_glMultMatrixd @542
+    glMultMatrixf = GLHook_glMultMatrixf @543
+    glNewList = GLHook_glNewList @544
+    glNormal3b = GLHook_glNormal3b @545
+    glNormal3bv = GLHook_glNormal3bv @546
+    glNormal3d = GLHook_glNormal3d @547
+    glNormal3dv = GLHook_glNormal3dv @548
+    glNormal3f = GLHook_glNormal3f @549
+    glNormal3fv = GLHook_glNormal3fv @550
+    glNormal3i = GLHook_glNormal3i @551
+    glNormal3iv = GLHook_glNormal3iv @552
+    glNormal3s = GLHook_glNormal3s @553
+    glNormal3sv = GLHook_glNormal3sv @554
+    glNormalPointer = GLHook_glNormalPointer @555
+    glOrtho = GLHook_glOrtho @556
+    glPassThrough = GLHook_glPassThrough @557
+    glPixelMapfv = GLHook_glPixelMapfv @558
+    glPixelMapuiv = GLHook_glPixelMapuiv @559
+    glPixelMapusv = GLHook_glPixelMapusv @560
+    glPixelStoref = GLHook_glPixelStoref @561
+    glPixelStorei = GLHook_glPixelStorei @562
+    glPixelTransferf = GLHook_glPixelTransferf @563
+    glPixelTransferi = GLHook_glPixelTransferi @564
+    glPixelZoom = GLHook_glPixelZoom @565
+    glPointSize = GLHook_glPointSize @566
+    glPolygonMode = GLHook_glPolygonMode @567
+    glPolygonOffset = GLHook_glPolygonOffset @568
+    glPolygonStipple = GLHook_glPolygonStipple @569
+    glPopAttrib = GLHook_glPopAttrib @570
+    glPopClientAttrib = GLHook_glPopClientAttrib @571
+    glPopMatrix = GLHook_glPopMatrix @572
+    glPopName = GLHook_glPopName @573
+    glPrioritizeTextures = GLHook_glPrioritizeTextures @574
+    glPushAttrib = GLHook_glPushAttrib @575
+    glPushClientAttrib = GLHook_glPushClientAttrib @576
+    glPushMatrix = GLHook_glPushMatrix @577
+    glPushName = GLHook_glPushName @578
+    glRasterPos2d = GLHook_glRasterPos2d @579
+    glRasterPos2dv = GLHook_glRasterPos2dv @580
+    glRasterPos2f = GLHook_glRasterPos2f @581
+    glRasterPos2fv = GLHook_glRasterPos2fv @582
+    glRasterPos2i = GLHook_glRasterPos2i @583
+    glRasterPos2iv = GLHook_glRasterPos2iv @584
+    glRasterPos2s = GLHook_glRasterPos2s @585
+    glRasterPos2sv = GLHook_glRasterPos2sv @586
+    glRasterPos3d = GLHook_glRasterPos3d @587
+    glRasterPos3dv = GLHook_glRasterPos3dv @588
+    glRasterPos3f = GLHook_glRasterPos3f @589
+    glRasterPos3fv = GLHook_glRasterPos3fv @590
+    glRasterPos3i = GLHook_glRasterPos3i @591
+    glRasterPos3iv = GLHook_glRasterPos3iv @592
+    glRasterPos3s = GLHook_glRasterPos3s @593
+    glRasterPos3sv = GLHook_glRasterPos3sv @594
+    glRasterPos4d = GLHook_glRasterPos4d @595
+    glRasterPos4dv = GLHook_glRasterPos4dv @596
+    glRasterPos4f = GLHook_glRasterPos4f @597
+    glRasterPos4fv = GLHook_glRasterPos4fv @598
+    glRasterPos4i = GLHook_glRasterPos4i @599
+    glRasterPos4iv = GLHook_glRasterPos4iv @600
+    glRasterPos4s = GLHook_glRasterPos4s @601
+    glRasterPos4sv = GLHook_glRasterPos4sv @602
+    glReadBuffer = GLHook_glReadBuffer @603
+    glReadPixels = GLHook_glReadPixels @604
+    glRectd = GLHook_glRectd @605
+    glRectdv = GLHook_glRectdv @606
+    glRectf = GLHook_glRectf @607
+    glRectfv = GLHook_glRectfv @608
+    glRecti = GLHook_glRecti @609
+    glRectiv = GLHook_glRectiv @610
+    glRects = GLHook_glRects @611
+    glRectsv = GLHook_glRectsv @612
+    glRenderMode = GLHook_glRenderMode @613
+    glRotated = GLHook_glRotated @614
+    glRotatef = GLHook_glRotatef @615
+    glScaled = GLHook_glScaled @616
+    glScalef = GLHook_glScalef @617
+    glScissor = GLHook_glScissor @618
+    glSelectBuffer = GLHook_glSelectBuffer @619
+    glShadeModel = GLHook_glShadeModel @620
+    glStencilFunc = GLHook_glStencilFunc @621
+    glStencilMask = GLHook_glStencilMask @622
+    glStencilOp = GLHook_glStencilOp @623
+    glTexCoord1d = GLHook_glTexCoord1d @624
+    glTexCoord1dv = GLHook_glTexCoord1dv @625
+    glTexCoord1f = GLHook_glTexCoord1f @626
+    glTexCoord1fv = GLHook_glTexCoord1fv @627
+    glTexCoord1i = GLHook_glTexCoord1i @628
+    glTexCoord1iv = GLHook_glTexCoord1iv @629
+    glTexCoord1s = GLHook_glTexCoord1s @630
+    glTexCoord1sv = GLHook_glTexCoord1sv @631
+    glTexCoord2d = GLHook_glTexCoord2d @632
+    glTexCoord2dv = GLHook_glTexCoord2dv @633
+    glTexCoord2f = GLHook_glTexCoord2f @634
+    glTexCoord2fv = GLHook_glTexCoord2fv @635
+    glTexCoord2i = GLHook_glTexCoord2i @636
+    glTexCoord2iv = GLHook_glTexCoord2iv @637
+    glTexCoord2s = GLHook_glTexCoord2s @638
+    glTexCoord2sv = GLHook_glTexCoord2sv @639
+    glTexCoord3d = GLHook_glTexCoord3d @640
+    glTexCoord3dv = GLHook_glTexCoord3dv @641
+    glTexCoord3f = GLHook_glTexCoord3f @642
+    glTexCoord3fv = GLHook_glTexCoord3fv @643
+    glTexCoord3i = GLHook_glTexCoord3i @644
+    glTexCoord3iv = GLHook_glTexCoord3iv @645
+    glTexCoord3s = GLHook_glTexCoord3s @646
+    glTexCoord3sv = GLHook_glTexCoord3sv @647
+    glTexCoord4d = GLHook_glTexCoord4d @648
+    glTexCoord4dv = GLHook_glTexCoord4dv @649
+    glTexCoord4f = GLHook_glTexCoord4f @650
+    glTexCoord4fv = GLHook_glTexCoord4fv @651
+    glTexCoord4i = GLHook_glTexCoord4i @652
+    glTexCoord4iv = GLHook_glTexCoord4iv @653
+    glTexCoord4s = GLHook_glTexCoord4s @654
+    glTexCoord4sv = GLHook_glTexCoord4sv @655
+    glTexCoordPointer = GLHook_glTexCoordPointer @656
+    glTexEnvf = GLHook_glTexEnvf @657
+    glTexEnvfv = GLHook_glTexEnvfv @658
+    glTexEnvi = GLHook_glTexEnvi @659
+    glTexEnviv = GLHook_glTexEnviv @660
+    glTexGend = GLHook_glTexGend @661
+    glTexGendv = GLHook_glTexGendv @662
+    glTexGenf = GLHook_glTexGenf @663
+    glTexGenfv = GLHook_glTexGenfv @664
+    glTexGeni = GLHook_glTexGeni @665
+    glTexGeniv = GLHook_glTexGeniv @666
+    glTexImage1D = GLHook_glTexImage1D @667
+    glTexImage2D = GLHook_glTexImage2D @668
+    glTexParameterf = GLHook_glTexParameterf @669
+    glTexParameterfv = GLHook_glTexParameterfv @670
+    glTexParameteri = GLHook_glTexParameteri @671
+    glTexParameteriv = GLHook_glTexParameteriv @672
+    glTexSubImage1D = GLHook_glTexSubImage1D @673
+    glTexSubImage2D = GLHook_glTexSubImage2D @674
+    glTranslated = GLHook_glTranslated @675
+    glTranslatef = GLHook_glTranslatef @676
+    glVertex2d = GLHook_glVertex2d @677
+    glVertex2dv = GLHook_glVertex2dv @678
+    glVertex2f = GLHook_glVertex2f @679
+    glVertex2fv = GLHook_glVertex2fv @680
+    glVertex2i = GLHook_glVertex2i @681
+    glVertex2iv = GLHook_glVertex2iv @682
+    glVertex2s = GLHook_glVertex2s @683
+    glVertex2sv = GLHook_glVertex2sv @684
+    glVertex3d = GLHook_glVertex3d @685
+    glVertex3dv = GLHook_glVertex3dv @686
+    glVertex3f = GLHook_glVertex3f @687
+    glVertex3fv = GLHook_glVertex3fv @688
+    glVertex3i = GLHook_glVertex3i @689
+    glVertex3iv = GLHook_glVertex3iv @690
+    glVertex3s = GLHook_glVertex3s @691
+    glVertex3sv = GLHook_glVertex3sv @692
+    glVertex4d = GLHook_glVertex4d @693
+    glVertex4dv = GLHook_glVertex4dv @694
+    glVertex4f = GLHook_glVertex4f @695
+    glVertex4fv = GLHook_glVertex4fv @696
+    glVertex4i = GLHook_glVertex4i @697
+    glVertex4iv = GLHook_glVertex4iv @698
+    glVertex4s = GLHook_glVertex4s @699
+    glVertex4sv = GLHook_glVertex4sv @700
+    glVertexPointer = GLHook_glVertexPointer @701
+    glViewport = GLHook_glViewport @702
+    wglChoosePixelFormat = GLHook_wglChoosePixelFormat @703
+    wglCopyContext = GLHook_wglCopyContext @704
+    wglCreateContext = GLHook_wglCreateContext @705
+    wglCreateLayerContext = GLHook_wglCreateLayerContext @706
+    wglDeleteContext = GLHook_wglDeleteContext @707
+    wglDescribeLayerPlane = GLHook_wglDescribeLayerPlane @708
+    wglDescribePixelFormat = GLHook_wglDescribePixelFormat @709
+    wglGetCurrentContext = GLHook_wglGetCurrentContext @710
+    wglGetCurrentDC = GLHook_wglGetCurrentDC @711
+    wglGetDefaultProcAddress = GLHook_wglGetDefaultProcAddress @712
+    wglGetLayerPaletteEntries = GLHook_wglGetLayerPaletteEntries @713
+    wglGetPixelFormat = GLHook_wglGetPixelFormat @714
+    wglGetProcAddress = GLHook_wglGetProcAddress @715
+    wglMakeCurrent = GLHook_wglMakeCurrent @716
+    wglRealizeLayerPalette = GLHook_wglRealizeLayerPalette @717
+    wglSetLayerPaletteEntries = GLHook_wglSetLayerPaletteEntries @718
+    wglSetPixelFormat = GLHook_wglSetPixelFormat @719
+    wglShareLists = GLHook_wglShareLists @720
+    wglSwapBuffers = GLHook_wglSwapBuffers @721
+    wglSwapLayerBuffers = GLHook_wglSwapLayerBuffers @722
+    wglSwapMultipleBuffers = GLHook_wglSwapMultipleBuffers @723
+    wglUseFontBitmapsA = GLHook_wglUseFontBitmapsA @724
+    wglUseFontBitmapsW = GLHook_wglUseFontBitmapsW @725
+    wglUseFontOutlinesA = GLHook_wglUseFontOutlinesA @726
+    wglUseFontOutlinesW = GLHook_wglUseFontOutlinesW @727

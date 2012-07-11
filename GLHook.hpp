@@ -33,6 +33,9 @@ GL_EXPORT bool __stdcall DeInitialize(void);
 
                                     /**         TYPEDEFS: Start.         **/
 
+typedef void (WINAPI *ptr_glDebugEntry) (DWORD dwArg1, DWORD dwArg2);
+typedef void (WINAPI *ptr_wglSwapMultipleBuffers) (DWORD dwArg1, DWORD dwArg2);
+
 typedef void (WINAPI *ptr_glAccum) (GLenum op, GLfloat value);
 typedef void (WINAPI *ptr_glAlphaFunc) (GLenum func, GLclampf ref);
 typedef GLboolean (WINAPI *ptr_glAreTexturesResident) (GLsizei n, const GLuint *textures, GLboolean *residences);
@@ -252,6 +255,8 @@ typedef void (WINAPI *ptr_glIndexi) (GLint c);
 typedef void (WINAPI *ptr_glIndexiv) (const GLint *c);
 typedef void (WINAPI *ptr_glIndexs) (GLshort c);
 typedef void (WINAPI *ptr_glIndexsv) (const GLshort *c);
+typedef void (WINAPI *ptr_glIndexub) (GLubyte c);
+typedef void (WINAPI *ptr_glIndexubv) (const GLubyte *c);
 
 
                                     /**         TYPEDEFS: Continued        **/
@@ -542,6 +547,9 @@ typedef BOOL (WINAPI *ptr_wglUseFontOutlinesA) (HDC hdc, DWORD first, DWORD coun
 
                                     /**         NAMING: Start.       **/
 
+extern ptr_glDebugEntry               optr_glDebugEntry;
+extern ptr_wglSwapMultipleBuffers     optr_wglSwapMultipleBuffers;
+
 extern ptr_glAccum                    optr_glAccum;
 extern ptr_glAlphaFunc                optr_glAlphaFunc;
 extern ptr_glAreTexturesResident      optr_glAreTexturesResident;
@@ -761,6 +769,8 @@ extern ptr_glIndexi                   optr_glIndexi;
 extern ptr_glIndexiv                  optr_glIndexiv;
 extern ptr_glIndexs                   optr_glIndexs;
 extern ptr_glIndexsv                  optr_glIndexsv;
+extern ptr_glIndexub                  optr_glIndexub;
+extern ptr_glIndexubv                 optr_glIndexubv;
 
 
                                     /**         NAMING: Continued        **/

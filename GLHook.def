@@ -8,6 +8,8 @@ LIBRARY GLHook
 DESCRIPTION "GLHook Definition File"
 EXPORTS
 
+glDebugEntry               =    GLHook_glDebugEntry;
+wglSwapMultipleBuffers     =    GLHook_wglSwapMultipleBuffers;
 glAccum                    =    GLHook_glAccum;
 glAlphaFunc                =    GLHook_glAlphaFunc;
 glAreTexturesResident      =    GLHook_glAreTexturesResident;
@@ -145,6 +147,8 @@ glIndexi                   =    GLHook_glIndexi;
 glIndexiv                  =    GLHook_glIndexiv;
 glIndexs                   =    GLHook_glIndexs;
 glIndexsv                  =    GLHook_glIndexsv;
+glIndexub                  =    GLHook_glIndexub;
+glIndexubv                 =    GLHook_glIndexubv;
 glIndexMask                =    GLHook_glIndexMask;
 glIndexPointer             =    GLHook_glIndexPointer;
 glInitNames                =    GLHook_glInitNames;

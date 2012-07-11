@@ -1,19 +1,15 @@
 #include "main.h"
 #include "GLHook.hpp"
 
-void DLL_EXPORT SomeFunction(const LPCSTR sometext)
-{
-    MessageBox(NULL, "Attached", sometext, 0);
-}
-
 GL_EXPORT BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
     switch (fdwReason)
     {
         case DLL_PROCESS_ATTACH:
         {
-            DisableThreadLibraryCalls(OriginalGL);
-            SomeFunction("DLL Loaded.");
+            DisableThreadLibraryCalls(hinstDLL);
+            MessageBeep(0);
+
             return Initialize();
         }
         break;

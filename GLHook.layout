@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Release" />
-	<File name="GLHook.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="51597" topLine="3963" />
+	<ActiveTarget name="Debug" />
+	<File name="GLHook.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="306" topLine="0" />
 	</File>
 	<File name="GLHook.def" open="1" top="0" tabpos="4">
-		<Cursor position="14475" topLine="349" />
+		<Cursor position="19798" topLine="352" />
 	</File>
 	<File name="GLHook.hpp" open="1" top="0" tabpos="2">
-		<Cursor position="50328" topLine="1031" />
+		<Cursor position="56546" topLine="790" />
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="149" topLine="17" />
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="322" topLine="1" />
 	</File>
-	<File name="main.h" open="0" top="0" tabpos="2">
-		<Cursor position="332" topLine="9" />
+	<File name="main.h" open="1" top="0" tabpos="5">
+		<Cursor position="328" topLine="7" />
 	</File>
 </CodeBlocks_layout_file>
