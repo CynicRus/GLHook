@@ -26,8 +26,8 @@
                                     /**         VARIABLES: Start.        **/
 
 extern HMODULE OriginalGL;
-GL_EXPORT bool Initialize(void);
-GL_EXPORT bool DeInitialize(void);
+GL_EXPORT bool __stdcall Initialize(void);
+GL_EXPORT bool __stdcall DeInitialize(void);
 
                                     /**         VARIABLES: End.        **/
 
@@ -433,6 +433,7 @@ typedef void (WINAPI *ptr_glTexCoord1s) (GLshort s);
 typedef void (WINAPI *ptr_glTexCoord1sv) (const GLshort *v);
 typedef void (WINAPI *ptr_glTexCoord2d) (GLdouble s, GLdouble t);
 typedef void (WINAPI *ptr_glTexCoord2dv) (const GLdouble *v);
+typedef void (WINAPI *ptr_glTexCoord2f) (GLfloat s,  GLfloat t);
 typedef void (WINAPI *ptr_glTexCoord2fv) (const GLfloat *v);
 typedef void (WINAPI *ptr_glTexCoord2i) (GLint s, GLint t);
 typedef void (WINAPI *ptr_glTexCoord2iv) (const GLint *v);
@@ -941,6 +942,7 @@ extern ptr_glTexCoord1s               optr_glTexCoord1s;
 extern ptr_glTexCoord1sv              optr_glTexCoord1sv;
 extern ptr_glTexCoord2d               optr_glTexCoord2d;
 extern ptr_glTexCoord2dv              optr_glTexCoord2dv;
+extern ptr_glTexCoord2f               optr_glTexCoord2f;
 extern ptr_glTexCoord2fv              optr_glTexCoord2fv;
 extern ptr_glTexCoord2i               optr_glTexCoord2i;
 extern ptr_glTexCoord2iv              optr_glTexCoord2iv;

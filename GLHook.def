@@ -273,6 +273,7 @@ glTexCoord1s               =    GLHook_glTexCoord1s;
 glTexCoord1sv              =    GLHook_glTexCoord1sv;
 glTexCoord2d               =    GLHook_glTexCoord2d;
 glTexCoord2dv              =    GLHook_glTexCoord2dv;
+glTexCoord2f               =    GLHook_glTexCoord2f;
 glTexCoord2fv              =    GLHook_glTexCoord2fv;
 glTexCoord2i               =    GLHook_glTexCoord2i;
 glTexCoord2iv              =    GLHook_glTexCoord2iv;
