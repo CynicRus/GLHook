@@ -1,0 +1,3680 @@
+==================================================
+Function Name     : glAccum
+Address           : 0x00000001800dd350
+Relative Address  : 0x000dd350
+Ordinal           : 7 (0x7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glAlphaFunc
+Address           : 0x00000001800dd590
+Relative Address  : 0x000dd590
+Ordinal           : 8 (0x8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glAreTexturesResident
+Address           : 0x00000001800ddec0
+Relative Address  : 0x000ddec0
+Ordinal           : 9 (0x9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glArrayElement
+Address           : 0x00000001800dbe50
+Relative Address  : 0x000dbe50
+Ordinal           : 10 (0xa)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBegin
+Address           : 0x00000001800db570
+Relative Address  : 0x000db570
+Ordinal           : 11 (0xb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBindTexture
+Address           : 0x00000001800dbe60
+Relative Address  : 0x000dbe60
+Ordinal           : 12 (0xc)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBitmap
+Address           : 0x00000001800dc180
+Relative Address  : 0x000dc180
+Ordinal           : 13 (0xd)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBlendFunc
+Address           : 0x00000001800dd5c0
+Relative Address  : 0x000dd5c0
+Ordinal           : 14 (0xe)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCallList
+Address           : 0x00000001800db550
+Relative Address  : 0x000db550
+Ordinal           : 15 (0xf)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCallLists
+Address           : 0x00000001800db560
+Relative Address  : 0x000db560
+Ordinal           : 16 (0x10)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClear
+Address           : 0x00000001800dc060
+Relative Address  : 0x000dc060
+Ordinal           : 17 (0x11)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearAccum
+Address           : 0x00000001800dc090
+Relative Address  : 0x000dc090
+Ordinal           : 18 (0x12)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearColor
+Address           : 0x00000001800dc0f0
+Relative Address  : 0x000dc0f0
+Ordinal           : 19 (0x13)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearDepth
+Address           : 0x00000001800dc150
+Relative Address  : 0x000dc150
+Ordinal           : 20 (0x14)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearIndex
+Address           : 0x00000001800dc0c0
+Relative Address  : 0x000dc0c0
+Ordinal           : 21 (0x15)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearStencil
+Address           : 0x00000001800dc120
+Relative Address  : 0x000dc120
+Ordinal           : 22 (0x16)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClipPlane
+Address           : 0x00000001800dc990
+Relative Address  : 0x000dc990
+Ordinal           : 23 (0x17)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3b
+Address           : 0x00000001800db580
+Relative Address  : 0x000db580
+Ordinal           : 24 (0x18)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3bv
+Address           : 0x00000001800db590
+Relative Address  : 0x000db590
+Ordinal           : 25 (0x19)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3d
+Address           : 0x00000001800db5a0
+Relative Address  : 0x000db5a0
+Ordinal           : 26 (0x1a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3dv
+Address           : 0x00000001800db5b0
+Relative Address  : 0x000db5b0
+Ordinal           : 27 (0x1b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3f
+Address           : 0x00000001800db5c0
+Relative Address  : 0x000db5c0
+Ordinal           : 28 (0x1c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3fv
+Address           : 0x00000001800db5d0
+Relative Address  : 0x000db5d0
+Ordinal           : 29 (0x1d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3i
+Address           : 0x00000001800db5e0
+Relative Address  : 0x000db5e0
+Ordinal           : 30 (0x1e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3iv
+Address           : 0x00000001800db5f0
+Relative Address  : 0x000db5f0
+Ordinal           : 31 (0x1f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3s
+Address           : 0x00000001800db600
+Relative Address  : 0x000db600
+Ordinal           : 32 (0x20)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3sv
+Address           : 0x00000001800db610
+Relative Address  : 0x000db610
+Ordinal           : 33 (0x21)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ub
+Address           : 0x00000001800db620
+Relative Address  : 0x000db620
+Ordinal           : 34 (0x22)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ubv
+Address           : 0x00000001800db630
+Relative Address  : 0x000db630
+Ordinal           : 35 (0x23)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ui
+Address           : 0x00000001800db640
+Relative Address  : 0x000db640
+Ordinal           : 36 (0x24)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3uiv
+Address           : 0x00000001800db650
+Relative Address  : 0x000db650
+Ordinal           : 37 (0x25)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3us
+Address           : 0x00000001800db660
+Relative Address  : 0x000db660
+Ordinal           : 38 (0x26)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3usv
+Address           : 0x00000001800db670
+Relative Address  : 0x000db670
+Ordinal           : 39 (0x27)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4b
+Address           : 0x00000001800db680
+Relative Address  : 0x000db680
+Ordinal           : 40 (0x28)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4bv
+Address           : 0x00000001800db690
+Relative Address  : 0x000db690
+Ordinal           : 41 (0x29)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4d
+Address           : 0x00000001800db6a0
+Relative Address  : 0x000db6a0
+Ordinal           : 42 (0x2a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4dv
+Address           : 0x00000001800db6b0
+Relative Address  : 0x000db6b0
+Ordinal           : 43 (0x2b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4f
+Address           : 0x00000001800db6c0
+Relative Address  : 0x000db6c0
+Ordinal           : 44 (0x2c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4fv
+Address           : 0x00000001800db6d0
+Relative Address  : 0x000db6d0
+Ordinal           : 45 (0x2d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4i
+Address           : 0x00000001800db6e0
+Relative Address  : 0x000db6e0
+Ordinal           : 46 (0x2e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4iv
+Address           : 0x00000001800db6f0
+Relative Address  : 0x000db6f0
+Ordinal           : 47 (0x2f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4s
+Address           : 0x00000001800db700
+Relative Address  : 0x000db700
+Ordinal           : 48 (0x30)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4sv
+Address           : 0x00000001800db710
+Relative Address  : 0x000db710
+Ordinal           : 49 (0x31)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ub
+Address           : 0x00000001800db720
+Relative Address  : 0x000db720
+Ordinal           : 50 (0x32)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ubv
+Address           : 0x00000001800db730
+Relative Address  : 0x000db730
+Ordinal           : 51 (0x33)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ui
+Address           : 0x00000001800db740
+Relative Address  : 0x000db740
+Ordinal           : 52 (0x34)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4uiv
+Address           : 0x00000001800db750
+Relative Address  : 0x000db750
+Ordinal           : 53 (0x35)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4us
+Address           : 0x00000001800db760
+Relative Address  : 0x000db760
+Ordinal           : 54 (0x36)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4usv
+Address           : 0x00000001800db770
+Relative Address  : 0x000db770
+Ordinal           : 55 (0x37)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorMask
+Address           : 0x00000001800dd2c0
+Relative Address  : 0x000dd2c0
+Ordinal           : 56 (0x38)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorMaterial
+Address           : 0x00000001800dc9c0
+Relative Address  : 0x000dc9c0
+Ordinal           : 57 (0x39)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorPointer
+Address           : 0x00000001800dbe70
+Relative Address  : 0x000dbe70
+Ordinal           : 58 (0x3a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyPixels
+Address           : 0x00000001800dc210
+Relative Address  : 0x000dc210
+Ordinal           : 59 (0x3b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexImage1D
+Address           : 0x00000001800ddef0
+Relative Address  : 0x000ddef0
+Ordinal           : 60 (0x3c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexImage2D
+Address           : 0x00000001800ddf20
+Relative Address  : 0x000ddf20
+Ordinal           : 61 (0x3d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexSubImage1D
+Address           : 0x00000001800ddf50
+Relative Address  : 0x000ddf50
+Ordinal           : 62 (0x3e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexSubImage2D
+Address           : 0x00000001800ddf80
+Relative Address  : 0x000ddf80
+Ordinal           : 63 (0x3f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCullFace
+Address           : 0x00000001800dc9f0
+Relative Address  : 0x000dc9f0
+Ordinal           : 64 (0x40)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDebugEntry
+Address           : 0x000000018002aec0
+Relative Address  : 0x0002aec0
+Ordinal           : 65 (0x41)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDeleteLists
+Address           : 0x00000001800dc480
+Relative Address  : 0x000dc480
+Ordinal           : 66 (0x42)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDeleteTextures
+Address           : 0x00000001800ddfb0
+Relative Address  : 0x000ddfb0
+Ordinal           : 67 (0x43)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthFunc
+Address           : 0x00000001800dd680
+Relative Address  : 0x000dd680
+Ordinal           : 68 (0x44)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthMask
+Address           : 0x00000001800dd2f0
+Relative Address  : 0x000dd2f0
+Ordinal           : 69 (0x45)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthRange
+Address           : 0x00000001800dde00
+Relative Address  : 0x000dde00
+Ordinal           : 70 (0x46)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDisable
+Address           : 0x00000001800dbc90
+Relative Address  : 0x000dbc90
+Ordinal           : 71 (0x47)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDisableClientState
+Address           : 0x00000001800dbe80
+Relative Address  : 0x000dbe80
+Ordinal           : 72 (0x48)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawArrays
+Address           : 0x00000001800dbe90
+Relative Address  : 0x000dbe90
+Ordinal           : 73 (0x49)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawBuffer
+Address           : 0x00000001800dd260
+Relative Address  : 0x000dd260
+Ordinal           : 74 (0x4a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawElements
+Address           : 0x00000001800dbea0
+Relative Address  : 0x000dbea0
+Ordinal           : 75 (0x4b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawPixels
+Address           : 0x00000001800dc270
+Relative Address  : 0x000dc270
+Ordinal           : 76 (0x4c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlag
+Address           : 0x00000001800db780
+Relative Address  : 0x000db780
+Ordinal           : 77 (0x4d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlagPointer
+Address           : 0x00000001800dbeb0
+Relative Address  : 0x000dbeb0
+Ordinal           : 78 (0x4e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlagv
+Address           : 0x00000001800db790
+Relative Address  : 0x000db790
+Ordinal           : 79 (0x4f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnable
+Address           : 0x00000001800dbca0
+Relative Address  : 0x000dbca0
+Ordinal           : 80 (0x50)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnableClientState
+Address           : 0x00000001800dbec0
+Relative Address  : 0x000dbec0
+Ordinal           : 81 (0x51)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnd
+Address           : 0x00000001800db7a0
+Relative Address  : 0x000db7a0
+Ordinal           : 82 (0x52)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEndList
+Address           : 0x00000001800dc450
+Relative Address  : 0x000dc450
+Ordinal           : 83 (0x53)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1d
+Address           : 0x00000001800dbcd0
+Relative Address  : 0x000dbcd0
+Ordinal           : 84 (0x54)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1dv
+Address           : 0x00000001800dbce0
+Relative Address  : 0x000dbce0
+Ordinal           : 85 (0x55)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1f
+Address           : 0x00000001800dbcf0
+Relative Address  : 0x000dbcf0
+Ordinal           : 86 (0x56)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1fv
+Address           : 0x00000001800dbd00
+Relative Address  : 0x000dbd00
+Ordinal           : 87 (0x57)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2d
+Address           : 0x00000001800dbd10
+Relative Address  : 0x000dbd10
+Ordinal           : 88 (0x58)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2dv
+Address           : 0x00000001800dbd20
+Relative Address  : 0x000dbd20
+Ordinal           : 89 (0x59)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2f
+Address           : 0x00000001800dbd30
+Relative Address  : 0x000dbd30
+Ordinal           : 90 (0x5a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2fv
+Address           : 0x00000001800dbd40
+Relative Address  : 0x000dbd40
+Ordinal           : 91 (0x5b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalMesh1
+Address           : 0x00000001800dd530
+Relative Address  : 0x000dd530
+Ordinal           : 92 (0x5c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalMesh2
+Address           : 0x00000001800dd560
+Relative Address  : 0x000dd560
+Ordinal           : 93 (0x5d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalPoint1
+Address           : 0x00000001800dbd50
+Relative Address  : 0x000dbd50
+Ordinal           : 94 (0x5e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalPoint2
+Address           : 0x00000001800dbd60
+Relative Address  : 0x000dbd60
+Ordinal           : 95 (0x5f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFeedbackBuffer
+Address           : 0x00000001800dd0e0
+Relative Address  : 0x000dd0e0
+Ordinal           : 96 (0x60)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFinish
+Address           : 0x00000001800dcde0
+Relative Address  : 0x000dcde0
+Ordinal           : 97 (0x61)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFlush
+Address           : 0x00000001800dd380
+Relative Address  : 0x000dd380
+Ordinal           : 98 (0x62)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogf
+Address           : 0x00000001800dca20
+Relative Address  : 0x000dca20
+Ordinal           : 99 (0x63)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogfv
+Address           : 0x00000001800dca50
+Relative Address  : 0x000dca50
+Ordinal           : 100 (0x64)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogi
+Address           : 0x00000001800dca80
+Relative Address  : 0x000dca80
+Ordinal           : 101 (0x65)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogiv
+Address           : 0x00000001800dcab0
+Relative Address  : 0x000dcab0
+Ordinal           : 102 (0x66)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFrontFace
+Address           : 0x00000001800dcae0
+Relative Address  : 0x000dcae0
+Ordinal           : 103 (0x67)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFrustum
+Address           : 0x00000001800dde30
+Relative Address  : 0x000dde30
+Ordinal           : 104 (0x68)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGenLists
+Address           : 0x00000001800dc4b0
+Relative Address  : 0x000dc4b0
+Ordinal           : 105 (0x69)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGenTextures
+Address           : 0x00000001800ddfe0
+Relative Address  : 0x000ddfe0
+Ordinal           : 106 (0x6a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetBooleanv
+Address           : 0x00000001800dd860
+Relative Address  : 0x000dd860
+Ordinal           : 107 (0x6b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetClipPlane
+Address           : 0x00000001800dd890
+Relative Address  : 0x000dd890
+Ordinal           : 108 (0x6c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetDoublev
+Address           : 0x00000001800dd8c0
+Relative Address  : 0x000dd8c0
+Ordinal           : 109 (0x6d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetError
+Address           : 0x00000001800dd8f0
+Relative Address  : 0x000dd8f0
+Ordinal           : 110 (0x6e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetFloatv
+Address           : 0x00000001800dd920
+Relative Address  : 0x000dd920
+Ordinal           : 111 (0x6f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetIntegerv
+Address           : 0x00000001800dd950
+Relative Address  : 0x000dd950
+Ordinal           : 112 (0x70)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetLightfv
+Address           : 0x00000001800dd980
+Relative Address  : 0x000dd980
+Ordinal           : 113 (0x71)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetLightiv
+Address           : 0x00000001800dd9b0
+Relative Address  : 0x000dd9b0
+Ordinal           : 114 (0x72)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapdv
+Address           : 0x00000001800dd9e0
+Relative Address  : 0x000dd9e0
+Ordinal           : 115 (0x73)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapfv
+Address           : 0x00000001800dda10
+Relative Address  : 0x000dda10
+Ordinal           : 116 (0x74)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapiv
+Address           : 0x00000001800dda40
+Relative Address  : 0x000dda40
+Ordinal           : 117 (0x75)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMaterialfv
+Address           : 0x00000001800dda70
+Relative Address  : 0x000dda70
+Ordinal           : 118 (0x76)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMaterialiv
+Address           : 0x00000001800ddaa0
+Relative Address  : 0x000ddaa0
+Ordinal           : 119 (0x77)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapfv
+Address           : 0x00000001800ddad0
+Relative Address  : 0x000ddad0
+Ordinal           : 120 (0x78)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapuiv
+Address           : 0x00000001800ddb00
+Relative Address  : 0x000ddb00
+Ordinal           : 121 (0x79)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapusv
+Address           : 0x00000001800ddb30
+Relative Address  : 0x000ddb30
+Ordinal           : 122 (0x7a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPointerv
+Address           : 0x00000001800dbf50
+Relative Address  : 0x000dbf50
+Ordinal           : 123 (0x7b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPolygonStipple
+Address           : 0x00000001800ddb60
+Relative Address  : 0x000ddb60
+Ordinal           : 124 (0x7c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetString
+Address           : 0x00000001800ddb90
+Relative Address  : 0x000ddb90
+Ordinal           : 125 (0x7d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexEnvfv
+Address           : 0x00000001800ddbc0
+Relative Address  : 0x000ddbc0
+Ordinal           : 126 (0x7e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexEnviv
+Address           : 0x00000001800ddbf0
+Relative Address  : 0x000ddbf0
+Ordinal           : 127 (0x7f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGendv
+Address           : 0x00000001800ddc20
+Relative Address  : 0x000ddc20
+Ordinal           : 128 (0x80)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGenfv
+Address           : 0x00000001800ddc50
+Relative Address  : 0x000ddc50
+Ordinal           : 129 (0x81)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGeniv
+Address           : 0x00000001800ddc80
+Relative Address  : 0x000ddc80
+Ordinal           : 130 (0x82)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexImage
+Address           : 0x00000001800ddcb0
+Relative Address  : 0x000ddcb0
+Ordinal           : 131 (0x83)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexLevelParameterfv
+Address           : 0x00000001800ddd40
+Relative Address  : 0x000ddd40
+Ordinal           : 132 (0x84)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexLevelParameteriv
+Address           : 0x00000001800ddd70
+Relative Address  : 0x000ddd70
+Ordinal           : 133 (0x85)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexParameterfv
+Address           : 0x00000001800ddce0
+Relative Address  : 0x000ddce0
+Ordinal           : 134 (0x86)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexParameteriv
+Address           : 0x00000001800ddd10
+Relative Address  : 0x000ddd10
+Ordinal           : 135 (0x87)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glHint
+Address           : 0x00000001800dcb10
+Relative Address  : 0x000dcb10
+Ordinal           : 136 (0x88)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexd
+Address           : 0x00000001800db7b0
+Relative Address  : 0x000db7b0
+Ordinal           : 139 (0x8b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexdv
+Address           : 0x00000001800db7c0
+Relative Address  : 0x000db7c0
+Ordinal           : 140 (0x8c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexf
+Address           : 0x00000001800db7d0
+Relative Address  : 0x000db7d0
+Ordinal           : 141 (0x8d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexfv
+Address           : 0x00000001800db7e0
+Relative Address  : 0x000db7e0
+Ordinal           : 142 (0x8e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexi
+Address           : 0x00000001800db7f0
+Relative Address  : 0x000db7f0
+Ordinal           : 143 (0x8f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexiv
+Address           : 0x00000001800db800
+Relative Address  : 0x000db800
+Ordinal           : 144 (0x90)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexMask
+Address           : 0x00000001800dd320
+Relative Address  : 0x000dd320
+Ordinal           : 137 (0x89)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexPointer
+Address           : 0x00000001800dbed0
+Relative Address  : 0x000dbed0
+Ordinal           : 138 (0x8a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexs
+Address           : 0x00000001800db810
+Relative Address  : 0x000db810
+Ordinal           : 145 (0x91)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexsv
+Address           : 0x00000001800db820
+Relative Address  : 0x000db820
+Ordinal           : 146 (0x92)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexub
+Address           : 0x00000001800dbee0
+Relative Address  : 0x000dbee0
+Ordinal           : 147 (0x93)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexubv
+Address           : 0x00000001800dbef0
+Relative Address  : 0x000dbef0
+Ordinal           : 148 (0x94)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glInitNames
+Address           : 0x00000001800dd170
+Relative Address  : 0x000dd170
+Ordinal           : 149 (0x95)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glInterleavedArrays
+Address           : 0x00000001800dbf00
+Relative Address  : 0x000dbf00
+Ordinal           : 150 (0x96)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsEnabled
+Address           : 0x00000001800ddda0
+Relative Address  : 0x000ddda0
+Ordinal           : 151 (0x97)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsList
+Address           : 0x00000001800dddd0
+Relative Address  : 0x000dddd0
+Ordinal           : 152 (0x98)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsTexture
+Address           : 0x00000001800de010
+Relative Address  : 0x000de010
+Ordinal           : 153 (0x99)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightf
+Address           : 0x00000001800dcb40
+Relative Address  : 0x000dcb40
+Ordinal           : 158 (0x9e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightfv
+Address           : 0x00000001800dcb70
+Relative Address  : 0x000dcb70
+Ordinal           : 159 (0x9f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLighti
+Address           : 0x00000001800dcba0
+Relative Address  : 0x000dcba0
+Ordinal           : 160 (0xa0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightiv
+Address           : 0x00000001800dcbd0
+Relative Address  : 0x000dcbd0
+Ordinal           : 161 (0xa1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModelf
+Address           : 0x00000001800dcc00
+Relative Address  : 0x000dcc00
+Ordinal           : 154 (0x9a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModelfv
+Address           : 0x00000001800dcc30
+Relative Address  : 0x000dcc30
+Ordinal           : 155 (0x9b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModeli
+Address           : 0x00000001800dcc60
+Relative Address  : 0x000dcc60
+Ordinal           : 156 (0x9c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModeliv
+Address           : 0x00000001800dcc90
+Relative Address  : 0x000dcc90
+Ordinal           : 157 (0x9d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLineStipple
+Address           : 0x00000001800dccc0
+Relative Address  : 0x000dccc0
+Ordinal           : 162 (0xa2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLineWidth
+Address           : 0x00000001800dccf0
+Relative Address  : 0x000dccf0
+Ordinal           : 163 (0xa3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glListBase
+Address           : 0x00000001800dc4e0
+Relative Address  : 0x000dc4e0
+Ordinal           : 164 (0xa4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadIdentity
+Address           : 0x00000001800dbd70
+Relative Address  : 0x000dbd70
+Ordinal           : 165 (0xa5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadMatrixd
+Address           : 0x00000001800dbd90
+Relative Address  : 0x000dbd90
+Ordinal           : 166 (0xa6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadMatrixf
+Address           : 0x00000001800dbd80
+Relative Address  : 0x000dbd80
+Ordinal           : 167 (0xa7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadName
+Address           : 0x00000001800dd1a0
+Relative Address  : 0x000dd1a0
+Ordinal           : 168 (0xa8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLogicOp
+Address           : 0x00000001800dd5f0
+Relative Address  : 0x000dd5f0
+Ordinal           : 169 (0xa9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap1d
+Address           : 0x00000001800dd3b0
+Relative Address  : 0x000dd3b0
+Ordinal           : 170 (0xaa)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap1f
+Address           : 0x00000001800dd3e0
+Relative Address  : 0x000dd3e0
+Ordinal           : 171 (0xab)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap2d
+Address           : 0x00000001800dd410
+Relative Address  : 0x000dd410
+Ordinal           : 172 (0xac)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap2f
+Address           : 0x00000001800dd440
+Relative Address  : 0x000dd440
+Ordinal           : 173 (0xad)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid1d
+Address           : 0x00000001800dd470
+Relative Address  : 0x000dd470
+Ordinal           : 174 (0xae)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid1f
+Address           : 0x00000001800dd4a0
+Relative Address  : 0x000dd4a0
+Ordinal           : 175 (0xaf)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid2d
+Address           : 0x00000001800dd4d0
+Relative Address  : 0x000dd4d0
+Ordinal           : 176 (0xb0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid2f
+Address           : 0x00000001800dd500
+Relative Address  : 0x000dd500
+Ordinal           : 177 (0xb1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialf
+Address           : 0x00000001800dbc50
+Relative Address  : 0x000dbc50
+Ordinal           : 178 (0xb2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialfv
+Address           : 0x00000001800dbc60
+Relative Address  : 0x000dbc60
+Ordinal           : 179 (0xb3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMateriali
+Address           : 0x00000001800dbc70
+Relative Address  : 0x000dbc70
+Ordinal           : 180 (0xb4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialiv
+Address           : 0x00000001800dbc80
+Relative Address  : 0x000dbc80
+Ordinal           : 181 (0xb5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMatrixMode
+Address           : 0x00000001800dbda0
+Relative Address  : 0x000dbda0
+Ordinal           : 182 (0xb6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfBeginGlsBlock
+Address           : 0x00000001800276a0
+Relative Address  : 0x000276a0
+Ordinal           : 1 (0x1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfCloseMetaFile
+Address           : 0x0000000180027940
+Relative Address  : 0x00027940
+Ordinal           : 2 (0x2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfEndGlsBlock
+Address           : 0x0000000180027880
+Relative Address  : 0x00027880
+Ordinal           : 3 (0x3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfEndPlayback
+Address           : 0x00000001800278c0
+Relative Address  : 0x000278c0
+Ordinal           : 4 (0x4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfInitPlayback
+Address           : 0x0000000180027520
+Relative Address  : 0x00027520
+Ordinal           : 5 (0x5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : GlmfPlayGlsRecord
+Address           : 0x0000000180027700
+Relative Address  : 0x00027700
+Ordinal           : 6 (0x6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMultMatrixd
+Address           : 0x00000001800dbdc0
+Relative Address  : 0x000dbdc0
+Ordinal           : 183 (0xb7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMultMatrixf
+Address           : 0x00000001800dbdb0
+Relative Address  : 0x000dbdb0
+Ordinal           : 184 (0xb8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNewList
+Address           : 0x00000001800dc420
+Relative Address  : 0x000dc420
+Ordinal           : 185 (0xb9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3b
+Address           : 0x00000001800db830
+Relative Address  : 0x000db830
+Ordinal           : 186 (0xba)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3bv
+Address           : 0x00000001800db840
+Relative Address  : 0x000db840
+Ordinal           : 187 (0xbb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3d
+Address           : 0x00000001800db850
+Relative Address  : 0x000db850
+Ordinal           : 188 (0xbc)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3dv
+Address           : 0x00000001800db860
+Relative Address  : 0x000db860
+Ordinal           : 189 (0xbd)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3f
+Address           : 0x00000001800db870
+Relative Address  : 0x000db870
+Ordinal           : 190 (0xbe)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3fv
+Address           : 0x00000001800db880
+Relative Address  : 0x000db880
+Ordinal           : 191 (0xbf)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3i
+Address           : 0x00000001800db890
+Relative Address  : 0x000db890
+Ordinal           : 192 (0xc0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3iv
+Address           : 0x00000001800db8a0
+Relative Address  : 0x000db8a0
+Ordinal           : 193 (0xc1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3s
+Address           : 0x00000001800db8b0
+Relative Address  : 0x000db8b0
+Ordinal           : 194 (0xc2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3sv
+Address           : 0x00000001800db8c0
+Relative Address  : 0x000db8c0
+Ordinal           : 195 (0xc3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormalPointer
+Address           : 0x00000001800dbf10
+Relative Address  : 0x000dbf10
+Ordinal           : 196 (0xc4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glOrtho
+Address           : 0x00000001800dde60
+Relative Address  : 0x000dde60
+Ordinal           : 197 (0xc5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPassThrough
+Address           : 0x00000001800dd1d0
+Relative Address  : 0x000dd1d0
+Ordinal           : 198 (0xc6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapfv
+Address           : 0x00000001800dd7a0
+Relative Address  : 0x000dd7a0
+Ordinal           : 199 (0xc7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapuiv
+Address           : 0x00000001800dd7d0
+Relative Address  : 0x000dd7d0
+Ordinal           : 200 (0xc8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapusv
+Address           : 0x00000001800dd800
+Relative Address  : 0x000dd800
+Ordinal           : 201 (0xc9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelStoref
+Address           : 0x00000001800dd740
+Relative Address  : 0x000dd740
+Ordinal           : 202 (0xca)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelStorei
+Address           : 0x00000001800dd770
+Relative Address  : 0x000dd770
+Ordinal           : 203 (0xcb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelTransferf
+Address           : 0x00000001800dd6e0
+Relative Address  : 0x000dd6e0
+Ordinal           : 204 (0xcc)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelTransferi
+Address           : 0x00000001800dd710
+Relative Address  : 0x000dd710
+Ordinal           : 205 (0xcd)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelZoom
+Address           : 0x00000001800dd6b0
+Relative Address  : 0x000dd6b0
+Ordinal           : 206 (0xce)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPointSize
+Address           : 0x00000001800dcd20
+Relative Address  : 0x000dcd20
+Ordinal           : 207 (0xcf)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonMode
+Address           : 0x00000001800dcd50
+Relative Address  : 0x000dcd50
+Ordinal           : 208 (0xd0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonOffset
+Address           : 0x00000001800dbf20
+Relative Address  : 0x000dbf20
+Ordinal           : 209 (0xd1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonStipple
+Address           : 0x00000001800dcd80
+Relative Address  : 0x000dcd80
+Ordinal           : 210 (0xd2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopAttrib
+Address           : 0x00000001800dbcb0
+Relative Address  : 0x000dbcb0
+Ordinal           : 211 (0xd3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopClientAttrib
+Address           : 0x00000001800dbf60
+Relative Address  : 0x000dbf60
+Ordinal           : 212 (0xd4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopMatrix
+Address           : 0x00000001800dbdd0
+Relative Address  : 0x000dbdd0
+Ordinal           : 213 (0xd5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopName
+Address           : 0x00000001800dd200
+Relative Address  : 0x000dd200
+Ordinal           : 214 (0xd6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPrioritizeTextures
+Address           : 0x00000001800de040
+Relative Address  : 0x000de040
+Ordinal           : 215 (0xd7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushAttrib
+Address           : 0x00000001800dbcc0
+Relative Address  : 0x000dbcc0
+Ordinal           : 216 (0xd8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushClientAttrib
+Address           : 0x00000001800dbf70
+Relative Address  : 0x000dbf70
+Ordinal           : 217 (0xd9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushMatrix
+Address           : 0x00000001800dbde0
+Relative Address  : 0x000dbde0
+Ordinal           : 218 (0xda)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushName
+Address           : 0x00000001800dd230
+Relative Address  : 0x000dd230
+Ordinal           : 219 (0xdb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2d
+Address           : 0x00000001800dc510
+Relative Address  : 0x000dc510
+Ordinal           : 220 (0xdc)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2dv
+Address           : 0x00000001800dc540
+Relative Address  : 0x000dc540
+Ordinal           : 221 (0xdd)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2f
+Address           : 0x00000001800dc570
+Relative Address  : 0x000dc570
+Ordinal           : 222 (0xde)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2fv
+Address           : 0x00000001800dc5a0
+Relative Address  : 0x000dc5a0
+Ordinal           : 223 (0xdf)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2i
+Address           : 0x00000001800dc5d0
+Relative Address  : 0x000dc5d0
+Ordinal           : 224 (0xe0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2iv
+Address           : 0x00000001800dc600
+Relative Address  : 0x000dc600
+Ordinal           : 225 (0xe1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2s
+Address           : 0x00000001800dc630
+Relative Address  : 0x000dc630
+Ordinal           : 226 (0xe2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2sv
+Address           : 0x00000001800dc660
+Relative Address  : 0x000dc660
+Ordinal           : 227 (0xe3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3d
+Address           : 0x00000001800dc690
+Relative Address  : 0x000dc690
+Ordinal           : 228 (0xe4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3dv
+Address           : 0x00000001800dc6c0
+Relative Address  : 0x000dc6c0
+Ordinal           : 229 (0xe5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3f
+Address           : 0x00000001800dc6f0
+Relative Address  : 0x000dc6f0
+Ordinal           : 230 (0xe6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3fv
+Address           : 0x00000001800dc720
+Relative Address  : 0x000dc720
+Ordinal           : 231 (0xe7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3i
+Address           : 0x00000001800dc750
+Relative Address  : 0x000dc750
+Ordinal           : 232 (0xe8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3iv
+Address           : 0x00000001800dc780
+Relative Address  : 0x000dc780
+Ordinal           : 233 (0xe9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3s
+Address           : 0x00000001800dc7b0
+Relative Address  : 0x000dc7b0
+Ordinal           : 234 (0xea)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3sv
+Address           : 0x00000001800dc7e0
+Relative Address  : 0x000dc7e0
+Ordinal           : 235 (0xeb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4d
+Address           : 0x00000001800dc810
+Relative Address  : 0x000dc810
+Ordinal           : 236 (0xec)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4dv
+Address           : 0x00000001800dc840
+Relative Address  : 0x000dc840
+Ordinal           : 237 (0xed)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4f
+Address           : 0x00000001800dc870
+Relative Address  : 0x000dc870
+Ordinal           : 238 (0xee)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4fv
+Address           : 0x00000001800dc8a0
+Relative Address  : 0x000dc8a0
+Ordinal           : 239 (0xef)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4i
+Address           : 0x00000001800dc8d0
+Relative Address  : 0x000dc8d0
+Ordinal           : 240 (0xf0)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4iv
+Address           : 0x00000001800dc900
+Relative Address  : 0x000dc900
+Ordinal           : 241 (0xf1)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4s
+Address           : 0x00000001800dc930
+Relative Address  : 0x000dc930
+Ordinal           : 242 (0xf2)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4sv
+Address           : 0x00000001800dc960
+Relative Address  : 0x000dc960
+Ordinal           : 243 (0xf3)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glReadBuffer
+Address           : 0x00000001800dd830
+Relative Address  : 0x000dd830
+Ordinal           : 244 (0xf4)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glReadPixels
+Address           : 0x00000001800dc240
+Relative Address  : 0x000dc240
+Ordinal           : 245 (0xf5)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectd
+Address           : 0x00000001800dc2a0
+Relative Address  : 0x000dc2a0
+Ordinal           : 246 (0xf6)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectdv
+Address           : 0x00000001800dc2d0
+Relative Address  : 0x000dc2d0
+Ordinal           : 247 (0xf7)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectf
+Address           : 0x00000001800dc300
+Relative Address  : 0x000dc300
+Ordinal           : 248 (0xf8)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectfv
+Address           : 0x00000001800dc330
+Relative Address  : 0x000dc330
+Ordinal           : 249 (0xf9)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRecti
+Address           : 0x00000001800dc360
+Relative Address  : 0x000dc360
+Ordinal           : 250 (0xfa)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectiv
+Address           : 0x00000001800dc390
+Relative Address  : 0x000dc390
+Ordinal           : 251 (0xfb)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRects
+Address           : 0x00000001800dc3c0
+Relative Address  : 0x000dc3c0
+Ordinal           : 252 (0xfc)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectsv
+Address           : 0x00000001800dc3f0
+Relative Address  : 0x000dc3f0
+Ordinal           : 253 (0xfd)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRenderMode
+Address           : 0x00000001800dd140
+Relative Address  : 0x000dd140
+Ordinal           : 254 (0xfe)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRotated
+Address           : 0x00000001800dbdf0
+Relative Address  : 0x000dbdf0
+Ordinal           : 255 (0xff)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRotatef
+Address           : 0x00000001800dbe00
+Relative Address  : 0x000dbe00
+Ordinal           : 256 (0x100)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScaled
+Address           : 0x00000001800dbe10
+Relative Address  : 0x000dbe10
+Ordinal           : 257 (0x101)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScalef
+Address           : 0x00000001800dbe20
+Relative Address  : 0x000dbe20
+Ordinal           : 258 (0x102)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScissor
+Address           : 0x00000001800dcdb0
+Relative Address  : 0x000dcdb0
+Ordinal           : 259 (0x103)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glSelectBuffer
+Address           : 0x00000001800dd110
+Relative Address  : 0x000dd110
+Ordinal           : 260 (0x104)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glShadeModel
+Address           : 0x00000001800dce10
+Relative Address  : 0x000dce10
+Ordinal           : 261 (0x105)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilFunc
+Address           : 0x00000001800dd620
+Relative Address  : 0x000dd620
+Ordinal           : 262 (0x106)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilMask
+Address           : 0x00000001800dd290
+Relative Address  : 0x000dd290
+Ordinal           : 263 (0x107)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilOp
+Address           : 0x00000001800dd650
+Relative Address  : 0x000dd650
+Ordinal           : 264 (0x108)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1d
+Address           : 0x00000001800db8d0
+Relative Address  : 0x000db8d0
+Ordinal           : 265 (0x109)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1dv
+Address           : 0x00000001800db8e0
+Relative Address  : 0x000db8e0
+Ordinal           : 266 (0x10a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1f
+Address           : 0x00000001800db8f0
+Relative Address  : 0x000db8f0
+Ordinal           : 267 (0x10b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1fv
+Address           : 0x00000001800db900
+Relative Address  : 0x000db900
+Ordinal           : 268 (0x10c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1i
+Address           : 0x00000001800db910
+Relative Address  : 0x000db910
+Ordinal           : 269 (0x10d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1iv
+Address           : 0x00000001800db920
+Relative Address  : 0x000db920
+Ordinal           : 270 (0x10e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1s
+Address           : 0x00000001800db930
+Relative Address  : 0x000db930
+Ordinal           : 271 (0x10f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1sv
+Address           : 0x00000001800db940
+Relative Address  : 0x000db940
+Ordinal           : 272 (0x110)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2d
+Address           : 0x00000001800db950
+Relative Address  : 0x000db950
+Ordinal           : 273 (0x111)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2dv
+Address           : 0x00000001800db960
+Relative Address  : 0x000db960
+Ordinal           : 274 (0x112)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2f
+Address           : 0x00000001800db970
+Relative Address  : 0x000db970
+Ordinal           : 275 (0x113)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2fv
+Address           : 0x00000001800db980
+Relative Address  : 0x000db980
+Ordinal           : 276 (0x114)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2i
+Address           : 0x00000001800db990
+Relative Address  : 0x000db990
+Ordinal           : 277 (0x115)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2iv
+Address           : 0x00000001800db9a0
+Relative Address  : 0x000db9a0
+Ordinal           : 278 (0x116)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2s
+Address           : 0x00000001800db9b0
+Relative Address  : 0x000db9b0
+Ordinal           : 279 (0x117)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2sv
+Address           : 0x00000001800db9c0
+Relative Address  : 0x000db9c0
+Ordinal           : 280 (0x118)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3d
+Address           : 0x00000001800db9d0
+Relative Address  : 0x000db9d0
+Ordinal           : 281 (0x119)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3dv
+Address           : 0x00000001800db9e0
+Relative Address  : 0x000db9e0
+Ordinal           : 282 (0x11a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3f
+Address           : 0x00000001800db9f0
+Relative Address  : 0x000db9f0
+Ordinal           : 283 (0x11b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3fv
+Address           : 0x00000001800dba00
+Relative Address  : 0x000dba00
+Ordinal           : 284 (0x11c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3i
+Address           : 0x00000001800dba10
+Relative Address  : 0x000dba10
+Ordinal           : 285 (0x11d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3iv
+Address           : 0x00000001800dba20
+Relative Address  : 0x000dba20
+Ordinal           : 286 (0x11e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3s
+Address           : 0x00000001800dba30
+Relative Address  : 0x000dba30
+Ordinal           : 287 (0x11f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3sv
+Address           : 0x00000001800dba40
+Relative Address  : 0x000dba40
+Ordinal           : 288 (0x120)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4d
+Address           : 0x00000001800dba50
+Relative Address  : 0x000dba50
+Ordinal           : 289 (0x121)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4dv
+Address           : 0x00000001800dba60
+Relative Address  : 0x000dba60
+Ordinal           : 290 (0x122)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4f
+Address           : 0x00000001800dba70
+Relative Address  : 0x000dba70
+Ordinal           : 291 (0x123)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4fv
+Address           : 0x00000001800dba80
+Relative Address  : 0x000dba80
+Ordinal           : 292 (0x124)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4i
+Address           : 0x00000001800dba90
+Relative Address  : 0x000dba90
+Ordinal           : 293 (0x125)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4iv
+Address           : 0x00000001800dbaa0
+Relative Address  : 0x000dbaa0
+Ordinal           : 294 (0x126)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4s
+Address           : 0x00000001800dbab0
+Relative Address  : 0x000dbab0
+Ordinal           : 295 (0x127)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4sv
+Address           : 0x00000001800dbac0
+Relative Address  : 0x000dbac0
+Ordinal           : 296 (0x128)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoordPointer
+Address           : 0x00000001800dbf30
+Relative Address  : 0x000dbf30
+Ordinal           : 297 (0x129)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvf
+Address           : 0x00000001800dcf00
+Relative Address  : 0x000dcf00
+Ordinal           : 298 (0x12a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvfv
+Address           : 0x00000001800dcf30
+Relative Address  : 0x000dcf30
+Ordinal           : 299 (0x12b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvi
+Address           : 0x00000001800dcf60
+Relative Address  : 0x000dcf60
+Ordinal           : 300 (0x12c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnviv
+Address           : 0x00000001800dcf90
+Relative Address  : 0x000dcf90
+Ordinal           : 301 (0x12d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGend
+Address           : 0x00000001800dcfc0
+Relative Address  : 0x000dcfc0
+Ordinal           : 302 (0x12e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGendv
+Address           : 0x00000001800dcff0
+Relative Address  : 0x000dcff0
+Ordinal           : 303 (0x12f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGenf
+Address           : 0x00000001800dd020
+Relative Address  : 0x000dd020
+Ordinal           : 304 (0x130)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGenfv
+Address           : 0x00000001800dd050
+Relative Address  : 0x000dd050
+Ordinal           : 305 (0x131)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGeni
+Address           : 0x00000001800dd080
+Relative Address  : 0x000dd080
+Ordinal           : 306 (0x132)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGeniv
+Address           : 0x00000001800dd0b0
+Relative Address  : 0x000dd0b0
+Ordinal           : 307 (0x133)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexImage1D
+Address           : 0x00000001800dc1b0
+Relative Address  : 0x000dc1b0
+Ordinal           : 308 (0x134)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexImage2D
+Address           : 0x00000001800dc1e0
+Relative Address  : 0x000dc1e0
+Ordinal           : 309 (0x135)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameterf
+Address           : 0x00000001800dce40
+Relative Address  : 0x000dce40
+Ordinal           : 310 (0x136)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameterfv
+Address           : 0x00000001800dce70
+Relative Address  : 0x000dce70
+Ordinal           : 311 (0x137)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameteri
+Address           : 0x00000001800dcea0
+Relative Address  : 0x000dcea0
+Ordinal           : 312 (0x138)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameteriv
+Address           : 0x00000001800dced0
+Relative Address  : 0x000dced0
+Ordinal           : 313 (0x139)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexSubImage1D
+Address           : 0x00000001800de070
+Relative Address  : 0x000de070
+Ordinal           : 314 (0x13a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexSubImage2D
+Address           : 0x00000001800de0a0
+Relative Address  : 0x000de0a0
+Ordinal           : 315 (0x13b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTranslated
+Address           : 0x00000001800dbe30
+Relative Address  : 0x000dbe30
+Ordinal           : 316 (0x13c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTranslatef
+Address           : 0x00000001800dbe40
+Relative Address  : 0x000dbe40
+Ordinal           : 317 (0x13d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2d
+Address           : 0x00000001800dbad0
+Relative Address  : 0x000dbad0
+Ordinal           : 318 (0x13e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2dv
+Address           : 0x00000001800dbae0
+Relative Address  : 0x000dbae0
+Ordinal           : 319 (0x13f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2f
+Address           : 0x00000001800dbaf0
+Relative Address  : 0x000dbaf0
+Ordinal           : 320 (0x140)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2fv
+Address           : 0x00000001800dbb00
+Relative Address  : 0x000dbb00
+Ordinal           : 321 (0x141)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2i
+Address           : 0x00000001800dbb10
+Relative Address  : 0x000dbb10
+Ordinal           : 322 (0x142)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2iv
+Address           : 0x00000001800dbb20
+Relative Address  : 0x000dbb20
+Ordinal           : 323 (0x143)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2s
+Address           : 0x00000001800dbb30
+Relative Address  : 0x000dbb30
+Ordinal           : 324 (0x144)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2sv
+Address           : 0x00000001800dbb40
+Relative Address  : 0x000dbb40
+Ordinal           : 325 (0x145)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3d
+Address           : 0x00000001800dbb50
+Relative Address  : 0x000dbb50
+Ordinal           : 326 (0x146)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3dv
+Address           : 0x00000001800dbb60
+Relative Address  : 0x000dbb60
+Ordinal           : 327 (0x147)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3f
+Address           : 0x00000001800dbb70
+Relative Address  : 0x000dbb70
+Ordinal           : 328 (0x148)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3fv
+Address           : 0x00000001800dbb80
+Relative Address  : 0x000dbb80
+Ordinal           : 329 (0x149)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3i
+Address           : 0x00000001800dbb90
+Relative Address  : 0x000dbb90
+Ordinal           : 330 (0x14a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3iv
+Address           : 0x00000001800dbba0
+Relative Address  : 0x000dbba0
+Ordinal           : 331 (0x14b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3s
+Address           : 0x00000001800dbbb0
+Relative Address  : 0x000dbbb0
+Ordinal           : 332 (0x14c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3sv
+Address           : 0x00000001800dbbc0
+Relative Address  : 0x000dbbc0
+Ordinal           : 333 (0x14d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4d
+Address           : 0x00000001800dbbd0
+Relative Address  : 0x000dbbd0
+Ordinal           : 334 (0x14e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4dv
+Address           : 0x00000001800dbbe0
+Relative Address  : 0x000dbbe0
+Ordinal           : 335 (0x14f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4f
+Address           : 0x00000001800dbbf0
+Relative Address  : 0x000dbbf0
+Ordinal           : 336 (0x150)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4fv
+Address           : 0x00000001800dbc00
+Relative Address  : 0x000dbc00
+Ordinal           : 337 (0x151)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4i
+Address           : 0x00000001800dbc10
+Relative Address  : 0x000dbc10
+Ordinal           : 338 (0x152)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4iv
+Address           : 0x00000001800dbc20
+Relative Address  : 0x000dbc20
+Ordinal           : 339 (0x153)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4s
+Address           : 0x00000001800dbc30
+Relative Address  : 0x000dbc30
+Ordinal           : 340 (0x154)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4sv
+Address           : 0x00000001800dbc40
+Relative Address  : 0x000dbc40
+Ordinal           : 341 (0x155)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertexPointer
+Address           : 0x00000001800dbf40
+Relative Address  : 0x000dbf40
+Ordinal           : 342 (0x156)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glViewport
+Address           : 0x00000001800dde90
+Relative Address  : 0x000dde90
+Ordinal           : 343 (0x157)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglChoosePixelFormat
+Address           : 0x000000018003baf0
+Relative Address  : 0x0003baf0
+Ordinal           : 344 (0x158)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCopyContext
+Address           : 0x000000018002a6a0
+Relative Address  : 0x0002a6a0
+Ordinal           : 345 (0x159)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCreateContext
+Address           : 0x0000000180029af0
+Relative Address  : 0x00029af0
+Ordinal           : 346 (0x15a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCreateLayerContext
+Address           : 0x00000001800298c0
+Relative Address  : 0x000298c0
+Ordinal           : 347 (0x15b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDeleteContext
+Address           : 0x0000000180029b00
+Relative Address  : 0x00029b00
+Ordinal           : 348 (0x15c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDescribeLayerPlane
+Address           : 0x00000001800253e0
+Relative Address  : 0x000253e0
+Ordinal           : 349 (0x15d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDescribePixelFormat
+Address           : 0x000000018003c670
+Relative Address  : 0x0003c670
+Ordinal           : 350 (0x15e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetCurrentContext
+Address           : 0x0000000180029c20
+Relative Address  : 0x00029c20
+Ordinal           : 351 (0x15f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetCurrentDC
+Address           : 0x0000000180029c60
+Relative Address  : 0x00029c60
+Ordinal           : 352 (0x160)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetDefaultProcAddress
+Address           : 0x000000018002a570
+Relative Address  : 0x0002a570
+Ordinal           : 353 (0x161)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetLayerPaletteEntries
+Address           : 0x00000001800255f0
+Relative Address  : 0x000255f0
+Ordinal           : 354 (0x162)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetPixelFormat
+Address           : 0x000000018003b710
+Relative Address  : 0x0003b710
+Ordinal           : 355 (0x163)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetProcAddress
+Address           : 0x000000018002a580
+Relative Address  : 0x0002a580
+Ordinal           : 356 (0x164)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglMakeCurrent
+Address           : 0x0000000180026490
+Relative Address  : 0x00026490
+Ordinal           : 357 (0x165)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglRealizeLayerPalette
+Address           : 0x0000000180025700
+Relative Address  : 0x00025700
+Ordinal           : 358 (0x166)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSetLayerPaletteEntries
+Address           : 0x00000001800254c0
+Relative Address  : 0x000254c0
+Ordinal           : 359 (0x167)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSetPixelFormat
+Address           : 0x000000018003b7d0
+Relative Address  : 0x0003b7d0
+Ordinal           : 360 (0x168)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglShareLists
+Address           : 0x000000018002a360
+Relative Address  : 0x0002a360
+Ordinal           : 361 (0x169)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSwapBuffers
+Address           : 0x000000018003c8a0
+Relative Address  : 0x0003c8a0
+Ordinal           : 362 (0x16a)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSwapLayerBuffers
+Address           : 0x0000000180025820
+Relative Address  : 0x00025820
+Ordinal           : 363 (0x16b)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSwapMultipleBuffers
+Address           : 0x0000000180027a90
+Relative Address  : 0x00027a90
+Ordinal           : 364 (0x16c)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontBitmapsA
+Address           : 0x0000000180029c90
+Relative Address  : 0x00029c90
+Ordinal           : 365 (0x16d)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontBitmapsW
+Address           : 0x0000000180029cb0
+Relative Address  : 0x00029cb0
+Ordinal           : 366 (0x16e)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontOutlinesA
+Address           : 0x00000001800124c0
+Relative Address  : 0x000124c0
+Ordinal           : 367 (0x16f)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontOutlinesW
+Address           : 0x0000000180012520
+Relative Address  : 0x00012520
+Ordinal           : 368 (0x170)
+Filename          : opengl32.dll
+Full Path         : C:\Windows\System32\opengl32.dll
+Type              : Exported Function
+==================================================
+

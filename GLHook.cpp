@@ -2857,6 +2857,11 @@ GL_EXPORT bool __stdcall Initialize(void)
             return false;
         }
 
+        if ((optr_glHint = (ptr_glHint) GetProcAddress(OriginalGL, "glHint")) == NULL)
+        {
+            return false;
+        }
+
         if ((optr_glIndexd = (ptr_glIndexd) GetProcAddress(OriginalGL, "glIndexd")) == NULL)
         {
             return false;

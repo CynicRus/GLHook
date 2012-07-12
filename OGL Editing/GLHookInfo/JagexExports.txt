@@ -1,0 +1,3760 @@
+==================================================
+Function Name     : _CorCloneImage@8
+Address           : 0x100899f0
+Relative Address  : 0x000899f0
+Ordinal           : 7 (0x7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorConvertImage@8
+Address           : 0x1008a420
+Relative Address  : 0x0008a420
+Ordinal           : 8 (0x8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorConvertPalette@8
+Address           : 0x1008a470
+Relative Address  : 0x0008a470
+Ordinal           : 9 (0x9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorCreateImage@12
+Address           : 0x10089810
+Relative Address  : 0x00089810
+Ordinal           : 10 (0xa)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorCreateImageWithPixels@16
+Address           : 0x10089830
+Relative Address  : 0x00089830
+Ordinal           : 11 (0xb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorCreatePalettizedImage@20
+Address           : 0x100898f0
+Relative Address  : 0x000898f0
+Ordinal           : 12 (0xc)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorFlipImage@8
+Address           : 0x1008a600
+Relative Address  : 0x0008a600
+Ordinal           : 13 (0xd)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorGetPixelSize@4
+Address           : 0x10089e20
+Relative Address  : 0x00089e20
+Ordinal           : 14 (0xe)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorGetSupportedReadFormats@0
+Address           : 0x10089790
+Relative Address  : 0x00089790
+Ordinal           : 15 (0xf)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorGetSupportedWriteFormats@0
+Address           : 0x100897e0
+Relative Address  : 0x000897e0
+Ordinal           : 16 (0x10)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorGetVersion@0
+Address           : 0x10089340
+Relative Address  : 0x00089340
+Ordinal           : 17 (0x11)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorOpenFile@8
+Address           : 0x1008a7c0
+Relative Address  : 0x0008a7c0
+Ordinal           : 18 (0x12)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorOpenImage@8
+Address           : 0x10089b70
+Relative Address  : 0x00089b70
+Ordinal           : 19 (0x13)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorOpenImageFromFile@8
+Address           : 0x10089bb0
+Relative Address  : 0x00089bb0
+Ordinal           : 20 (0x14)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorSaveImage@12
+Address           : 0x10089cf0
+Relative Address  : 0x00089cf0
+Ordinal           : 21 (0x15)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _CorSaveImageToFile@12
+Address           : 0x10089db0
+Relative Address  : 0x00089db0
+Ordinal           : 22 (0x16)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glAccum
+Address           : 0x10012870
+Relative Address  : 0x00012870
+Ordinal           : 23 (0x17)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glAlphaFunc
+Address           : 0x10010650
+Relative Address  : 0x00010650
+Ordinal           : 24 (0x18)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glAreTexturesResident
+Address           : 0x1001f5a0
+Relative Address  : 0x0001f5a0
+Ordinal           : 25 (0x19)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glArrayElement
+Address           : 0x1001b880
+Relative Address  : 0x0001b880
+Ordinal           : 26 (0x1a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBegin
+Address           : 0x1000fd40
+Relative Address  : 0x0000fd40
+Ordinal           : 27 (0x1b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBindTexture
+Address           : 0x1001f3f0
+Relative Address  : 0x0001f3f0
+Ordinal           : 28 (0x1c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBitmap
+Address           : 0x1001d470
+Relative Address  : 0x0001d470
+Ordinal           : 29 (0x1d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glBlendFunc
+Address           : 0x10010720
+Relative Address  : 0x00010720
+Ordinal           : 30 (0x1e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCallList
+Address           : 0x10013a60
+Relative Address  : 0x00013a60
+Ordinal           : 31 (0x1f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCallLists
+Address           : 0x10013b30
+Relative Address  : 0x00013b30
+Ordinal           : 32 (0x20)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClear
+Address           : 0x100103d0
+Relative Address  : 0x000103d0
+Ordinal           : 33 (0x21)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearAccum
+Address           : 0x10012790
+Relative Address  : 0x00012790
+Ordinal           : 34 (0x22)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearColor
+Address           : 0x100102f0
+Relative Address  : 0x000102f0
+Ordinal           : 35 (0x23)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearDepth
+Address           : 0x10012440
+Relative Address  : 0x00012440
+Ordinal           : 36 (0x24)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearIndex
+Address           : 0x10010220
+Relative Address  : 0x00010220
+Ordinal           : 37 (0x25)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClearStencil
+Address           : 0x1001daa0
+Relative Address  : 0x0001daa0
+Ordinal           : 38 (0x26)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glClipPlane
+Address           : 0x10011290
+Relative Address  : 0x00011290
+Ordinal           : 39 (0x27)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3b
+Address           : 0x100161b0
+Relative Address  : 0x000161b0
+Ordinal           : 40 (0x28)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3bv
+Address           : 0x10016fd0
+Relative Address  : 0x00016fd0
+Ordinal           : 41 (0x29)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3d
+Address           : 0x10016290
+Relative Address  : 0x00016290
+Ordinal           : 42 (0x2a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3dv
+Address           : 0x100170a0
+Relative Address  : 0x000170a0
+Ordinal           : 43 (0x2b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3f
+Address           : 0x10016380
+Relative Address  : 0x00016380
+Ordinal           : 44 (0x2c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3fv
+Address           : 0x10017170
+Relative Address  : 0x00017170
+Ordinal           : 45 (0x2d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3i
+Address           : 0x10016460
+Relative Address  : 0x00016460
+Ordinal           : 46 (0x2e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3iv
+Address           : 0x10017240
+Relative Address  : 0x00017240
+Ordinal           : 47 (0x2f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3s
+Address           : 0x10016540
+Relative Address  : 0x00016540
+Ordinal           : 48 (0x30)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3sv
+Address           : 0x10017310
+Relative Address  : 0x00017310
+Ordinal           : 49 (0x31)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ub
+Address           : 0x10016620
+Relative Address  : 0x00016620
+Ordinal           : 50 (0x32)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ubv
+Address           : 0x100173e0
+Relative Address  : 0x000173e0
+Ordinal           : 51 (0x33)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3ui
+Address           : 0x10016700
+Relative Address  : 0x00016700
+Ordinal           : 52 (0x34)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3uiv
+Address           : 0x100174b0
+Relative Address  : 0x000174b0
+Ordinal           : 53 (0x35)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3us
+Address           : 0x100167e0
+Relative Address  : 0x000167e0
+Ordinal           : 54 (0x36)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor3usv
+Address           : 0x10017580
+Relative Address  : 0x00017580
+Ordinal           : 55 (0x37)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4b
+Address           : 0x100168c0
+Relative Address  : 0x000168c0
+Ordinal           : 56 (0x38)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4bv
+Address           : 0x10017650
+Relative Address  : 0x00017650
+Ordinal           : 57 (0x39)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4d
+Address           : 0x100169a0
+Relative Address  : 0x000169a0
+Ordinal           : 58 (0x3a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4dv
+Address           : 0x10017720
+Relative Address  : 0x00017720
+Ordinal           : 59 (0x3b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4f
+Address           : 0x10016a90
+Relative Address  : 0x00016a90
+Ordinal           : 60 (0x3c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4fv
+Address           : 0x100177f0
+Relative Address  : 0x000177f0
+Ordinal           : 61 (0x3d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4i
+Address           : 0x10016b70
+Relative Address  : 0x00016b70
+Ordinal           : 62 (0x3e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4iv
+Address           : 0x100178c0
+Relative Address  : 0x000178c0
+Ordinal           : 63 (0x3f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4s
+Address           : 0x10016c50
+Relative Address  : 0x00016c50
+Ordinal           : 64 (0x40)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4sv
+Address           : 0x10017990
+Relative Address  : 0x00017990
+Ordinal           : 65 (0x41)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ub
+Address           : 0x10016d30
+Relative Address  : 0x00016d30
+Ordinal           : 66 (0x42)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ubv
+Address           : 0x10017a60
+Relative Address  : 0x00017a60
+Ordinal           : 67 (0x43)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4ui
+Address           : 0x10016e10
+Relative Address  : 0x00016e10
+Ordinal           : 68 (0x44)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4uiv
+Address           : 0x10017b30
+Relative Address  : 0x00017b30
+Ordinal           : 69 (0x45)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4us
+Address           : 0x10016ef0
+Relative Address  : 0x00016ef0
+Ordinal           : 70 (0x46)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColor4usv
+Address           : 0x10017c00
+Relative Address  : 0x00017c00
+Ordinal           : 71 (0x47)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorMask
+Address           : 0x10010570
+Relative Address  : 0x00010570
+Ordinal           : 72 (0x48)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorMaterial
+Address           : 0x1001ca80
+Relative Address  : 0x0001ca80
+Ordinal           : 73 (0x49)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glColorPointer
+Address           : 0x1001b440
+Relative Address  : 0x0001b440
+Ordinal           : 74 (0x4a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyPixels
+Address           : 0x1001d730
+Relative Address  : 0x0001d730
+Ordinal           : 75 (0x4b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexImage1D
+Address           : 0x1001f950
+Relative Address  : 0x0001f950
+Ordinal           : 76 (0x4c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexImage2D
+Address           : 0x1001fa40
+Relative Address  : 0x0001fa40
+Ordinal           : 77 (0x4d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexSubImage1D
+Address           : 0x1001fb30
+Relative Address  : 0x0001fb30
+Ordinal           : 78 (0x4e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCopyTexSubImage2D
+Address           : 0x1001fc20
+Relative Address  : 0x0001fc20
+Ordinal           : 79 (0x4f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glCullFace
+Address           : 0x100108c0
+Relative Address  : 0x000108c0
+Ordinal           : 80 (0x50)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDeleteLists
+Address           : 0x100138c0
+Relative Address  : 0x000138c0
+Ordinal           : 81 (0x51)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDeleteTextures
+Address           : 0x1001f320
+Relative Address  : 0x0001f320
+Ordinal           : 82 (0x52)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthFunc
+Address           : 0x10012510
+Relative Address  : 0x00012510
+Ordinal           : 83 (0x53)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthMask
+Address           : 0x100125e0
+Relative Address  : 0x000125e0
+Ordinal           : 84 (0x54)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDepthRange
+Address           : 0x100126b0
+Relative Address  : 0x000126b0
+Ordinal           : 85 (0x55)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDisable
+Address           : 0x100116a0
+Relative Address  : 0x000116a0
+Ordinal           : 86 (0x56)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDisableClientState
+Address           : 0x10011920
+Relative Address  : 0x00011920
+Ordinal           : 87 (0x57)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawArrays
+Address           : 0x1001b950
+Relative Address  : 0x0001b950
+Ordinal           : 88 (0x58)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawBuffer
+Address           : 0x10011430
+Relative Address  : 0x00011430
+Ordinal           : 89 (0x59)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawElements
+Address           : 0x1001ba30
+Relative Address  : 0x0001ba30
+Ordinal           : 90 (0x5a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glDrawPixels
+Address           : 0x1001d650
+Relative Address  : 0x0001d650
+Ordinal           : 91 (0x5b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlag
+Address           : 0x10011010
+Relative Address  : 0x00011010
+Ordinal           : 92 (0x5c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlagPointer
+Address           : 0x1001b6e0
+Relative Address  : 0x0001b6e0
+Ordinal           : 93 (0x5d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEdgeFlagv
+Address           : 0x100110e0
+Relative Address  : 0x000110e0
+Ordinal           : 94 (0x5e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnable
+Address           : 0x100115d0
+Relative Address  : 0x000115d0
+Ordinal           : 95 (0x5f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnableClientState
+Address           : 0x10011850
+Relative Address  : 0x00011850
+Ordinal           : 96 (0x60)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEnd
+Address           : 0x1000fe60
+Relative Address  : 0x0000fe60
+Ordinal           : 97 (0x61)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEndList
+Address           : 0x10010050
+Relative Address  : 0x00010050
+Ordinal           : 98 (0x62)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1d
+Address           : 0x100203a0
+Relative Address  : 0x000203a0
+Ordinal           : 99 (0x63)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1dv
+Address           : 0x10020540
+Relative Address  : 0x00020540
+Ordinal           : 100 (0x64)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1f
+Address           : 0x10020470
+Relative Address  : 0x00020470
+Ordinal           : 101 (0x65)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord1fv
+Address           : 0x10020610
+Relative Address  : 0x00020610
+Ordinal           : 102 (0x66)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2d
+Address           : 0x100206e0
+Relative Address  : 0x000206e0
+Ordinal           : 103 (0x67)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2dv
+Address           : 0x10020890
+Relative Address  : 0x00020890
+Ordinal           : 104 (0x68)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2f
+Address           : 0x100207c0
+Relative Address  : 0x000207c0
+Ordinal           : 105 (0x69)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalCoord2fv
+Address           : 0x10020960
+Relative Address  : 0x00020960
+Ordinal           : 106 (0x6a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalMesh1
+Address           : 0x10020f80
+Relative Address  : 0x00020f80
+Ordinal           : 107 (0x6b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalMesh2
+Address           : 0x10021060
+Relative Address  : 0x00021060
+Ordinal           : 108 (0x6c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalPoint1
+Address           : 0x10020de0
+Relative Address  : 0x00020de0
+Ordinal           : 109 (0x6d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glEvalPoint2
+Address           : 0x10020eb0
+Relative Address  : 0x00020eb0
+Ordinal           : 110 (0x6e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFeedbackBuffer
+Address           : 0x10021480
+Relative Address  : 0x00021480
+Ordinal           : 111 (0x6f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFinish
+Address           : 0x100121f0
+Relative Address  : 0x000121f0
+Ordinal           : 112 (0x70)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFlush
+Address           : 0x100122b0
+Relative Address  : 0x000122b0
+Ordinal           : 113 (0x71)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogf
+Address           : 0x10021140
+Relative Address  : 0x00021140
+Ordinal           : 114 (0x72)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogfv
+Address           : 0x100212e0
+Relative Address  : 0x000212e0
+Ordinal           : 115 (0x73)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogi
+Address           : 0x10021210
+Relative Address  : 0x00021210
+Ordinal           : 116 (0x74)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFogiv
+Address           : 0x100213b0
+Relative Address  : 0x000213b0
+Ordinal           : 117 (0x75)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFrontFace
+Address           : 0x10010990
+Relative Address  : 0x00010990
+Ordinal           : 118 (0x76)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glFrustum
+Address           : 0x10012b10
+Relative Address  : 0x00012b10
+Ordinal           : 119 (0x77)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGenLists
+Address           : 0x10013990
+Relative Address  : 0x00013990
+Ordinal           : 120 (0x78)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGenTextures
+Address           : 0x1001f250
+Relative Address  : 0x0001f250
+Ordinal           : 121 (0x79)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetBooleanv
+Address           : 0x100119f0
+Relative Address  : 0x000119f0
+Ordinal           : 122 (0x7a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetClipPlane
+Address           : 0x10011360
+Relative Address  : 0x00011360
+Ordinal           : 123 (0x7b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetDoublev
+Address           : 0x10011ac0
+Relative Address  : 0x00011ac0
+Ordinal           : 124 (0x7c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetError
+Address           : 0x10010140
+Relative Address  : 0x00010140
+Ordinal           : 125 (0x7d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetFloatv
+Address           : 0x10011b90
+Relative Address  : 0x00011b90
+Ordinal           : 126 (0x7e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetIntegerv
+Address           : 0x10011c60
+Relative Address  : 0x00011c60
+Ordinal           : 127 (0x7f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetLightfv
+Address           : 0x1001c040
+Relative Address  : 0x0001c040
+Ordinal           : 128 (0x80)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetLightiv
+Address           : 0x1001c120
+Relative Address  : 0x0001c120
+Ordinal           : 129 (0x81)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapdv
+Address           : 0x10020100
+Relative Address  : 0x00020100
+Ordinal           : 130 (0x82)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapfv
+Address           : 0x100201e0
+Relative Address  : 0x000201e0
+Ordinal           : 131 (0x83)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMapiv
+Address           : 0x100202c0
+Relative Address  : 0x000202c0
+Ordinal           : 132 (0x84)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMaterialfv
+Address           : 0x1001c8c0
+Relative Address  : 0x0001c8c0
+Ordinal           : 133 (0x85)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetMaterialiv
+Address           : 0x1001c9a0
+Relative Address  : 0x0001c9a0
+Ordinal           : 134 (0x86)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapfv
+Address           : 0x1001d200
+Relative Address  : 0x0001d200
+Ordinal           : 135 (0x87)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapuiv
+Address           : 0x1001d2d0
+Relative Address  : 0x0001d2d0
+Ordinal           : 136 (0x88)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPixelMapusv
+Address           : 0x1001d3a0
+Relative Address  : 0x0001d3a0
+Ordinal           : 137 (0x89)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPointerv
+Address           : 0x1001b7b0
+Relative Address  : 0x0001b7b0
+Ordinal           : 138 (0x8a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetPolygonStipple
+Address           : 0x10010f40
+Relative Address  : 0x00010f40
+Ordinal           : 139 (0x8b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetString
+Address           : 0x10012120
+Relative Address  : 0x00012120
+Ordinal           : 140 (0x8c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexEnvfv
+Address           : 0x1001e6d0
+Relative Address  : 0x0001e6d0
+Ordinal           : 141 (0x8d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexEnviv
+Address           : 0x1001e7b0
+Relative Address  : 0x0001e7b0
+Ordinal           : 142 (0x8e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGendv
+Address           : 0x1001e0b0
+Relative Address  : 0x0001e0b0
+Ordinal           : 143 (0x8f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGenfv
+Address           : 0x1001e190
+Relative Address  : 0x0001e190
+Ordinal           : 144 (0x90)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexGeniv
+Address           : 0x1001e270
+Relative Address  : 0x0001e270
+Ordinal           : 145 (0x91)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexImage
+Address           : 0x1001f170
+Relative Address  : 0x0001f170
+Ordinal           : 146 (0x92)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexLevelParameterfv
+Address           : 0x1001edd0
+Relative Address  : 0x0001edd0
+Ordinal           : 147 (0x93)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexLevelParameteriv
+Address           : 0x1001eeb0
+Relative Address  : 0x0001eeb0
+Ordinal           : 148 (0x94)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexParameterfv
+Address           : 0x1001ec10
+Relative Address  : 0x0001ec10
+Ordinal           : 149 (0x95)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glGetTexParameteriv
+Address           : 0x1001ecf0
+Relative Address  : 0x0001ecf0
+Ordinal           : 150 (0x96)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glHint
+Address           : 0x10012370
+Relative Address  : 0x00012370
+Ordinal           : 151 (0x97)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexd
+Address           : 0x10015990
+Relative Address  : 0x00015990
+Ordinal           : 154 (0x9a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexdv
+Address           : 0x10015da0
+Relative Address  : 0x00015da0
+Ordinal           : 155 (0x9b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexf
+Address           : 0x10015a60
+Relative Address  : 0x00015a60
+Ordinal           : 156 (0x9c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexfv
+Address           : 0x10015e70
+Relative Address  : 0x00015e70
+Ordinal           : 157 (0x9d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexi
+Address           : 0x10015b30
+Relative Address  : 0x00015b30
+Ordinal           : 158 (0x9e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexiv
+Address           : 0x10015f40
+Relative Address  : 0x00015f40
+Ordinal           : 159 (0x9f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexMask
+Address           : 0x100104a0
+Relative Address  : 0x000104a0
+Ordinal           : 152 (0x98)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexPointer
+Address           : 0x1001b520
+Relative Address  : 0x0001b520
+Ordinal           : 153 (0x99)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexs
+Address           : 0x10015c00
+Relative Address  : 0x00015c00
+Ordinal           : 160 (0xa0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexsv
+Address           : 0x10016010
+Relative Address  : 0x00016010
+Ordinal           : 161 (0xa1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexub
+Address           : 0x10015cd0
+Relative Address  : 0x00015cd0
+Ordinal           : 162 (0xa2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIndexubv
+Address           : 0x100160e0
+Relative Address  : 0x000160e0
+Ordinal           : 163 (0xa3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glInitNames
+Address           : 0x10021700
+Relative Address  : 0x00021700
+Ordinal           : 164 (0xa4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glInterleavedArrays
+Address           : 0x1001bb10
+Relative Address  : 0x0001bb10
+Ordinal           : 165 (0xa5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsEnabled
+Address           : 0x10011770
+Relative Address  : 0x00011770
+Ordinal           : 166 (0xa6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsList
+Address           : 0x100137e0
+Relative Address  : 0x000137e0
+Ordinal           : 167 (0xa7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glIsTexture
+Address           : 0x1001f690
+Relative Address  : 0x0001f690
+Ordinal           : 168 (0xa8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightf
+Address           : 0x1001bcc0
+Relative Address  : 0x0001bcc0
+Ordinal           : 173 (0xad)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightfv
+Address           : 0x1001be80
+Relative Address  : 0x0001be80
+Ordinal           : 174 (0xae)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLighti
+Address           : 0x1001bda0
+Relative Address  : 0x0001bda0
+Ordinal           : 175 (0xaf)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightiv
+Address           : 0x1001bf60
+Relative Address  : 0x0001bf60
+Ordinal           : 176 (0xb0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModelf
+Address           : 0x1001c200
+Relative Address  : 0x0001c200
+Ordinal           : 169 (0xa9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModelfv
+Address           : 0x1001c3a0
+Relative Address  : 0x0001c3a0
+Ordinal           : 170 (0xaa)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModeli
+Address           : 0x1001c2d0
+Relative Address  : 0x0001c2d0
+Ordinal           : 171 (0xab)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLightModeliv
+Address           : 0x1001c470
+Relative Address  : 0x0001c470
+Ordinal           : 172 (0xac)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLineStipple
+Address           : 0x10010c00
+Relative Address  : 0x00010c00
+Ordinal           : 177 (0xb1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLineWidth
+Address           : 0x10010b30
+Relative Address  : 0x00010b30
+Ordinal           : 178 (0xb2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glListBase
+Address           : 0x10013c10
+Relative Address  : 0x00013c10
+Ordinal           : 179 (0xb3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadIdentity
+Address           : 0x10012e70
+Relative Address  : 0x00012e70
+Ordinal           : 180 (0xb4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadMatrixd
+Address           : 0x10012f30
+Relative Address  : 0x00012f30
+Ordinal           : 181 (0xb5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadMatrixf
+Address           : 0x10013000
+Relative Address  : 0x00013000
+Ordinal           : 182 (0xb6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLoadName
+Address           : 0x100217c0
+Relative Address  : 0x000217c0
+Ordinal           : 183 (0xb7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glLogicOp
+Address           : 0x100107f0
+Relative Address  : 0x000107f0
+Ordinal           : 184 (0xb8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap1d
+Address           : 0x1001fd10
+Relative Address  : 0x0001fd10
+Ordinal           : 185 (0xb9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap1f
+Address           : 0x1001fe00
+Relative Address  : 0x0001fe00
+Ordinal           : 186 (0xba)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap2d
+Address           : 0x1001fef0
+Relative Address  : 0x0001fef0
+Ordinal           : 187 (0xbb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMap2f
+Address           : 0x10020000
+Relative Address  : 0x00020000
+Ordinal           : 188 (0xbc)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid1d
+Address           : 0x10020a30
+Relative Address  : 0x00020a30
+Ordinal           : 189 (0xbd)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid1f
+Address           : 0x10020b10
+Relative Address  : 0x00020b10
+Ordinal           : 190 (0xbe)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid2d
+Address           : 0x10020bf0
+Relative Address  : 0x00020bf0
+Ordinal           : 191 (0xbf)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMapGrid2f
+Address           : 0x10020cf0
+Relative Address  : 0x00020cf0
+Ordinal           : 192 (0xc0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialf
+Address           : 0x1001c540
+Relative Address  : 0x0001c540
+Ordinal           : 193 (0xc1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialfv
+Address           : 0x1001c700
+Relative Address  : 0x0001c700
+Ordinal           : 194 (0xc2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMateriali
+Address           : 0x1001c620
+Relative Address  : 0x0001c620
+Ordinal           : 195 (0xc3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMaterialiv
+Address           : 0x1001c7e0
+Relative Address  : 0x0001c7e0
+Ordinal           : 196 (0xc4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMatrixMode
+Address           : 0x10012940
+Relative Address  : 0x00012940
+Ordinal           : 197 (0xc5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMultMatrixd
+Address           : 0x100130d0
+Relative Address  : 0x000130d0
+Ordinal           : 198 (0xc6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glMultMatrixf
+Address           : 0x100131a0
+Relative Address  : 0x000131a0
+Ordinal           : 199 (0xc7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNewList
+Address           : 0x1000ff50
+Relative Address  : 0x0000ff50
+Ordinal           : 200 (0xc8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3b
+Address           : 0x10015110
+Relative Address  : 0x00015110
+Ordinal           : 201 (0xc9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3bv
+Address           : 0x10015580
+Relative Address  : 0x00015580
+Ordinal           : 202 (0xca)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3d
+Address           : 0x100151f0
+Relative Address  : 0x000151f0
+Ordinal           : 203 (0xcb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3dv
+Address           : 0x10015650
+Relative Address  : 0x00015650
+Ordinal           : 204 (0xcc)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3f
+Address           : 0x100152e0
+Relative Address  : 0x000152e0
+Ordinal           : 205 (0xcd)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3fv
+Address           : 0x10015720
+Relative Address  : 0x00015720
+Ordinal           : 206 (0xce)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3i
+Address           : 0x100153c0
+Relative Address  : 0x000153c0
+Ordinal           : 207 (0xcf)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3iv
+Address           : 0x100157f0
+Relative Address  : 0x000157f0
+Ordinal           : 208 (0xd0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3s
+Address           : 0x100154a0
+Relative Address  : 0x000154a0
+Ordinal           : 209 (0xd1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormal3sv
+Address           : 0x100158c0
+Relative Address  : 0x000158c0
+Ordinal           : 210 (0xd2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glNormalPointer
+Address           : 0x1001b360
+Relative Address  : 0x0001b360
+Ordinal           : 211 (0xd3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glOrtho
+Address           : 0x10012a10
+Relative Address  : 0x00012a10
+Ordinal           : 212 (0xd4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPassThrough
+Address           : 0x10021560
+Relative Address  : 0x00021560
+Ordinal           : 213 (0xd5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapfv
+Address           : 0x1001cf60
+Relative Address  : 0x0001cf60
+Ordinal           : 214 (0xd6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapuiv
+Address           : 0x1001d040
+Relative Address  : 0x0001d040
+Ordinal           : 215 (0xd7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelMapusv
+Address           : 0x1001d120
+Relative Address  : 0x0001d120
+Ordinal           : 216 (0xd8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelStoref
+Address           : 0x1001cc20
+Relative Address  : 0x0001cc20
+Ordinal           : 217 (0xd9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelStorei
+Address           : 0x1001ccf0
+Relative Address  : 0x0001ccf0
+Ordinal           : 218 (0xda)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelTransferf
+Address           : 0x1001cdc0
+Relative Address  : 0x0001cdc0
+Ordinal           : 219 (0xdb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelTransferi
+Address           : 0x1001ce90
+Relative Address  : 0x0001ce90
+Ordinal           : 220 (0xdc)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPixelZoom
+Address           : 0x1001cb50
+Relative Address  : 0x0001cb50
+Ordinal           : 221 (0xdd)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPointSize
+Address           : 0x10010a60
+Relative Address  : 0x00010a60
+Ordinal           : 222 (0xde)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonMode
+Address           : 0x10010cd0
+Relative Address  : 0x00010cd0
+Ordinal           : 223 (0xdf)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonOffset
+Address           : 0x10010da0
+Relative Address  : 0x00010da0
+Ordinal           : 224 (0xe0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPolygonStipple
+Address           : 0x10010e70
+Relative Address  : 0x00010e70
+Ordinal           : 225 (0xe1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopAttrib
+Address           : 0x10011e00
+Relative Address  : 0x00011e00
+Ordinal           : 226 (0xe2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopClientAttrib
+Address           : 0x10011f90
+Relative Address  : 0x00011f90
+Ordinal           : 227 (0xe3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopMatrix
+Address           : 0x10012db0
+Relative Address  : 0x00012db0
+Ordinal           : 228 (0xe4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPopName
+Address           : 0x10021960
+Relative Address  : 0x00021960
+Ordinal           : 229 (0xe5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPrioritizeTextures
+Address           : 0x1001f4c0
+Relative Address  : 0x0001f4c0
+Ordinal           : 230 (0xe6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushAttrib
+Address           : 0x10011d30
+Relative Address  : 0x00011d30
+Ordinal           : 231 (0xe7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushClientAttrib
+Address           : 0x10011ec0
+Relative Address  : 0x00011ec0
+Ordinal           : 232 (0xe8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushMatrix
+Address           : 0x10012cf0
+Relative Address  : 0x00012cf0
+Ordinal           : 233 (0xe9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glPushName
+Address           : 0x10021890
+Relative Address  : 0x00021890
+Ordinal           : 234 (0xea)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2d
+Address           : 0x10019780
+Relative Address  : 0x00019780
+Ordinal           : 235 (0xeb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2dv
+Address           : 0x1001a1f0
+Relative Address  : 0x0001a1f0
+Ordinal           : 236 (0xec)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2f
+Address           : 0x10019860
+Relative Address  : 0x00019860
+Ordinal           : 237 (0xed)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2fv
+Address           : 0x1001a2c0
+Relative Address  : 0x0001a2c0
+Ordinal           : 238 (0xee)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2i
+Address           : 0x10019930
+Relative Address  : 0x00019930
+Ordinal           : 239 (0xef)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2iv
+Address           : 0x1001a390
+Relative Address  : 0x0001a390
+Ordinal           : 240 (0xf0)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2s
+Address           : 0x10019a00
+Relative Address  : 0x00019a00
+Ordinal           : 241 (0xf1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos2sv
+Address           : 0x1001a460
+Relative Address  : 0x0001a460
+Ordinal           : 242 (0xf2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3d
+Address           : 0x10019ad0
+Relative Address  : 0x00019ad0
+Ordinal           : 243 (0xf3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3dv
+Address           : 0x1001a530
+Relative Address  : 0x0001a530
+Ordinal           : 244 (0xf4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3f
+Address           : 0x10019bc0
+Relative Address  : 0x00019bc0
+Ordinal           : 245 (0xf5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3fv
+Address           : 0x1001a600
+Relative Address  : 0x0001a600
+Ordinal           : 246 (0xf6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3i
+Address           : 0x10019ca0
+Relative Address  : 0x00019ca0
+Ordinal           : 247 (0xf7)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3iv
+Address           : 0x1001a6d0
+Relative Address  : 0x0001a6d0
+Ordinal           : 248 (0xf8)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3s
+Address           : 0x10019d80
+Relative Address  : 0x00019d80
+Ordinal           : 249 (0xf9)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos3sv
+Address           : 0x1001a7a0
+Relative Address  : 0x0001a7a0
+Ordinal           : 250 (0xfa)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4d
+Address           : 0x10019e60
+Relative Address  : 0x00019e60
+Ordinal           : 251 (0xfb)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4dv
+Address           : 0x1001a870
+Relative Address  : 0x0001a870
+Ordinal           : 252 (0xfc)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4f
+Address           : 0x10019f50
+Relative Address  : 0x00019f50
+Ordinal           : 253 (0xfd)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4fv
+Address           : 0x1001a940
+Relative Address  : 0x0001a940
+Ordinal           : 254 (0xfe)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4i
+Address           : 0x1001a030
+Relative Address  : 0x0001a030
+Ordinal           : 255 (0xff)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4iv
+Address           : 0x1001aa10
+Relative Address  : 0x0001aa10
+Ordinal           : 256 (0x100)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4s
+Address           : 0x1001a110
+Relative Address  : 0x0001a110
+Ordinal           : 257 (0x101)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRasterPos4sv
+Address           : 0x1001aae0
+Relative Address  : 0x0001aae0
+Ordinal           : 258 (0x102)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glReadBuffer
+Address           : 0x10011500
+Relative Address  : 0x00011500
+Ordinal           : 259 (0x103)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glReadPixels
+Address           : 0x1001d560
+Relative Address  : 0x0001d560
+Ordinal           : 260 (0x104)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectd
+Address           : 0x1001abb0
+Relative Address  : 0x0001abb0
+Ordinal           : 261 (0x105)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectdv
+Address           : 0x1001af40
+Relative Address  : 0x0001af40
+Ordinal           : 262 (0x106)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectf
+Address           : 0x1001aca0
+Relative Address  : 0x0001aca0
+Ordinal           : 263 (0x107)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectfv
+Address           : 0x1001b010
+Relative Address  : 0x0001b010
+Ordinal           : 264 (0x108)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRecti
+Address           : 0x1001ad80
+Relative Address  : 0x0001ad80
+Ordinal           : 265 (0x109)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectiv
+Address           : 0x1001b0e0
+Relative Address  : 0x0001b0e0
+Ordinal           : 266 (0x10a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRects
+Address           : 0x1001ae60
+Relative Address  : 0x0001ae60
+Ordinal           : 267 (0x10b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRectsv
+Address           : 0x1001b1b0
+Relative Address  : 0x0001b1b0
+Ordinal           : 268 (0x10c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRenderMode
+Address           : 0x10012050
+Relative Address  : 0x00012050
+Ordinal           : 269 (0x10d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRotated
+Address           : 0x10013270
+Relative Address  : 0x00013270
+Ordinal           : 270 (0x10e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glRotatef
+Address           : 0x10013360
+Relative Address  : 0x00013360
+Ordinal           : 271 (0x10f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScaled
+Address           : 0x10013440
+Relative Address  : 0x00013440
+Ordinal           : 272 (0x110)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScalef
+Address           : 0x10013530
+Relative Address  : 0x00013530
+Ordinal           : 273 (0x111)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glScissor
+Address           : 0x100111b0
+Relative Address  : 0x000111b0
+Ordinal           : 274 (0x112)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glSelectBuffer
+Address           : 0x10021630
+Relative Address  : 0x00021630
+Ordinal           : 275 (0x113)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glShadeModel
+Address           : 0x1001bbf0
+Relative Address  : 0x0001bbf0
+Ordinal           : 276 (0x114)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilFunc
+Address           : 0x1001d810
+Relative Address  : 0x0001d810
+Ordinal           : 277 (0x115)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilMask
+Address           : 0x1001d8f0
+Relative Address  : 0x0001d8f0
+Ordinal           : 278 (0x116)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glStencilOp
+Address           : 0x1001d9c0
+Relative Address  : 0x0001d9c0
+Ordinal           : 279 (0x117)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1d
+Address           : 0x10017cd0
+Relative Address  : 0x00017cd0
+Ordinal           : 280 (0x118)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1dv
+Address           : 0x10018a80
+Relative Address  : 0x00018a80
+Ordinal           : 281 (0x119)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1f
+Address           : 0x10017da0
+Relative Address  : 0x00017da0
+Ordinal           : 282 (0x11a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1fv
+Address           : 0x10018b50
+Relative Address  : 0x00018b50
+Ordinal           : 283 (0x11b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1i
+Address           : 0x10017e70
+Relative Address  : 0x00017e70
+Ordinal           : 284 (0x11c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1iv
+Address           : 0x10018c20
+Relative Address  : 0x00018c20
+Ordinal           : 285 (0x11d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1s
+Address           : 0x10017f40
+Relative Address  : 0x00017f40
+Ordinal           : 286 (0x11e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord1sv
+Address           : 0x10018cf0
+Relative Address  : 0x00018cf0
+Ordinal           : 287 (0x11f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2d
+Address           : 0x10018010
+Relative Address  : 0x00018010
+Ordinal           : 288 (0x120)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2dv
+Address           : 0x10018dc0
+Relative Address  : 0x00018dc0
+Ordinal           : 289 (0x121)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2f
+Address           : 0x100180f0
+Relative Address  : 0x000180f0
+Ordinal           : 290 (0x122)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2fv
+Address           : 0x10018e90
+Relative Address  : 0x00018e90
+Ordinal           : 291 (0x123)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2i
+Address           : 0x100181c0
+Relative Address  : 0x000181c0
+Ordinal           : 292 (0x124)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2iv
+Address           : 0x10018f60
+Relative Address  : 0x00018f60
+Ordinal           : 293 (0x125)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2s
+Address           : 0x10018290
+Relative Address  : 0x00018290
+Ordinal           : 294 (0x126)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord2sv
+Address           : 0x10019030
+Relative Address  : 0x00019030
+Ordinal           : 295 (0x127)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3d
+Address           : 0x10018360
+Relative Address  : 0x00018360
+Ordinal           : 296 (0x128)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3dv
+Address           : 0x10019100
+Relative Address  : 0x00019100
+Ordinal           : 297 (0x129)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3f
+Address           : 0x10018450
+Relative Address  : 0x00018450
+Ordinal           : 298 (0x12a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3fv
+Address           : 0x100191d0
+Relative Address  : 0x000191d0
+Ordinal           : 299 (0x12b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3i
+Address           : 0x10018530
+Relative Address  : 0x00018530
+Ordinal           : 300 (0x12c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3iv
+Address           : 0x100192a0
+Relative Address  : 0x000192a0
+Ordinal           : 301 (0x12d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3s
+Address           : 0x10018610
+Relative Address  : 0x00018610
+Ordinal           : 302 (0x12e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord3sv
+Address           : 0x10019370
+Relative Address  : 0x00019370
+Ordinal           : 303 (0x12f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4d
+Address           : 0x100186f0
+Relative Address  : 0x000186f0
+Ordinal           : 304 (0x130)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4dv
+Address           : 0x10019440
+Relative Address  : 0x00019440
+Ordinal           : 305 (0x131)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4f
+Address           : 0x100187e0
+Relative Address  : 0x000187e0
+Ordinal           : 306 (0x132)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4fv
+Address           : 0x10019510
+Relative Address  : 0x00019510
+Ordinal           : 307 (0x133)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4i
+Address           : 0x100188c0
+Relative Address  : 0x000188c0
+Ordinal           : 308 (0x134)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4iv
+Address           : 0x100195e0
+Relative Address  : 0x000195e0
+Ordinal           : 309 (0x135)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4s
+Address           : 0x100189a0
+Relative Address  : 0x000189a0
+Ordinal           : 310 (0x136)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoord4sv
+Address           : 0x100196b0
+Relative Address  : 0x000196b0
+Ordinal           : 311 (0x137)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexCoordPointer
+Address           : 0x1001b600
+Relative Address  : 0x0001b600
+Ordinal           : 312 (0x138)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvf
+Address           : 0x1001e350
+Relative Address  : 0x0001e350
+Ordinal           : 313 (0x139)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvfv
+Address           : 0x1001e510
+Relative Address  : 0x0001e510
+Ordinal           : 314 (0x13a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnvi
+Address           : 0x1001e430
+Relative Address  : 0x0001e430
+Ordinal           : 315 (0x13b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexEnviv
+Address           : 0x1001e5f0
+Relative Address  : 0x0001e5f0
+Ordinal           : 316 (0x13c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGend
+Address           : 0x1001db70
+Relative Address  : 0x0001db70
+Ordinal           : 317 (0x13d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGendv
+Address           : 0x1001de10
+Relative Address  : 0x0001de10
+Ordinal           : 318 (0x13e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGenf
+Address           : 0x1001dc50
+Relative Address  : 0x0001dc50
+Ordinal           : 319 (0x13f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGenfv
+Address           : 0x1001def0
+Relative Address  : 0x0001def0
+Ordinal           : 320 (0x140)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGeni
+Address           : 0x1001dd30
+Relative Address  : 0x0001dd30
+Ordinal           : 321 (0x141)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexGeniv
+Address           : 0x1001dfd0
+Relative Address  : 0x0001dfd0
+Ordinal           : 322 (0x142)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexImage1D
+Address           : 0x1001ef90
+Relative Address  : 0x0001ef90
+Ordinal           : 323 (0x143)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexImage2D
+Address           : 0x1001f080
+Relative Address  : 0x0001f080
+Ordinal           : 324 (0x144)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameterf
+Address           : 0x1001e890
+Relative Address  : 0x0001e890
+Ordinal           : 325 (0x145)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameterfv
+Address           : 0x1001ea50
+Relative Address  : 0x0001ea50
+Ordinal           : 326 (0x146)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameteri
+Address           : 0x1001e970
+Relative Address  : 0x0001e970
+Ordinal           : 327 (0x147)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexParameteriv
+Address           : 0x1001eb30
+Relative Address  : 0x0001eb30
+Ordinal           : 328 (0x148)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexSubImage1D
+Address           : 0x1001f770
+Relative Address  : 0x0001f770
+Ordinal           : 329 (0x149)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTexSubImage2D
+Address           : 0x1001f860
+Relative Address  : 0x0001f860
+Ordinal           : 330 (0x14a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTranslated
+Address           : 0x10013610
+Relative Address  : 0x00013610
+Ordinal           : 331 (0x14b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glTranslatef
+Address           : 0x10013700
+Relative Address  : 0x00013700
+Ordinal           : 332 (0x14c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2d
+Address           : 0x10013ce0
+Relative Address  : 0x00013ce0
+Ordinal           : 333 (0x14d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2dv
+Address           : 0x10014750
+Relative Address  : 0x00014750
+Ordinal           : 334 (0x14e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2f
+Address           : 0x10013dc0
+Relative Address  : 0x00013dc0
+Ordinal           : 335 (0x14f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2fv
+Address           : 0x10014820
+Relative Address  : 0x00014820
+Ordinal           : 336 (0x150)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2i
+Address           : 0x10013e90
+Relative Address  : 0x00013e90
+Ordinal           : 337 (0x151)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2iv
+Address           : 0x100148f0
+Relative Address  : 0x000148f0
+Ordinal           : 338 (0x152)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2s
+Address           : 0x10013f60
+Relative Address  : 0x00013f60
+Ordinal           : 339 (0x153)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex2sv
+Address           : 0x100149c0
+Relative Address  : 0x000149c0
+Ordinal           : 340 (0x154)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3d
+Address           : 0x10014030
+Relative Address  : 0x00014030
+Ordinal           : 341 (0x155)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3dv
+Address           : 0x10014a90
+Relative Address  : 0x00014a90
+Ordinal           : 342 (0x156)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3f
+Address           : 0x10014120
+Relative Address  : 0x00014120
+Ordinal           : 343 (0x157)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3fv
+Address           : 0x10014b60
+Relative Address  : 0x00014b60
+Ordinal           : 344 (0x158)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3i
+Address           : 0x10014200
+Relative Address  : 0x00014200
+Ordinal           : 345 (0x159)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3iv
+Address           : 0x10014c30
+Relative Address  : 0x00014c30
+Ordinal           : 346 (0x15a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3s
+Address           : 0x100142e0
+Relative Address  : 0x000142e0
+Ordinal           : 347 (0x15b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex3sv
+Address           : 0x10014d00
+Relative Address  : 0x00014d00
+Ordinal           : 348 (0x15c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4d
+Address           : 0x100143c0
+Relative Address  : 0x000143c0
+Ordinal           : 349 (0x15d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4dv
+Address           : 0x10014dd0
+Relative Address  : 0x00014dd0
+Ordinal           : 350 (0x15e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4f
+Address           : 0x100144b0
+Relative Address  : 0x000144b0
+Ordinal           : 351 (0x15f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4fv
+Address           : 0x10014ea0
+Relative Address  : 0x00014ea0
+Ordinal           : 352 (0x160)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4i
+Address           : 0x10014590
+Relative Address  : 0x00014590
+Ordinal           : 353 (0x161)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4iv
+Address           : 0x10014f70
+Relative Address  : 0x00014f70
+Ordinal           : 354 (0x162)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4s
+Address           : 0x10014670
+Relative Address  : 0x00014670
+Ordinal           : 355 (0x163)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertex4sv
+Address           : 0x10015040
+Relative Address  : 0x00015040
+Ordinal           : 356 (0x164)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glVertexPointer
+Address           : 0x1001b280
+Relative Address  : 0x0001b280
+Ordinal           : 357 (0x165)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : glViewport
+Address           : 0x10012c10
+Relative Address  : 0x00012c10
+Ordinal           : 358 (0x166)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglChoosePixelFormat
+Address           : 0x10021a60
+Relative Address  : 0x00021a60
+Ordinal           : 1 (0x1)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCopyContext
+Address           : 0x10021ba0
+Relative Address  : 0x00021ba0
+Ordinal           : 359 (0x167)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCreateContext
+Address           : 0x10021ca0
+Relative Address  : 0x00021ca0
+Ordinal           : 360 (0x168)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglCreateLayerContext
+Address           : 0x10021da0
+Relative Address  : 0x00021da0
+Ordinal           : 361 (0x169)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDeleteContext
+Address           : 0x10021eb0
+Relative Address  : 0x00021eb0
+Ordinal           : 362 (0x16a)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDescribeLayerPlane
+Address           : 0x10021fc0
+Relative Address  : 0x00021fc0
+Ordinal           : 363 (0x16b)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglDescribePixelFormat
+Address           : 0x100220d0
+Relative Address  : 0x000220d0
+Ordinal           : 2 (0x2)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetCurrentContext
+Address           : 0x10022200
+Relative Address  : 0x00022200
+Ordinal           : 364 (0x16c)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetCurrentDC
+Address           : 0x100222f0
+Relative Address  : 0x000222f0
+Ordinal           : 365 (0x16d)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetDefaultProcAddress
+Address           : 0x100223e0
+Relative Address  : 0x000223e0
+Ordinal           : 3 (0x3)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetLayerPaletteEntries
+Address           : 0x10022500
+Relative Address  : 0x00022500
+Ordinal           : 366 (0x16e)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetPixelFormat
+Address           : 0x10022610
+Relative Address  : 0x00022610
+Ordinal           : 4 (0x4)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglGetProcAddress
+Address           : 0x10022730
+Relative Address  : 0x00022730
+Ordinal           : 367 (0x16f)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglMakeCurrent
+Address           : 0x100228b0
+Relative Address  : 0x000228b0
+Ordinal           : 368 (0x170)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglRealizeLayerPalette
+Address           : 0x100229d0
+Relative Address  : 0x000229d0
+Ordinal           : 369 (0x171)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSetLayerPaletteEntries
+Address           : 0x10022ad0
+Relative Address  : 0x00022ad0
+Ordinal           : 370 (0x172)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSetPixelFormat
+Address           : 0x10022be0
+Relative Address  : 0x00022be0
+Ordinal           : 5 (0x5)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglShareLists
+Address           : 0x10022d10
+Relative Address  : 0x00022d10
+Ordinal           : 371 (0x173)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSwapBuffers
+Address           : 0x10022e20
+Relative Address  : 0x00022e20
+Ordinal           : 6 (0x6)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglSwapLayerBuffers
+Address           : 0x10022f20
+Relative Address  : 0x00022f20
+Ordinal           : 372 (0x174)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontBitmapsA
+Address           : 0x10022ff0
+Relative Address  : 0x00022ff0
+Ordinal           : 373 (0x175)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontBitmapsW
+Address           : 0x100230f0
+Relative Address  : 0x000230f0
+Ordinal           : 374 (0x176)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontOutlinesA
+Address           : 0x100231f0
+Relative Address  : 0x000231f0
+Ordinal           : 375 (0x177)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : wglUseFontOutlinesW
+Address           : 0x10023310
+Relative Address  : 0x00023310
+Ordinal           : 376 (0x178)
+Filename          : OpenGL32.dll
+Full Path         : C:\RS\jagexcache\jagexlauncher\bin\OpenGL32.dll
+Type              : Exported Function
+==================================================
+

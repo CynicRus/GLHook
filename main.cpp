@@ -8,14 +8,13 @@ GL_EXPORT BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvRes
         case DLL_PROCESS_ATTACH:
         {
             DisableThreadLibraryCalls(hinstDLL);
-            MessageBeep(0);
-
             return Initialize();
         }
         break;
 
         case DLL_PROCESS_DETACH:
         {
+            MessageBox(NULL, "Hook Detached.", "Terminating.", 0);
             return DeInitialize();
         }
         break;

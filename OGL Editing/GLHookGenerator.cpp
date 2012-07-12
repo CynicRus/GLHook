@@ -46,7 +46,7 @@ void CreateGLFunctionsFromTypedefs()
             Temp = Replace(Temp, ") (", "(", FalseFlags);
             PtrStr = ((FuncType[0] == 'c' && FuncType[1] == 'o') && (PtrStr[0] == 'G' && PtrStr[1] == 'L')) ? Copy(PtrStr, Pos(" ", PtrStr, 0) + 2, PtrStr.end() - PtrStr.begin() - 2) : PtrStr;
             Temp = (FuncType[0] == 'c' && FuncType[1] == 'o') ? Replace(Temp, " gl", " GLHook_gl", FalseFlags) : Replace(Temp, " ", " GLHook_", FalseFlags);
-            Temp = "GL_EXPORT " + Temp;
+            Temp = "GL_EXPORT __stdcall " + Temp; //__stdcall added.
 
             for (size_t J = 0; J < GLTypes.Size(); J++)
             {
@@ -84,8 +84,13 @@ void CreateGLAddressesFromDefinitions()
             {
                 if (Split[J][0] != 'G' && Split[J][1] != 'L' && Split[J][2] != 'H')
                 {
+                    //Final += "MessageBox(NULL, \"" + Split[J] + "\", \"CrashReport\", 0);\n";
                     Final += "if ((optr_" + Split[J] + " = (ptr_" + Split[J] + ") GetProcAddress(OriginalGL, \"" + Split[J];
                     Final += "\")) == NULL)\n{\n\treturn false;\n}\n\n";
+
+                    //Final += "\")) == NULL)\n{\n\t";
+                    //Final += "MessageBox(NULL, \"" + Split[J] + "\", \"CrashReport\", 0);\n\t";
+                    //Final += "return false;\n}\n\n";
                 }
             }
         }
@@ -159,6 +164,47 @@ void CreateGLDefinitionsFromTypedefs()
     WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLHook.def", Final);
 }
 
+void CreateGLNamingListFromExterns()
+{
+    StringArray FileContents;
+    ifstream File("C:/Users/Brandon/Desktop/OGL Editing/GLExterns.hpp", std::ios::in);
+    if (File.is_open())
+    {
+        string Line;
+        while (getline(File, Line))
+            FileContents(Line);
+        File.close();
+    }
+
+    string Final = string();
+    for (size_t I = 0; I < FileContents.Size(); I++)
+    {
+        if (FileContents[I][0] == 'e')
+            Final += Replace(FileContents[I], "extern ", "", ReplacementFlags(false, false)) + "\n";
+    }
+    WriteFile("C:/Users/Brandon/Desktop/OGL Editing/GLNamingList.hpp", Final);
+}
+
+void GLCompare()
+{
+    string ListOfGLExports = ReadFile("C:/Users/Brandon/Desktop/ListOfGLExports.hpp", false);
+    string CurrentExports = ReadFile("C:/Users/Brandon/Desktop/CurrentExports.hpp", false);
+
+    StringArray ListOfGLExportsSplit = SplitString(ListOfGLExports, "\n");
+    StringArray CurrentExportsSplit = SplitString(CurrentExports, "\n");
+    string Temp = string();
+    string Final = string();
+
+    for (size_t I = 0; I < ListOfGLExportsSplit.Size(); I++)
+    {
+        if (Pos(ListOfGLExportsSplit[I], CurrentExports, 0) == -1)
+        {
+            cout<<ListOfGLExportsSplit[I]<<endl;
+        }
+    }
+}
+
+
 int main(int argc, char* argv[])
 {
     StreamFlags(std::cout);
@@ -168,6 +214,9 @@ int main(int argc, char* argv[])
     CreateGLDefinitionsFromTypedefs();
     CreateGLAddressesFromDefinitions();
     CreateGLDefinitionsFromTypedefs();
+    CreateGLNamingListFromExterns();
+
+    //GLCompare();
 
     cin.get();
     return 0;

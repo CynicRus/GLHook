@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="GLHook.cpp" open="1" top="1" tabpos="3">
-		<Cursor position="306" topLine="0" />
+	<File name="GLHook.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="86238" topLine="2850" />
 	</File>
 	<File name="GLHook.def" open="1" top="0" tabpos="4">
 		<Cursor position="19798" topLine="352" />
 	</File>
 	<File name="GLHook.hpp" open="1" top="0" tabpos="2">
-		<Cursor position="56546" topLine="790" />
+		<Cursor position="12782" topLine="234" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="322" topLine="1" />
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="435" topLine="3" />
 	</File>
 	<File name="main.h" open="1" top="0" tabpos="5">
 		<Cursor position="328" topLine="7" />

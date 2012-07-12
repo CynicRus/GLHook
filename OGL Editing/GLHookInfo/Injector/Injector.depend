@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1341993391 source:c:\users\brandon\desktop\injector\main.cpp
+	<Windows.h>
+	<TlHelp32.h>
+	<iostream>
+

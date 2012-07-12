@@ -1,0 +1,1 @@
+Fix Hook Generator For Types Beginning with GLH such as GLHint.
