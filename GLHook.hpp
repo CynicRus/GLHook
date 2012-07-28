@@ -15,8 +15,6 @@
 #include <windows.h>
 #include <iostream>
 
-#include "PurelyCPlusPlus/Bitmaps.hpp"
-
 #ifdef BUILD_DLL
     #define DLL_EXPORT __declspec(dllexport)
 #else

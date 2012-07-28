@@ -33,7 +33,7 @@ struct PanelItem
 
 struct Model
 {
-    GLint SX, SX;
+    GLint SX, SY;
     GLfloat X, Y, Z;
     GLint Stride, ID;
 
