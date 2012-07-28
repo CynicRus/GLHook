@@ -1,0 +1,1950 @@
+==================================================
+Function Name     : _Java_jaggl_OpenGL_arePbuffersAvailable@8
+Address           : 0x10008900
+Relative Address  : 0x00008900
+Ordinal           : 1 (0x1)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_attachPeer@8
+Address           : 0x1000a7e0
+Relative Address  : 0x0000a7e0
+Ordinal           : 2 (0x2)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_createPbuffer@16
+Address           : 0x1000aa10
+Relative Address  : 0x0000aa10
+Ordinal           : 3 (0x3)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_detachPeer@8
+Address           : 0x1000a780
+Relative Address  : 0x0000a780
+Ordinal           : 4 (0x4)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glActiveTexture@12
+Address           : 0x10008160
+Relative Address  : 0x00008160
+Ordinal           : 5 (0x5)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glAlphaFunc@16
+Address           : 0x10008750
+Relative Address  : 0x00008750
+Ordinal           : 6 (0x6)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glAttachShader@16
+Address           : 0x10007ab0
+Relative Address  : 0x00007ab0
+Ordinal           : 7 (0x7)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBegin@12
+Address           : 0x10008520
+Relative Address  : 0x00008520
+Ordinal           : 8 (0x8)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBindBufferARB@16
+Address           : 0x10007df0
+Relative Address  : 0x00007df0
+Ordinal           : 9 (0x9)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBindFramebufferEXT@16
+Address           : 0x10007d10
+Relative Address  : 0x00007d10
+Ordinal           : 10 (0xa)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBindProgramARB@16
+Address           : 0x10007b60
+Relative Address  : 0x00007b60
+Ordinal           : 11 (0xb)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBindRenderbufferEXT@16
+Address           : 0x10007c10
+Relative Address  : 0x00007c10
+Ordinal           : 12 (0xc)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBindTexture@16
+Address           : 0x10008140
+Relative Address  : 0x00008140
+Ordinal           : 13 (0xd)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBlendColor@24
+Address           : 0x10007e20
+Relative Address  : 0x00007e20
+Ordinal           : 14 (0xe)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBlendFunc@16
+Address           : 0x10007e70
+Relative Address  : 0x00007e70
+Ordinal           : 15 (0xf)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBlendFuncSeparate@24
+Address           : 0x10007e50
+Relative Address  : 0x00007e50
+Ordinal           : 16 (0x10)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBlitFramebufferEXT@48
+Address           : 0x10007c40
+Relative Address  : 0x00007c40
+Ordinal           : 17 (0x11)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBufferDataARBa@28
+Address           : 0x10007dd0
+Relative Address  : 0x00007dd0
+Ordinal           : 18 (0x12)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBufferDataARBub@28
+Address           : 0x10009840
+Relative Address  : 0x00009840
+Ordinal           : 19 (0x13)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBufferSubDataARBa@28
+Address           : 0x10007db0
+Relative Address  : 0x00007db0
+Ordinal           : 20 (0x14)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glBufferSubDataARBub@28
+Address           : 0x100097f0
+Relative Address  : 0x000097f0
+Ordinal           : 21 (0x15)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCallList@12
+Address           : 0x10008530
+Relative Address  : 0x00008530
+Ordinal           : 22 (0x16)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCheckFramebufferStatusEXT@12
+Address           : 0x10007c80
+Relative Address  : 0x00007c80
+Ordinal           : 23 (0x17)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glClear@12
+Address           : 0x10008820
+Relative Address  : 0x00008820
+Ordinal           : 24 (0x18)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glClearColor@24
+Address           : 0x100087f0
+Relative Address  : 0x000087f0
+Ordinal           : 25 (0x19)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glClearDepth@12
+Address           : 0x100087d0
+Relative Address  : 0x000087d0
+Ordinal           : 26 (0x1a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glClientActiveTexture@12
+Address           : 0x10008290
+Relative Address  : 0x00008290
+Ordinal           : 27 (0x1b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColor3f@20
+Address           : 0x10008450
+Relative Address  : 0x00008450
+Ordinal           : 28 (0x1c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColor3ub@20
+Address           : 0x10008400
+Relative Address  : 0x00008400
+Ordinal           : 29 (0x1d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColor4f@24
+Address           : 0x10008420
+Relative Address  : 0x00008420
+Ordinal           : 30 (0x1e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColor4ub@24
+Address           : 0x100083e0
+Relative Address  : 0x000083e0
+Ordinal           : 31 (0x1f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColorMask@24
+Address           : 0x10008770
+Relative Address  : 0x00008770
+Ordinal           : 32 (0x20)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColorMaterial@16
+Address           : 0x10007ef0
+Relative Address  : 0x00007ef0
+Ordinal           : 33 (0x21)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glColorPointer@28
+Address           : 0x10008230
+Relative Address  : 0x00008230
+Ordinal           : 34 (0x22)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCompileShader@12
+Address           : 0x10007ad0
+Relative Address  : 0x00007ad0
+Ordinal           : 35 (0x23)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCompressedTexImage2Dub@44
+Address           : 0x10009700
+Relative Address  : 0x00009700
+Ordinal           : 36 (0x24)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCopyPixels@28
+Address           : 0x10007f70
+Relative Address  : 0x00007f70
+Ordinal           : 37 (0x25)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCopyTexImage2D@40
+Address           : 0x10008060
+Relative Address  : 0x00008060
+Ordinal           : 38 (0x26)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCopyTexSubImage2D@40
+Address           : 0x10008020
+Relative Address  : 0x00008020
+Ordinal           : 39 (0x27)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCopyTexSubImage3D@44
+Address           : 0x10007fa0
+Relative Address  : 0x00007fa0
+Ordinal           : 40 (0x28)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCreateProgram@8
+Address           : 0x10007b10
+Relative Address  : 0x00007b10
+Ordinal           : 41 (0x29)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCreateShader@12
+Address           : 0x10007b00
+Relative Address  : 0x00007b00
+Ordinal           : 42 (0x2a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glCullFace@12
+Address           : 0x100088a0
+Relative Address  : 0x000088a0
+Ordinal           : 43 (0x2b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteBuffersARB@20
+Address           : 0x100097a0
+Relative Address  : 0x000097a0
+Ordinal           : 44 (0x2c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteFramebuffersEXT@20
+Address           : 0x10009660
+Relative Address  : 0x00009660
+Ordinal           : 45 (0x2d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteLists@16
+Address           : 0x10008570
+Relative Address  : 0x00008570
+Ordinal           : 46 (0x2e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteProgram@12
+Address           : 0x10007ae0
+Relative Address  : 0x00007ae0
+Ordinal           : 47 (0x2f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteProgramARB@12
+Address           : 0x10007b80
+Relative Address  : 0x00007b80
+Ordinal           : 48 (0x30)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteRenderbuffersEXT@20
+Address           : 0x100095c0
+Relative Address  : 0x000095c0
+Ordinal           : 49 (0x31)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteShader@12
+Address           : 0x10007af0
+Relative Address  : 0x00007af0
+Ordinal           : 50 (0x32)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDeleteTextures@20
+Address           : 0x1000a3a0
+Relative Address  : 0x0000a3a0
+Ordinal           : 51 (0x33)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDepthFunc@12
+Address           : 0x100087c0
+Relative Address  : 0x000087c0
+Ordinal           : 52 (0x34)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDepthMask@12
+Address           : 0x100087b0
+Relative Address  : 0x000087b0
+Ordinal           : 53 (0x35)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDepthRange@16
+Address           : 0x10008790
+Relative Address  : 0x00008790
+Ordinal           : 54 (0x36)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDetachShader@16
+Address           : 0x10007a90
+Relative Address  : 0x00007a90
+Ordinal           : 55 (0x37)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDisable@12
+Address           : 0x100088b0
+Relative Address  : 0x000088b0
+Ordinal           : 56 (0x38)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDisableClientState@12
+Address           : 0x100082a0
+Relative Address  : 0x000082a0
+Ordinal           : 57 (0x39)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawArrays@20
+Address           : 0x10008190
+Relative Address  : 0x00008190
+Ordinal           : 58 (0x3a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawBuffer@12
+Address           : 0x10008730
+Relative Address  : 0x00008730
+Ordinal           : 59 (0x3b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawBuffersARB@20
+Address           : 0x1000a4e0
+Relative Address  : 0x0000a4e0
+Ordinal           : 60 (0x3c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawElements@28
+Address           : 0x10008170
+Relative Address  : 0x00008170
+Ordinal           : 61 (0x3d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawPixelsi@32
+Address           : 0x10009b70
+Relative Address  : 0x00009b70
+Ordinal           : 62 (0x3e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glDrawPixelsub@32
+Address           : 0x10009b10
+Relative Address  : 0x00009b10
+Ordinal           : 63 (0x3f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glEnable@12
+Address           : 0x100088c0
+Relative Address  : 0x000088c0
+Ordinal           : 64 (0x40)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glEnableClientState@12
+Address           : 0x100082b0
+Relative Address  : 0x000082b0
+Ordinal           : 65 (0x41)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glEnd@8
+Address           : 0x100082c0
+Relative Address  : 0x000082c0
+Ordinal           : 66 (0x42)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glEndList@8
+Address           : 0x10008540
+Relative Address  : 0x00008540
+Ordinal           : 67 (0x43)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFinish@8
+Address           : 0x10008840
+Relative Address  : 0x00008840
+Ordinal           : 68 (0x44)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFlush@8
+Address           : 0x10008830
+Relative Address  : 0x00008830
+Ordinal           : 69 (0x45)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFogf@16
+Address           : 0x10007e90
+Relative Address  : 0x00007e90
+Ordinal           : 70 (0x46)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFogfv@20
+Address           : 0x100099d0
+Relative Address  : 0x000099d0
+Ordinal           : 71 (0x47)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFogi@16
+Address           : 0x10007eb0
+Relative Address  : 0x00007eb0
+Ordinal           : 72 (0x48)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFramebufferRenderbufferEXT@24
+Address           : 0x10007c90
+Relative Address  : 0x00007c90
+Ordinal           : 73 (0x49)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFramebufferTexture2DEXT@28
+Address           : 0x10007ce0
+Relative Address  : 0x00007ce0
+Ordinal           : 74 (0x4a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFramebufferTexture3DEXT@32
+Address           : 0x10007cb0
+Relative Address  : 0x00007cb0
+Ordinal           : 75 (0x4b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glFrustum@56
+Address           : 0x10008670
+Relative Address  : 0x00008670
+Ordinal           : 76 (0x4c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenBuffersARB@20
+Address           : 0x100098b0
+Relative Address  : 0x000098b0
+Ordinal           : 77 (0x4d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenerateMipmapEXT@12
+Address           : 0x10007c30
+Relative Address  : 0x00007c30
+Ordinal           : 83 (0x53)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenFramebuffersEXT@20
+Address           : 0x100096b0
+Relative Address  : 0x000096b0
+Ordinal           : 78 (0x4e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenLists@12
+Address           : 0x10008590
+Relative Address  : 0x00008590
+Ordinal           : 79 (0x4f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenProgramARB@8
+Address           : 0x10007ba0
+Relative Address  : 0x00007ba0
+Ordinal           : 80 (0x50)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenRenderbuffersEXT@20
+Address           : 0x10009610
+Relative Address  : 0x00009610
+Ordinal           : 81 (0x51)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGenTextures@20
+Address           : 0x1000a3f0
+Relative Address  : 0x0000a3f0
+Ordinal           : 82 (0x52)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetError@8
+Address           : 0x10007e10
+Relative Address  : 0x00007e10
+Ordinal           : 84 (0x54)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetFloatv@20
+Address           : 0x10009950
+Relative Address  : 0x00009950
+Ordinal           : 85 (0x55)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetIntegerv@20
+Address           : 0x10009900
+Relative Address  : 0x00009900
+Ordinal           : 86 (0x56)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetProgramInfoLog@32
+Address           : 0x10008fd0
+Relative Address  : 0x00008fd0
+Ordinal           : 87 (0x57)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetProgramiv@24
+Address           : 0x10009050
+Relative Address  : 0x00009050
+Ordinal           : 88 (0x58)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetProgramivARB@24
+Address           : 0x10009470
+Relative Address  : 0x00009470
+Ordinal           : 89 (0x59)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetShaderInfoLog@32
+Address           : 0x10008f50
+Relative Address  : 0x00008f50
+Ordinal           : 90 (0x5a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetShaderiv@24
+Address           : 0x100090a0
+Relative Address  : 0x000090a0
+Ordinal           : 91 (0x5b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetShaderivARB@24
+Address           : 0x10009420
+Relative Address  : 0x00009420
+Ordinal           : 92 (0x5c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetString@12
+Address           : 0x100099a0
+Relative Address  : 0x000099a0
+Ordinal           : 93 (0x5d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetTexImagei@32
+Address           : 0x10009da0
+Relative Address  : 0x00009da0
+Ordinal           : 95 (0x5f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetTexImageub@32
+Address           : 0x10009d40
+Relative Address  : 0x00009d40
+Ordinal           : 96 (0x60)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glGetUniformLocation@16
+Address           : 0x100093e0
+Relative Address  : 0x000093e0
+Ordinal           : 99 (0x63)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glHint@16
+Address           : 0x10008850
+Relative Address  : 0x00008850
+Ordinal           : 100 (0x64)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLightf@20
+Address           : 0x10007ed0
+Relative Address  : 0x00007ed0
+Ordinal           : 102 (0x66)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLightfv@24
+Address           : 0x10009ac0
+Relative Address  : 0x00009ac0
+Ordinal           : 103 (0x67)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLightModelfv@20
+Address           : 0x10009a70
+Relative Address  : 0x00009a70
+Ordinal           : 101 (0x65)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLineWidth@12
+Address           : 0x100081f0
+Relative Address  : 0x000081f0
+Ordinal           : 104 (0x68)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLinkProgram@12
+Address           : 0x10007a80
+Relative Address  : 0x00007a80
+Ordinal           : 105 (0x69)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLoadIdentity@8
+Address           : 0x100086f0
+Relative Address  : 0x000086f0
+Ordinal           : 106 (0x6a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glLoadMatrixf@16
+Address           : 0x1000a490
+Relative Address  : 0x0000a490
+Ordinal           : 107 (0x6b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMapBufferARB@16
+Address           : 0x10007d90
+Relative Address  : 0x00007d90
+Ordinal           : 108 (0x6c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMaterialfv@24
+Address           : 0x10009a20
+Relative Address  : 0x00009a20
+Ordinal           : 109 (0x6d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMatrixMode@12
+Address           : 0x10008720
+Relative Address  : 0x00008720
+Ordinal           : 110 (0x6e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMultiTexCoord2f@20
+Address           : 0x100082f0
+Relative Address  : 0x000082f0
+Ordinal           : 112 (0x70)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMultiTexCoord2i@20
+Address           : 0x10008330
+Relative Address  : 0x00008330
+Ordinal           : 113 (0x71)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMultiTexCoord3i@24
+Address           : 0x10008310
+Relative Address  : 0x00008310
+Ordinal           : 114 (0x72)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glMultMatrixf@16
+Address           : 0x1000a440
+Relative Address  : 0x0000a440
+Ordinal           : 111 (0x6f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glNewList@16
+Address           : 0x10008550
+Relative Address  : 0x00008550
+Ordinal           : 115 (0x73)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glNormal3f@20
+Address           : 0x10008480
+Relative Address  : 0x00008480
+Ordinal           : 116 (0x74)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glNormalPointer@24
+Address           : 0x10008250
+Relative Address  : 0x00008250
+Ordinal           : 117 (0x75)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glOrtho@56
+Address           : 0x100086b0
+Relative Address  : 0x000086b0
+Ordinal           : 118 (0x76)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPixelStorei@16
+Address           : 0x10007f30
+Relative Address  : 0x00007f30
+Ordinal           : 119 (0x77)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPixelTransferf@16
+Address           : 0x10007f10
+Relative Address  : 0x00007f10
+Ordinal           : 120 (0x78)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPixelZoom@16
+Address           : 0x10007f50
+Relative Address  : 0x00007f50
+Ordinal           : 121 (0x79)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPointSize@12
+Address           : 0x100081d0
+Relative Address  : 0x000081d0
+Ordinal           : 122 (0x7a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPolygonMode@16
+Address           : 0x100081b0
+Relative Address  : 0x000081b0
+Ordinal           : 123 (0x7b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPopAttrib@8
+Address           : 0x10008880
+Relative Address  : 0x00008880
+Ordinal           : 124 (0x7c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPopMatrix@8
+Address           : 0x10008700
+Relative Address  : 0x00008700
+Ordinal           : 125 (0x7d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glProgramLocalParameter4fARB@32
+Address           : 0x10007b20
+Relative Address  : 0x00007b20
+Ordinal           : 126 (0x7e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glProgramLocalParameter4fvARB@24
+Address           : 0x100094c0
+Relative Address  : 0x000094c0
+Ordinal           : 127 (0x7f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glProgramRawARB@20
+Address           : 0x10009510
+Relative Address  : 0x00009510
+Ordinal           : 128 (0x80)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glProgramStringARB@20
+Address           : 0x10009570
+Relative Address  : 0x00009570
+Ordinal           : 129 (0x81)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPushAttrib@12
+Address           : 0x10008890
+Relative Address  : 0x00008890
+Ordinal           : 130 (0x82)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glPushMatrix@8
+Address           : 0x10008710
+Relative Address  : 0x00008710
+Ordinal           : 131 (0x83)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glRasterPos2i@16
+Address           : 0x100082d0
+Relative Address  : 0x000082d0
+Ordinal           : 132 (0x84)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glReadBuffer@12
+Address           : 0x10008740
+Relative Address  : 0x00008740
+Ordinal           : 133 (0x85)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glReadPixelsi@40
+Address           : 0x10009c30
+Relative Address  : 0x00009c30
+Ordinal           : 134 (0x86)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glReadPixelsub@40
+Address           : 0x10009bd0
+Relative Address  : 0x00009bd0
+Ordinal           : 135 (0x87)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glRenderbufferStorageEXT@24
+Address           : 0x10007bf0
+Relative Address  : 0x00007bf0
+Ordinal           : 136 (0x88)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glRenderbufferStorageMultisampleEXT@28
+Address           : 0x10007bc0
+Relative Address  : 0x00007bc0
+Ordinal           : 137 (0x89)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glRotatef@24
+Address           : 0x10008610
+Relative Address  : 0x00008610
+Ordinal           : 138 (0x8a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glScalef@20
+Address           : 0x100085e0
+Relative Address  : 0x000085e0
+Ordinal           : 139 (0x8b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glScissor@24
+Address           : 0x100085a0
+Relative Address  : 0x000085a0
+Ordinal           : 140 (0x8c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glShadeModel@12
+Address           : 0x10008870
+Relative Address  : 0x00008870
+Ordinal           : 141 (0x8d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glShaderSource@16
+Address           : 0x10009150
+Relative Address  : 0x00009150
+Ordinal           : 142 (0x8e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glShaderSourceRaw@16
+Address           : 0x100090f0
+Relative Address  : 0x000090f0
+Ordinal           : 143 (0x8f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glStencilFunc@20
+Address           : 0x10007d50
+Relative Address  : 0x00007d50
+Ordinal           : 144 (0x90)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glStencilOp@20
+Address           : 0x10007d30
+Relative Address  : 0x00007d30
+Ordinal           : 145 (0x91)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexCoord2f@16
+Address           : 0x10008380
+Relative Address  : 0x00008380
+Ordinal           : 146 (0x92)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexCoord2i@16
+Address           : 0x100083c0
+Relative Address  : 0x000083c0
+Ordinal           : 147 (0x93)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexCoord3f@20
+Address           : 0x10008350
+Relative Address  : 0x00008350
+Ordinal           : 148 (0x94)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexCoord3i@20
+Address           : 0x100083a0
+Relative Address  : 0x000083a0
+Ordinal           : 149 (0x95)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexCoordPointer@28
+Address           : 0x10008210
+Relative Address  : 0x00008210
+Ordinal           : 150 (0x96)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexEnvf@20
+Address           : 0x10008120
+Relative Address  : 0x00008120
+Ordinal           : 151 (0x97)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexEnvfv@24
+Address           : 0x1000a350
+Relative Address  : 0x0000a350
+Ordinal           : 152 (0x98)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexEnvi@20
+Address           : 0x10008100
+Relative Address  : 0x00008100
+Ordinal           : 153 (0x99)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexGenfv@24
+Address           : 0x1000a300
+Relative Address  : 0x0000a300
+Ordinal           : 154 (0x9a)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexGeni@20
+Address           : 0x100080e0
+Relative Address  : 0x000080e0
+Ordinal           : 155 (0x9b)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexImage1Dub@44
+Address           : 0x1000a260
+Relative Address  : 0x0000a260
+Ordinal           : 156 (0x9c)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexImage2Df@48
+Address           : 0x1000a100
+Relative Address  : 0x0000a100
+Ordinal           : 157 (0x9d)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexImage2Di@48
+Address           : 0x1000a1b0
+Relative Address  : 0x0000a1b0
+Ordinal           : 158 (0x9e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexImage2Dub@48
+Address           : 0x1000a050
+Relative Address  : 0x0000a050
+Ordinal           : 159 (0x9f)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexImage3Dub@52
+Address           : 0x10009c90
+Relative Address  : 0x00009c90
+Ordinal           : 160 (0xa0)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexParameterf@20
+Address           : 0x100080c0
+Relative Address  : 0x000080c0
+Ordinal           : 161 (0xa1)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexParameteri@20
+Address           : 0x100080a0
+Relative Address  : 0x000080a0
+Ordinal           : 162 (0xa2)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexSubImage2Df@48
+Address           : 0x10009ef0
+Relative Address  : 0x00009ef0
+Ordinal           : 163 (0xa3)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexSubImage2Di@48
+Address           : 0x10009fa0
+Relative Address  : 0x00009fa0
+Ordinal           : 164 (0xa4)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTexSubImage2Dub@48
+Address           : 0x10009e40
+Relative Address  : 0x00009e40
+Ordinal           : 165 (0xa5)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glTranslatef@20
+Address           : 0x10008640
+Relative Address  : 0x00008640
+Ordinal           : 166 (0xa6)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform1f@16
+Address           : 0x10007a30
+Relative Address  : 0x00007a30
+Ordinal           : 167 (0xa7)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform1fv@24
+Address           : 0x10009390
+Relative Address  : 0x00009390
+Ordinal           : 168 (0xa8)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform1i@16
+Address           : 0x10007a50
+Relative Address  : 0x00007a50
+Ordinal           : 169 (0xa9)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform2f@20
+Address           : 0x10007a10
+Relative Address  : 0x00007a10
+Ordinal           : 170 (0xaa)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform2fv@24
+Address           : 0x10009340
+Relative Address  : 0x00009340
+Ordinal           : 171 (0xab)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform3f@24
+Address           : 0x100079e0
+Relative Address  : 0x000079e0
+Ordinal           : 172 (0xac)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform3fv@24
+Address           : 0x100092f0
+Relative Address  : 0x000092f0
+Ordinal           : 173 (0xad)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform4f@28
+Address           : 0x100079b0
+Relative Address  : 0x000079b0
+Ordinal           : 174 (0xae)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniform4fv@24
+Address           : 0x100092a0
+Relative Address  : 0x000092a0
+Ordinal           : 175 (0xaf)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniformMatrix2fv@28
+Address           : 0x10009250
+Relative Address  : 0x00009250
+Ordinal           : 176 (0xb0)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniformMatrix3fv@28
+Address           : 0x10009200
+Relative Address  : 0x00009200
+Ordinal           : 177 (0xb1)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUniformMatrix4fv@28
+Address           : 0x100091b0
+Relative Address  : 0x000091b0
+Ordinal           : 178 (0xb2)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUnmapBufferARB@12
+Address           : 0x10007d70
+Relative Address  : 0x00007d70
+Ordinal           : 179 (0xb3)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glUseProgram@12
+Address           : 0x10007a70
+Relative Address  : 0x00007a70
+Ordinal           : 180 (0xb4)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glVertex2f@16
+Address           : 0x100084e0
+Relative Address  : 0x000084e0
+Ordinal           : 181 (0xb5)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glVertex2i@16
+Address           : 0x10008500
+Relative Address  : 0x00008500
+Ordinal           : 182 (0xb6)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glVertex3f@20
+Address           : 0x100084b0
+Relative Address  : 0x000084b0
+Ordinal           : 183 (0xb7)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glVertexPointer@28
+Address           : 0x10008270
+Relative Address  : 0x00008270
+Ordinal           : 184 (0xb8)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_glViewport@24
+Address           : 0x100085c0
+Relative Address  : 0x000085c0
+Ordinal           : 185 (0xb9)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_init@36
+Address           : 0x1000aac0
+Relative Address  : 0x0000aac0
+Ordinal           : 186 (0xba)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_prepareSurface@12
+Address           : 0x1000a6a0
+Relative Address  : 0x0000a6a0
+Ordinal           : 187 (0xbb)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_release@8
+Address           : 0x1000b160
+Relative Address  : 0x0000b160
+Ordinal           : 188 (0xbc)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_releasePbuffer@16
+Address           : 0x1000a970
+Relative Address  : 0x0000a970
+Ordinal           : 189 (0xbd)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_releaseSurface@20
+Address           : 0x1000a5a0
+Relative Address  : 0x0000a5a0
+Ordinal           : 190 (0xbe)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_setPbuffer@16
+Address           : 0x1000a530
+Relative Address  : 0x0000a530
+Ordinal           : 191 (0xbf)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_setSurface@16
+Address           : 0x1000a630
+Relative Address  : 0x0000a630
+Ordinal           : 192 (0xc0)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_setSwapInterval@12
+Address           : 0x100088d0
+Relative Address  : 0x000088d0
+Ordinal           : 193 (0xc1)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_surfaceResized@16
+Address           : 0x10008910
+Relative Address  : 0x00008910
+Ordinal           : 194 (0xc2)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : _Java_jaggl_OpenGL_swapBuffers@16
+Address           : 0x100088f0
+Relative Address  : 0x000088f0
+Ordinal           : 195 (0xc3)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : Java_jaggl_OpenGL_glGetTexImage
+Address           : 0x10009e00
+Relative Address  : 0x00009e00
+Ordinal           : 94 (0x5e)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : Java_jaggl_OpenGL_glGetTexLevelParameterfv
+Address           : 0x10008000
+Relative Address  : 0x00008000
+Ordinal           : 97 (0x61)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+
+==================================================
+Function Name     : Java_jaggl_OpenGL_glGetTexLevelParameteriv
+Address           : 0x10007fe0
+Relative Address  : 0x00007fe0
+Ordinal           : 98 (0x62)
+Filename          : jaggl.dll
+Full Path         : C:\Users\Brandon\jagexcache\runescape\LIVE\jaggl.dll
+Type              : Exported Function
+==================================================
+

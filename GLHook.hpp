@@ -11,8 +11,11 @@
 
 #include <gl/gl.h>
 #include <gl/glu.h>
+#include <gl/glext.h>
 #include <windows.h>
 #include <iostream>
+
+#include "PurelyCPlusPlus/Bitmaps.hpp"
 
 #ifdef BUILD_DLL
     #define DLL_EXPORT __declspec(dllexport)

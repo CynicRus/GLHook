@@ -1,4 +1,4 @@
-#include "main.h"
+#include <windows.h>
 #include "GLHook.hpp"
 
 GL_EXPORT BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)

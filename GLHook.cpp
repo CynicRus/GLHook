@@ -414,16 +414,6 @@ GL_EXPORT __stdcall void GLHook_glArrayElement(GLint index)
 	(*optr_glArrayElement) (index);
 }
 
-GL_EXPORT __stdcall void GLHook_glBegin(GLenum mode)
-{
-	(*optr_glBegin) (mode);
-}
-
-GL_EXPORT __stdcall void GLHook_glBindTexture(GLenum target, GLuint texture)
-{
-	(*optr_glBindTexture) (target, texture);
-}
-
 GL_EXPORT __stdcall void GLHook_glBitmap(GLsizei width, GLsizei height, GLfloat xorig, GLfloat yorig, GLfloat xmove, GLfloat ymove, const GLubyte *bitmap)
 {
 	(*optr_glBitmap) (width, height, xorig, yorig, xmove, ymove, bitmap);
@@ -729,16 +719,6 @@ GL_EXPORT __stdcall void GLHook_glDrawBuffer(GLenum mode)
 	(*optr_glDrawBuffer) (mode);
 }
 
-GL_EXPORT __stdcall void GLHook_glDrawElements(GLenum mode, GLsizei count, GLenum type, const GLvoid *indices)
-{
-	(*optr_glDrawElements) (mode, count, type, indices);
-}
-
-GL_EXPORT __stdcall void GLHook_glDrawPixels(GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid *pixels)
-{
-	(*optr_glDrawPixels) (width, height, format, type, pixels);
-}
-
 GL_EXPORT __stdcall void GLHook_glEdgeFlag(GLboolean flag)
 {
 	(*optr_glEdgeFlag) (flag);
@@ -762,11 +742,6 @@ GL_EXPORT __stdcall void GLHook_glEnable(GLenum cap)
 GL_EXPORT __stdcall void GLHook_glEnableClientState(GLenum array)
 {
 	(*optr_glEnableClientState) (array);
-}
-
-GL_EXPORT __stdcall void GLHook_glEnd(void)
-{
-	(*optr_glEnd) ();
 }
 
 GL_EXPORT __stdcall void GLHook_glEndList(void)
@@ -1474,11 +1449,6 @@ GL_EXPORT __stdcall void GLHook_glRasterPos2fv(const GLfloat *v)
 	(*optr_glRasterPos2fv) (v);
 }
 
-GL_EXPORT __stdcall void GLHook_glRasterPos2i(GLint x, GLint y)
-{
-	(*optr_glRasterPos2i) (x, y);
-}
-
 GL_EXPORT __stdcall void GLHook_glRasterPos2iv(const GLint *v)
 {
 	(*optr_glRasterPos2iv) (v);
@@ -1731,7 +1701,7 @@ GL_EXPORT __stdcall void GLHook_glTexCoord2dv(const GLdouble *v)
 
 GL_EXPORT __stdcall void GLHook_glTexCoord2f(GLfloat s,  GLfloat t)
 {
-	(*optr_glTexCoord2f) (s,  t);
+	(*optr_glTexCoord2f) (s, t);
 }
 
 GL_EXPORT __stdcall void GLHook_glTexCoord2fv(const GLfloat *v)
@@ -1964,11 +1934,6 @@ GL_EXPORT __stdcall void GLHook_glVertex2fv(const GLfloat *v)
 	(*optr_glVertex2fv) (v);
 }
 
-GL_EXPORT __stdcall void GLHook_glVertex2i(GLint x, GLint y)
-{
-	(*optr_glVertex2i) (x, y);
-}
-
 GL_EXPORT __stdcall void GLHook_glVertex2iv(const GLint *v)
 {
 	(*optr_glVertex2iv) (v);
@@ -2164,11 +2129,6 @@ GL_EXPORT __stdcall BOOL GLHook_wglShareLists(HGLRC hglrc1, HGLRC hglrc2)
 	return (*optr_wglShareLists) (hglrc1, hglrc2);
 }
 
-GL_EXPORT __stdcall BOOL GLHook_wglSwapBuffers(HDC hdc)
-{
-	return (*optr_wglSwapBuffers) (hdc);
-}
-
 GL_EXPORT __stdcall BOOL GLHook_wglSwapLayerBuffers(HDC hdc, UINT fuPlanes)
 {
 	return (*optr_wglSwapLayerBuffers) (hdc,  fuPlanes);
@@ -2204,7 +2164,7 @@ GL_EXPORT bool __stdcall Initialize(void)
         GetSystemDirectory(Root, MAX_PATH);
         strcat(Root, "\\opengl32.dll");
 
-        OriginalGL = LoadLibraryA(&Root[0]);
+        OriginalGL = LoadLibraryA(Root);
         if (!OriginalGL) return false;
 
         if ((optr_glDebugEntry = (ptr_glDebugEntry) GetProcAddress(OriginalGL, "glDebugEntry")) == NULL)
@@ -4022,6 +3982,7 @@ GL_EXPORT bool __stdcall Initialize(void)
 
 GL_EXPORT bool __stdcall DeInitialize(void)
 {
+    //KillFont();
     if (FreeLibrary(OriginalGL))
     {
         OriginalGL = NULL;
