@@ -1,0 +1,112 @@
+target == GL_TEXTURE_RECTANGLE_NV       //Gets Icons, Inventory items, Fonts, MM-Symbols(Not Icons).
+
+target == GL_TEXTURE_2D					//Interface Buttons, Trees, Scrollbar-Arrows, MM-Icons(Not Symbols), Map-Area, Red/Yellow-Click, CloseButtons.
+
+glTexCoord2i							//The coordinates of the current texture. Good for Item/Inventory Checking.
+
+glVertex2i								//The coordinates of the current vertex pointer being drawn. Good for models.
+
+glVertexPointer							//The pointer to a model currently being drawn.	
+
+
+
+MODEL STUFF:
+
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,4)
+glBufferDataARB(GL_ARRAY_BUFFER,526248,30A683EF,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,5)
+glBufferDataARB(GL_ARRAY_BUFFER,87708,309E3027,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,6)
+glBufferDataARB(GL_ARRAY_BUFFER,87708,30A25A0B,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,7)
+glBufferDataARB(GL_ARRAY_BUFFER,76848,30C131E7,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,8)
+glBufferDataARB(GL_ARRAY_BUFFER,12808,30BF7F47,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,9)
+glBufferDataARB(GL_ARRAY_BUFFER,12808,30C05897,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,10)
+glBufferDataARB(GL_ARRAY_BUFFER,18288,30C6B5F7,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,11)
+glBufferDataARB(GL_ARRAY_BUFFER,3048,30C649C7,GL_STATIC_DRAW)
+glGenBuffersARB(1,0E08386C)
+glBindBufferARB(GL_ARRAY_BUFFER,12)
+glBufferDataARB(GL_ARRAY_BUFFER,3048,30C67FDF,GL_STATIC_DRAW)
+
+
+
+glDisable(GL_TEXTURE_2D)
+glMatrixMode(GL_PROJECTION)
+glLoadMatrixf([0.000020,0.000000,0.000000,0.000000,0.000000,0.000028,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,-1.000000,0.233273,0.000000,1.000000])
+glMatrixMode(GL_MODELVIEW)
+glLoadMatrixf([1.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1.000000])
+glBindBufferARB(GL_ARRAY_BUFFER,4)
+glVertexPointer(3,GL_FLOAT,24,00000000)
+glEnableClientState(GL_VERTEX_ARRAY)
+glDisableClientState(GL_NORMAL_ARRAY)
+glColorPointer(4,GL_UNSIGNED_BYTE,24,0000000C)
+glEnableClientState(GL_COLOR_ARRAY)
+glTexCoordPointer(2,GL_FLOAT,24,00000010)
+glEnableClientState(GL_TEXTURE_COORD_ARRAY)
+glBindBufferARB(GL_ELEMENT_ARRAY_BUFFER,0)
+glDrawElements(GL_TRIANGLES,17685,GL_UNSIGNED_SHORT,30C82DB7) Textures[ (0,11) (0,7) (0,126) (0,6) (0,10) ] 
+glGenTextures(1,0CD6E934)
+glEnable(GL_TEXTURE_2D)
+glBindTexture(GL_TEXTURE_2D,127)
+glPixelStorei(GL_UNPACK_ROW_LENGTH,8)
+glTexImage2D(GL_TEXTURE_2D,0,GL_RGBA,8,8,0,GL_BGRA,GL_UNSIGNED_BYTE,04D4D294)
+
+
+
+
+
+glGenTextures(1,0CD6E934)
+glEnable(GL_TEXTURE_RECTANGLE)
+glBindTexture(GL_TEXTURE_RECTANGLE,129)
+glPixelStorei(GL_UNPACK_ROW_LENGTH,8)
+glTexImage2D(GL_TEXTURE_RECTANGLE,0,GL_RGBA,8,7,0,GL_BGRA,GL_UNSIGNED_BYTE,04D5560C)
+glPixelStorei(GL_UNPACK_ROW_LENGTH,0)
+glTexParameteri(GL_TEXTURE_RECTANGLE,GL_TEXTURE_MIN_FILTER,GL_LINEAR)
+glTexParameteri(GL_TEXTURE_RECTANGLE,GL_TEXTURE_MAG_FILTER,GL_LINEAR)
+glColor4ub(0,0,0,0)
+glBegin(GL_QUADS) Textures[ (0,11) (0,128) (0,129) (0,6) (0,10) ] 
+glTexCoord2f(0.000000,7.000000)
+glVertex2i(28,48)
+glTexCoord2f(0.000000,0.000000)
+glVertex2i(28,55)
+glTexCoord2f(8.000000,0.000000)
+glVertex2i(36,55)
+glTexCoord2f(8.000000,7.000000)
+glVertex2i(36,48)
+glEnd()
+
+
+glBindBufferARB(GL_ARRAY_BUFFER,4)
+glVertexPointer(3,GL_FLOAT,24,00000000)
+glEnableClientState(GL_VERTEX_ARRAY)
+glDisableClientState(GL_NORMAL_ARRAY)
+glColorPointer(4,GL_UNSIGNED_BYTE,24,0000000C)
+glEnableClientState(GL_COLOR_ARRAY)
+glTexCoordPointer(2,GL_FLOAT,24,00000010)
+glEnableClientState(GL_TEXTURE_COORD_ARRAY)
+glBindBufferARB(GL_ELEMENT_ARRAY_BUFFER,0)
+glDrawElements(GL_TRIANGLES,17604,GL_UNSIGNED_SHORT,30C8B7E1) Textures[ (0,11) (0,7) (0,130) (0,6) (0,10) ] 
+
+
+glBindBufferARB(GL_ARRAY_BUFFER,7)
+glVertexPointer(3,GL_FLOAT,24,00000000)
+glEnableClientState(GL_VERTEX_ARRAY)
+glDisableClientState(GL_NORMAL_ARRAY)
+glColorPointer(4,GL_UNSIGNED_BYTE,24,0000000C)
+glEnableClientState(GL_COLOR_ARRAY)
+glTexCoordPointer(2,GL_FLOAT,24,00000010)
+glEnableClientState(GL_TEXTURE_COORD_ARRAY)
+glBindBufferARB(GL_ELEMENT_ARRAY_BUFFER,0)
+glDrawElements(GL_TRIANGLES,2805,GL_UNSIGNED_SHORT,30C94169) Textures[ (0,11) (0,127) (0,130) (0,6) (0,10) ] 
