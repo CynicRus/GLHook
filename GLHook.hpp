@@ -34,17 +34,17 @@ GL_EXPORT bool __stdcall DeInitialize(void);
 
                                     /**         TYPEDEFS: Start.         **/
 
-typedef void (WINAPI *ptr_glDebugEntry) (DWORD dwArg1, DWORD dwArg2);
-typedef void (WINAPI *ptr_wglSwapMultipleBuffers) (DWORD dwArg1, DWORD dwArg2);
-
 typedef void (WINAPI *ptr_glAccum) (GLenum op, GLfloat value);
 typedef void (WINAPI *ptr_glAlphaFunc) (GLenum func, GLclampf ref);
 typedef GLboolean (WINAPI *ptr_glAreTexturesResident) (GLsizei n, const GLuint *textures, GLboolean *residences);
 typedef void (WINAPI *ptr_glArrayElement) (GLint index);
 typedef void (WINAPI *ptr_glBegin) (GLenum mode);
+typedef void (WINAPI *ptr_glBindBufferARB) (GLenum target, GLuint buffer);
 typedef void (WINAPI *ptr_glBindTexture) (GLenum target, GLuint texture);
 typedef void (WINAPI *ptr_glBitmap) (GLsizei width, GLsizei height, GLfloat xorig, GLfloat yorig, GLfloat xmove, GLfloat ymove, const GLubyte *bitmap);
 typedef void (WINAPI *ptr_glBlendFunc) (GLenum sfactor, GLenum dfactor);
+typedef void (WINAPI *ptr_glBufferDataARB) (GLenum target, GLsizeiptrARB size, const GLvoid *data, GLenum usage);
+typedef void (WINAPI *ptr_glBufferSubDataARB) (GLenum target, GLintptrARB offset, GLsizeiptrARB size, const GLvoid *data);
 typedef void (WINAPI *ptr_glCallList) (GLuint list);
 typedef void (WINAPI *ptr_glCallLists) (GLsizei n, GLenum type, const GLvoid *lists);
 typedef void (WINAPI *ptr_glClear) (GLbitfield mask);
@@ -116,7 +116,7 @@ typedef void (WINAPI *ptr_glDrawArrays) (GLenum mode, GLint first, GLsizei count
 typedef void (WINAPI *ptr_glDrawBuffer) (GLenum mode);
 typedef void (WINAPI *ptr_glDrawElements) (GLenum mode, GLsizei count, GLenum type, const GLvoid *indices);
 typedef void (WINAPI *ptr_glDrawPixels) (GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid *pixels);
-
+typedef void (WINAPI *ptr_glDebugEntry) (DWORD dwArg1, DWORD dwArg2);
 
                                     /**         TYPEDEFS: EdgeFlag Functions         **/
 
@@ -176,6 +176,7 @@ typedef void (WINAPI *ptr_glFogiv) (GLenum pname, const GLint *params);
 
 typedef void (WINAPI *ptr_glFrontFace) (GLenum mode);
 typedef void (WINAPI *ptr_glFrustum) (GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar);
+typedef void (WINAPI *ptr_glGenBuffersARB) (GLsizei n, GLuint *buffers);
 typedef GLuint (WINAPI *ptr_glGenLists) (GLsizei range);
 typedef void (WINAPI *ptr_glGenTextures) (GLsizei n, GLuint *textures);
 
@@ -314,6 +315,7 @@ typedef void (WINAPI *ptr_glMaterialiv) (GLenum face, GLenum pname, const GLint 
                                     /**         TYPEDEFS: Continued        **/
 
 typedef void (WINAPI *ptr_glMatrixMode) (GLenum mode);
+typedef void (WINAPI *ptr_glMultiTexCoord2fARB) (GLenum target, GLfloat s, GLfloat t);
 typedef void (WINAPI *ptr_glMultMatrixd) (const GLdouble *m);
 typedef void (WINAPI *ptr_glMultMatrixf) (const GLdouble *m);
 typedef void (WINAPI *ptr_glNewList) (GLuint list, GLenum mode);
@@ -537,6 +539,7 @@ typedef BOOL (WINAPI *ptr_wglSetPixelFormat) (HDC hdc, int iPixelFormat, const P
 typedef BOOL (WINAPI *ptr_wglShareLists) (HGLRC hglrc1, HGLRC hglrc2);
 typedef BOOL (WINAPI *ptr_wglSwapBuffers) (HDC hdc);
 typedef BOOL (WINAPI *ptr_wglSwapLayerBuffers) (HDC hdc, UINT fuPlanes);
+typedef void (WINAPI *ptr_wglSwapMultipleBuffers) (DWORD dwArg1, DWORD dwArg2);
 typedef BOOL (WINAPI *ptr_wglUseFontBitmapsW) (HDC hdc, DWORD first, DWORD count, DWORD listBase);
 typedef BOOL (WINAPI *ptr_wglUseFontBitmapsA) (HDC hdc, DWORD first, DWORD count, DWORD listBase);
 typedef BOOL (WINAPI *ptr_wglUseFontOutlinesW) (HDC hdc, DWORD first, DWORD count, DWORD listBase, FLOAT deviation, FLOAT extrusion, int format, LPGLYPHMETRICSFLOAT lpgmf);
@@ -548,17 +551,17 @@ typedef BOOL (WINAPI *ptr_wglUseFontOutlinesA) (HDC hdc, DWORD first, DWORD coun
 
                                     /**         NAMING: Start.       **/
 
-extern ptr_glDebugEntry               optr_glDebugEntry;
-extern ptr_wglSwapMultipleBuffers     optr_wglSwapMultipleBuffers;
-
 extern ptr_glAccum                    optr_glAccum;
 extern ptr_glAlphaFunc                optr_glAlphaFunc;
 extern ptr_glAreTexturesResident      optr_glAreTexturesResident;
 extern ptr_glArrayElement             optr_glArrayElement;
 extern ptr_glBegin                    optr_glBegin;
+extern ptr_glBindBufferARB            optr_glBindBufferARB;
 extern ptr_glBindTexture              optr_glBindTexture;
 extern ptr_glBitmap                   optr_glBitmap;
 extern ptr_glBlendFunc                optr_glBlendFunc;
+extern ptr_glBufferDataARB            optr_glBufferDataARB;
+extern ptr_glBufferSubDataARB         optr_glBufferSubDataARB;
 extern ptr_glCallList                 optr_glCallList;
 extern ptr_glCallLists                optr_glCallLists;
 extern ptr_glClear                    optr_glClear;
@@ -630,7 +633,7 @@ extern ptr_glDrawArrays               optr_glDrawArrays;
 extern ptr_glDrawBuffer               optr_glDrawBuffer;
 extern ptr_glDrawElements             optr_glDrawElements;
 extern ptr_glDrawPixels               optr_glDrawPixels;
-
+extern ptr_glDebugEntry               optr_glDebugEntry;
 
                                     /**         NAMING: EdgeFlag Functions         **/
 
@@ -690,6 +693,7 @@ extern ptr_glFogiv                    optr_glFogiv;
 
 extern ptr_glFrontFace                optr_glFrontFace;
 extern ptr_glFrustum                  optr_glFrustum;
+extern ptr_glGenBuffersARB            optr_glGenBuffersARB;
 extern ptr_glGenLists                 optr_glGenLists;
 extern ptr_glGenTextures              optr_glGenTextures;
 
@@ -828,6 +832,7 @@ extern ptr_glMaterialiv               optr_glMaterialiv;
                                     /**         NAMING: Continued        **/
 
 extern ptr_glMatrixMode               optr_glMatrixMode;
+extern ptr_glMultiTexCoord2fARB       optr_glMultiTexCoord2fARB;
 extern ptr_glMultMatrixd              optr_glMultMatrixd;
 extern ptr_glMultMatrixf              optr_glMultMatrixf;
 extern ptr_glNewList                  optr_glNewList;
@@ -1051,6 +1056,7 @@ extern ptr_wglSetPixelFormat          optr_wglSetPixelFormat;
 extern ptr_wglShareLists              optr_wglShareLists;
 extern ptr_wglSwapBuffers             optr_wglSwapBuffers;
 extern ptr_wglSwapLayerBuffers        optr_wglSwapLayerBuffers;
+extern ptr_wglSwapMultipleBuffers     optr_wglSwapMultipleBuffers;
 extern ptr_wglUseFontBitmapsW         optr_wglUseFontBitmapsW;
 extern ptr_wglUseFontBitmapsA         optr_wglUseFontBitmapsA;
 extern ptr_wglUseFontOutlinesW        optr_wglUseFontOutlinesW;

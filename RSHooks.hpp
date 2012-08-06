@@ -9,6 +9,7 @@
 #include "GLHook.hpp"
 #include "Commands.hpp"
 #include "Models.hpp"
-
+#include "Matrix.hpp"
+#include "Vector3D.hpp"
 
 #endif // RSHOOKS_HPP_INCLUDED

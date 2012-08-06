@@ -17,16 +17,17 @@ HMODULE OriginalGL = 0;
 
                                     /**         NAMING: Start.       **/
 
-ptr_glDebugEntry               optr_glDebugEntry;
-ptr_wglSwapMultipleBuffers     optr_wglSwapMultipleBuffers;
 ptr_glAccum                    optr_glAccum;
 ptr_glAlphaFunc                optr_glAlphaFunc;
 ptr_glAreTexturesResident      optr_glAreTexturesResident;
 ptr_glArrayElement             optr_glArrayElement;
 ptr_glBegin                    optr_glBegin;
+ptr_glBindBufferARB            optr_glBindBufferARB;
 ptr_glBindTexture              optr_glBindTexture;
 ptr_glBitmap                   optr_glBitmap;
 ptr_glBlendFunc                optr_glBlendFunc;
+ptr_glBufferDataARB            optr_glBufferDataARB;
+ptr_glBufferSubDataARB         optr_glBufferSubDataARB;
 ptr_glCallList                 optr_glCallList;
 ptr_glCallLists                optr_glCallLists;
 ptr_glClear                    optr_glClear;
@@ -88,6 +89,7 @@ ptr_glDrawArrays               optr_glDrawArrays;
 ptr_glDrawBuffer               optr_glDrawBuffer;
 ptr_glDrawElements             optr_glDrawElements;
 ptr_glDrawPixels               optr_glDrawPixels;
+ptr_glDebugEntry               optr_glDebugEntry;
 ptr_glEdgeFlag                 optr_glEdgeFlag;
 ptr_glEdgeFlagv                optr_glEdgeFlagv;
 ptr_glEdgeFlagPointer          optr_glEdgeFlagPointer;
@@ -116,6 +118,7 @@ ptr_glFogi                     optr_glFogi;
 ptr_glFogiv                    optr_glFogiv;
 ptr_glFrontFace                optr_glFrontFace;
 ptr_glFrustum                  optr_glFrustum;
+ptr_glGenBuffersARB            optr_glGenBuffersARB;
 ptr_glGenLists                 optr_glGenLists;
 ptr_glGenTextures              optr_glGenTextures;
 ptr_glGetBooleanv              optr_glGetBooleanv;
@@ -194,6 +197,7 @@ ptr_glMaterialfv               optr_glMaterialfv;
 ptr_glMateriali                optr_glMateriali;
 ptr_glMaterialiv               optr_glMaterialiv;
 ptr_glMatrixMode               optr_glMatrixMode;
+ptr_glMultiTexCoord2fARB       optr_glMultiTexCoord2fARB;
 ptr_glMultMatrixd              optr_glMultMatrixd;
 ptr_glMultMatrixf              optr_glMultMatrixf;
 ptr_glNewList                  optr_glNewList;
@@ -375,6 +379,7 @@ ptr_wglSetPixelFormat          optr_wglSetPixelFormat;
 ptr_wglShareLists              optr_wglShareLists;
 ptr_wglSwapBuffers             optr_wglSwapBuffers;
 ptr_wglSwapLayerBuffers        optr_wglSwapLayerBuffers;
+ptr_wglSwapMultipleBuffers     optr_wglSwapMultipleBuffers;
 ptr_wglUseFontBitmapsW         optr_wglUseFontBitmapsW;
 ptr_wglUseFontBitmapsA         optr_wglUseFontBitmapsA;
 ptr_wglUseFontOutlinesW        optr_wglUseFontOutlinesW;
@@ -383,16 +388,6 @@ ptr_wglUseFontOutlinesA        optr_wglUseFontOutlinesA;
                                     /**         NAMING: End.       **/
 
                                     /**         IMPLEMENTATION: Start.         **/
-
-GL_EXPORT __stdcall void GLHook_glDebugEntry(DWORD dwArg1, DWORD dwArg2)
-{
-	(*optr_glDebugEntry) (dwArg1, dwArg2);
-}
-
-GL_EXPORT __stdcall void GLHook_wglSwapMultipleBuffers(DWORD dwArg1, DWORD dwArg2)
-{
-	(*optr_wglSwapMultipleBuffers) (dwArg1, dwArg2);
-}
 
 GL_EXPORT __stdcall void GLHook_glAccum(GLenum op, GLfloat value)
 {
@@ -414,6 +409,11 @@ GL_EXPORT __stdcall void GLHook_glArrayElement(GLint index)
 	(*optr_glArrayElement) (index);
 }
 
+GL_EXPORT __stdcall void GLHook_glBegin(GLenum mode)
+{
+	(*optr_glBegin) (mode);
+}
+
 GL_EXPORT __stdcall void GLHook_glBitmap(GLsizei width, GLsizei height, GLfloat xorig, GLfloat yorig, GLfloat xmove, GLfloat ymove, const GLubyte *bitmap)
 {
 	(*optr_glBitmap) (width, height, xorig, yorig, xmove, ymove, bitmap);
@@ -422,11 +422,6 @@ GL_EXPORT __stdcall void GLHook_glBitmap(GLsizei width, GLsizei height, GLfloat 
 GL_EXPORT __stdcall void GLHook_glBlendFunc(GLenum sfactor, GLenum dfactor)
 {
 	(*optr_glBlendFunc) (sfactor, dfactor);
-}
-
-GL_EXPORT __stdcall void GLHook_glCallList(GLuint list)
-{
-	(*optr_glCallList) (list);
 }
 
 GL_EXPORT __stdcall void GLHook_glCallLists(GLsizei n, GLenum type, const GLvoid *lists)
@@ -599,11 +594,6 @@ GL_EXPORT __stdcall void GLHook_glColor4sv(const GLshort *v)
 	(*optr_glColor4sv) (v);
 }
 
-GL_EXPORT __stdcall void GLHook_glColor4ub(GLubyte red, GLubyte green, GLubyte blue, GLubyte alpha)
-{
-	(*optr_glColor4ub) (red, green, blue, alpha);
-}
-
 GL_EXPORT __stdcall void GLHook_glColor4ubv(const GLubyte *v)
 {
 	(*optr_glColor4ubv) (v);
@@ -719,6 +709,16 @@ GL_EXPORT __stdcall void GLHook_glDrawBuffer(GLenum mode)
 	(*optr_glDrawBuffer) (mode);
 }
 
+GL_EXPORT __stdcall void GLHook_glDrawPixels(GLsizei width, GLsizei height, GLenum format, GLenum type, const GLvoid *pixels)
+{
+	(*optr_glDrawPixels) (width, height, format, type, pixels);
+}
+
+GL_EXPORT __stdcall void GLHook_glDebugEntry(DWORD dwArg1, DWORD dwArg2)
+{
+	(*optr_glDebugEntry) (dwArg1, dwArg2);
+}
+
 GL_EXPORT __stdcall void GLHook_glEdgeFlag(GLboolean flag)
 {
 	(*optr_glEdgeFlag) (flag);
@@ -742,11 +742,6 @@ GL_EXPORT __stdcall void GLHook_glEnable(GLenum cap)
 GL_EXPORT __stdcall void GLHook_glEnableClientState(GLenum array)
 {
 	(*optr_glEnableClientState) (array);
-}
-
-GL_EXPORT __stdcall void GLHook_glEndList(void)
-{
-	(*optr_glEndList) ();
 }
 
 GL_EXPORT __stdcall void GLHook_glEvalCoord1d(GLdouble u)
@@ -852,11 +847,6 @@ GL_EXPORT __stdcall void GLHook_glFrontFace(GLenum mode)
 GL_EXPORT __stdcall void GLHook_glFrustum(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble zNear, GLdouble zFar)
 {
 	(*optr_glFrustum) (left, right, bottom, top, zNear, zFar);
-}
-
-GL_EXPORT __stdcall GLuint GLHook_glGenLists(GLsizei range)
-{
-	return (*optr_glGenLists) (range);
 }
 
 GL_EXPORT __stdcall void GLHook_glGenTextures(GLsizei n, GLuint *textures)
@@ -1254,11 +1244,6 @@ GL_EXPORT __stdcall void GLHook_glMultMatrixf(const GLdouble *m)
 	(*optr_glMultMatrixf) (m);
 }
 
-GL_EXPORT __stdcall void GLHook_glNewList(GLuint list, GLenum mode)
-{
-	(*optr_glNewList) (list, mode);
-}
-
 GL_EXPORT __stdcall void GLHook_glNormal3b(GLbyte nx, GLbyte ny, GLbyte nz)
 {
 	(*optr_glNormal3b) ( nx,  ny,  nz);
@@ -1394,11 +1379,6 @@ GL_EXPORT __stdcall void GLHook_glPopClientAttrib(void)
 	(*optr_glPopClientAttrib) ();
 }
 
-GL_EXPORT __stdcall void GLHook_glPopMatrix(void)
-{
-	(*optr_glPopMatrix) ();
-}
-
 GL_EXPORT __stdcall void GLHook_glPopName(void)
 {
 	(*optr_glPopName) ();
@@ -1447,6 +1427,11 @@ GL_EXPORT __stdcall void GLHook_glRasterPos2f(GLfloat x, GLfloat y)
 GL_EXPORT __stdcall void GLHook_glRasterPos2fv(const GLfloat *v)
 {
 	(*optr_glRasterPos2fv) (v);
+}
+
+GL_EXPORT __stdcall void GLHook_glRasterPos2i(GLint x, GLint y)
+{
+	(*optr_glRasterPos2i) (x, y);
 }
 
 GL_EXPORT __stdcall void GLHook_glRasterPos2iv(const GLint *v)
@@ -1699,11 +1684,6 @@ GL_EXPORT __stdcall void GLHook_glTexCoord2dv(const GLdouble *v)
 	(*optr_glTexCoord2dv) (v);
 }
 
-GL_EXPORT __stdcall void GLHook_glTexCoord2f(GLfloat s,  GLfloat t)
-{
-	(*optr_glTexCoord2f) (s, t);
-}
-
 GL_EXPORT __stdcall void GLHook_glTexCoord2fv(const GLfloat *v)
 {
 	(*optr_glTexCoord2fv) (v);
@@ -1909,11 +1889,6 @@ GL_EXPORT __stdcall void GLHook_glTranslated(GLdouble x, GLdouble y, GLdouble z)
 	(*optr_glTranslated) (x, y, z);
 }
 
-GL_EXPORT __stdcall void GLHook_glTranslatef(GLfloat x, GLfloat y, GLfloat z)
-{
-	(*optr_glTranslatef) (x, y, z);
-}
-
 GL_EXPORT __stdcall void GLHook_glVertex2d(GLdouble x, GLdouble y)
 {
 	(*optr_glVertex2d) (x, y);
@@ -1922,11 +1897,6 @@ GL_EXPORT __stdcall void GLHook_glVertex2d(GLdouble x, GLdouble y)
 GL_EXPORT __stdcall void GLHook_glVertex2dv(const GLdouble *v)
 {
 	(*optr_glVertex2dv) (v);
-}
-
-GL_EXPORT __stdcall void GLHook_glVertex2f(GLfloat x, GLfloat y)
-{
-	(*optr_glVertex2f) (x, y);
 }
 
 GL_EXPORT __stdcall void GLHook_glVertex2fv(const GLfloat *v)
@@ -2029,11 +1999,6 @@ GL_EXPORT __stdcall void GLHook_glVertex4sv(const GLshort *v)
 	(*optr_glVertex4sv) (v);
 }
 
-GL_EXPORT __stdcall void GLHook_glVertexPointer(GLint size, GLenum type, GLsizei stride, const GLvoid *pointer)
-{
-	(*optr_glVertexPointer) (size, type, stride, pointer);
-}
-
 GL_EXPORT __stdcall void GLHook_glViewport(GLint x, GLint y, GLsizei width, GLsizei height)
 {
 	(*optr_glViewport) (x, y, width, height);
@@ -2099,11 +2064,6 @@ GL_EXPORT __stdcall int GLHook_wglGetPixelFormat(HDC hdc)
 	return (*optr_wglGetPixelFormat) (hdc);
 }
 
-GL_EXPORT __stdcall PROC GLHook_wglGetProcAddress(LPCSTR lpszProc)
-{
-	return (*optr_wglGetProcAddress) (lpszProc);
-}
-
 GL_EXPORT __stdcall BOOL GLHook_wglMakeCurrent(HDC hdc, HGLRC hglrc)
 {
 	return (*optr_wglMakeCurrent) (hdc, hglrc);
@@ -2134,6 +2094,11 @@ GL_EXPORT __stdcall BOOL GLHook_wglSwapLayerBuffers(HDC hdc, UINT fuPlanes)
 	return (*optr_wglSwapLayerBuffers) (hdc,  fuPlanes);
 }
 
+GL_EXPORT __stdcall void GLHook_wglSwapMultipleBuffers(DWORD dwArg1, DWORD dwArg2)
+{
+	(*optr_wglSwapMultipleBuffers) (dwArg1, dwArg2);
+}
+
 GL_EXPORT __stdcall BOOL GLHook_wglUseFontBitmapsW(HDC hdc, DWORD first, DWORD count, DWORD listBase)
 {
 	return (*optr_wglUseFontBitmapsW) (hdc, first, count, listBase);
@@ -2155,7 +2120,6 @@ GL_EXPORT __stdcall BOOL GLHook_wglUseFontOutlinesA(HDC hdc, DWORD first, DWORD 
 }
 
 
-
 GL_EXPORT bool __stdcall Initialize(void)
 {
     if (!OriginalGL)
@@ -2166,16 +2130,6 @@ GL_EXPORT bool __stdcall Initialize(void)
 
         OriginalGL = LoadLibraryA(Root);
         if (!OriginalGL) return false;
-
-        if ((optr_glDebugEntry = (ptr_glDebugEntry) GetProcAddress(OriginalGL, "glDebugEntry")) == NULL)
-        {
-            return false;
-        }
-
-        if ((optr_wglSwapMultipleBuffers = (ptr_wglSwapMultipleBuffers) GetProcAddress(OriginalGL, "wglSwapMultipleBuffers")) == NULL)
-        {
-            return false;
-        }
 
         if ((optr_glAccum = (ptr_glAccum) GetProcAddress(OriginalGL, "glAccum")) == NULL)
         {
@@ -2518,6 +2472,11 @@ GL_EXPORT bool __stdcall Initialize(void)
         }
 
         if ((optr_glDrawPixels = (ptr_glDrawPixels) GetProcAddress(OriginalGL, "glDrawPixels")) == NULL)
+        {
+            return false;
+        }
+
+        if ((optr_glDebugEntry = (ptr_glDebugEntry) GetProcAddress(OriginalGL, "glDebugEntry")) == NULL)
         {
             return false;
         }
@@ -3953,6 +3912,11 @@ GL_EXPORT bool __stdcall Initialize(void)
         }
 
         if ((optr_wglSwapLayerBuffers = (ptr_wglSwapLayerBuffers) GetProcAddress(OriginalGL, "wglSwapLayerBuffers")) == NULL)
+        {
+            return false;
+        }
+
+        if ((optr_wglSwapMultipleBuffers = (ptr_wglSwapMultipleBuffers) GetProcAddress(OriginalGL, "wglSwapMultipleBuffers")) == NULL)
         {
             return false;
         }

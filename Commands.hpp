@@ -2,6 +2,7 @@
 #define COMMANDS_HPP_INCLUDED
 
 #include <windows.h>
+#include "GLHook.hpp"
 #include "Models.hpp"
 #include <vector>
 #include <fstream>

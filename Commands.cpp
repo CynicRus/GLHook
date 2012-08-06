@@ -33,8 +33,8 @@ void Commands()
 void BuildFonts()
 {
     HDC DC = wglGetCurrentDC();
-    Base = glGenLists(96);
-    HFONT hFont = CreateFont(-MulDiv(9, GetDeviceCaps(DC, LOGPIXELSY), 72), 0, 0, 0, FW_BOLD, false, false, false, ANSI_CHARSET, OUT_TT_PRECIS, CLIP_DEFAULT_PRECIS, PROOF_QUALITY, FF_DONTCARE | DEFAULT_PITCH, "Arial");
+    Base = optr_glGenLists(96);
+    HFONT hFont = CreateFont(-MulDiv(8, GetDeviceCaps(DC, LOGPIXELSY), 72), 0, 0, 0, FW_NORMAL, false, false, false, ANSI_CHARSET, OUT_TT_PRECIS, CLIP_DEFAULT_PRECIS, PROOF_QUALITY, FF_DONTCARE | DEFAULT_PITCH, "Arial");
     HFONT hOldFont = (HFONT) SelectObject(DC, hFont);
     wglUseFontBitmaps(DC, 32, 96, Base);
     SelectObject(DC, hOldFont);
@@ -44,7 +44,7 @@ void BuildFonts()
 
 void KillFont(void)
 {
-    glDeleteLists(Base, 96);
+    optr_glDeleteLists(Base, 96);
 }
 
 void glPrint(int X, int Y, const char *Format, ...)
@@ -52,7 +52,7 @@ void glPrint(int X, int Y, const char *Format, ...)
     if (!FontsBuilt) BuildFonts();
     if (Format == NULL) return;
 
-    glRasterPos2i(X, Y);
+    optr_glRasterPos2i(X, Y);
 
     char Text[256];
     va_list	ap;
@@ -61,10 +61,10 @@ void glPrint(int X, int Y, const char *Format, ...)
     vsprintf(Text, Format, ap);
     va_end(ap);
 
-    glPushAttrib(GL_LIST_BIT);
-    glListBase(Base - 32);
-    glCallLists(strlen(Text), GL_UNSIGNED_BYTE, Text);
-    glPopAttrib();
+    optr_glPushAttrib(GL_LIST_BIT);
+    optr_glListBase(Base - 32);
+    optr_glCallLists(strlen(Text), GL_UNSIGNED_BYTE, Text);
+    optr_glPopAttrib();
 }
 
 void glLogCalls(const char *Format, ...)

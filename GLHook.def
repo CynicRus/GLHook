@@ -8,8 +8,6 @@ LIBRARY GLHook
 DESCRIPTION "GLHook Definition File"
 EXPORTS
 
-glDebugEntry               =    GLHook_glDebugEntry;
-wglSwapMultipleBuffers     =    GLHook_wglSwapMultipleBuffers;
 glAccum                    =    GLHook_glAccum;
 glAlphaFunc                =    GLHook_glAlphaFunc;
 glAreTexturesResident      =    GLHook_glAreTexturesResident;
@@ -79,6 +77,7 @@ glDrawArrays               =    GLHook_glDrawArrays;
 glDrawBuffer               =    GLHook_glDrawBuffer;
 glDrawElements             =    GLHook_glDrawElements;
 glDrawPixels               =    GLHook_glDrawPixels;
+glDebugEntry               =    GLHook_glDebugEntry;
 glEdgeFlag                 =    GLHook_glEdgeFlag;
 glEdgeFlagv                =    GLHook_glEdgeFlagv;
 glEdgeFlagPointer          =    GLHook_glEdgeFlagPointer;
@@ -366,6 +365,7 @@ wglSetPixelFormat          =    GLHook_wglSetPixelFormat;
 wglShareLists              =    GLHook_wglShareLists;
 wglSwapBuffers             =    GLHook_wglSwapBuffers;
 wglSwapLayerBuffers        =    GLHook_wglSwapLayerBuffers;
+wglSwapMultipleBuffers     =    GLHook_wglSwapMultipleBuffers;
 wglUseFontBitmapsW         =    GLHook_wglUseFontBitmapsW;
 wglUseFontBitmapsA         =    GLHook_wglUseFontBitmapsA;
 wglUseFontOutlinesW        =    GLHook_wglUseFontOutlinesW;
